@@ -1,0 +1,37 @@
+.HomePage {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-areas:
+    "header"
+    "carouselOne"
+    "carouselTwo"
+    "carouselThree";
+
+  text-align: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+#HomePageHeader {
+  grid-area: header;
+}
+
+#HomePageCarouselOne {
+  grid-area: carouselOne;
+  padding: 0px;
+  margin: 0px;
+}
+
+#HomePageCarouselTwo {
+  grid-area: carouselTwo;
+  padding: 0px;
+  margin: 0px;
+}
+
+#HomePageCarouselThree {
+  grid-area: carouselThree;
+  padding: 0px;
+  margin: 0px;
+}

@@ -1,0 +1,118 @@
+.DepartmentSection {
+  background: #ffffff;
+  padding: 10%;
+  display: grid;
+
+  padding-top: 0%;
+}
+
+#DepartmentSectionSubTitle p {
+  margin-top: 0px;
+}
+
+@media (min-width: 560px) {
+  .DepartmentSection {
+    padding-top: 1%;
+  }
+
+  #DepartmentSectionSubTitle {
+    padding-bottom: 5%;
+  }
+}
+
+@media (min-width: 768px) {
+  .DepartmentSection {
+    padding: 5%;
+    padding-top: 0%;
+  }
+
+  .DepartmentSection {
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+      "title title"
+      "subtitle subtitle"
+      "one two"
+      "three four"
+      "five six";
+  }
+
+  #DepartmentSectionTitle {
+    grid-area: title;
+  }
+
+  #DepartmentSectionSubTitle {
+    grid-area: subtitle;
+  }
+
+  #DepartmentListOne {
+    grid-area: one;
+  }
+
+  #DepartmentListTwo {
+    grid-area: two;
+  }
+
+  #DepartmentListThree {
+    grid-area: three;
+  }
+
+  #DepartmentListFour {
+    grid-area: four;
+  }
+
+  #DepartmentListFive {
+    grid-area: five;
+  }
+
+  #DepartmentListSix {
+    grid-area: six;
+  }
+
+  #DepartmentListSeven {
+    grid-area: seven;
+  }
+
+  #DepartmentListEight {
+    grid-area: eight;
+  }
+
+  #DepartmentSectionTitle h1 {
+    margin: 0px;
+    padding-top: 0%;
+  }
+
+  #DepartmentSectionSubTitle p {
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .DepartmentSection {
+    padding: 2%;
+  }
+
+  .DepartmentSection {
+    grid-template-columns: 35% 30% 35%;
+    grid-template-areas:
+      "one title two"
+      "three subtitle four"
+      "five subtitle six";
+  }
+
+  #DepartmentSectionTitle {
+    align-self: end;
+    padding: 10px 0px;
+    text-align: center;
+  }
+
+  #DepartmentSectionSubTitle p {
+    padding: 1% 10%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .DepartmentSection {
+    padding: 2% 10%;
+  }
+}

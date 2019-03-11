@@ -1,0 +1,162 @@
+.CarouselOneSlider {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  clear: both;
+}
+
+.CarouselOneSlide {
+  scroll-snap-align: center;
+  width: 320px;
+  padding: 0px 0px;
+  color: #fff;
+  font-size: 20px;
+}
+.leftHalfSlide {
+  position: relative;
+  margin: 10px 50px 10px 0px;
+}
+.rightHalfSlide {
+  position: relative;
+  margin: 10px 0px 10px 50px;
+}
+.mainSlideContainer {
+  position: relative;
+  width: 948px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+}
+.MainSlideDescription {
+  position: absolute;
+  padding-top: 3%;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(255, 255, 255, 0.76);
+}
+.CarouselOneSlide img {
+  padding: 0px;
+  margin: 0px;
+}
+
+.CarouselOneControls {
+  display: flex;
+  position: absolute;
+  margin-top: -185px;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+  top: 185px;
+  bottom: 0px;
+}
+.PreviousArrow {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 160px;
+}
+.NextArrow {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 160px;
+}
+
+@media (min-width: 400px) {
+  .CarouselOneSlide {
+    width: 400px;
+  }
+
+  .CarouselOneControls {
+    overflow: visible;
+    z-index: 100;
+  }
+}
+@media (min-width: 1440px) {
+  .PreviousArrow,
+  .NextArrow {
+    top: 198px;
+    bottom: unset;
+  }
+  .PreviousArrow {
+    left: -75px;
+  }
+  .NextArrow {
+    right: -75px;
+  }
+
+  .MainSlideImageContainer {
+    height: 477px;
+    width: 948px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .PreviousArrow,
+  .NextArrow {
+    top: 198px;
+    bottom: unset;
+  }
+  .PreviousArrow {
+    left: -75px;
+  }
+  .NextArrow {
+    right: -75px;
+  }
+  .MainSlideImageContainer {
+    height: 477px;
+    width: 734px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .PreviousArrow,
+  .NextArrow {
+    top: 158px;
+    bottom: unset;
+  }
+  .PreviousArrow {
+    left: -75px;
+  }
+  .NextArrow {
+    right: -75px;
+  }
+
+  .MainSlideImageContainer {
+    height: 358px;
+    width: 551px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .leftHalfSlide {
+    display: none;
+  }
+  .rightHalfSlide {
+    display: none;
+  }
+
+  .MainSlideDescription {
+    position: relative;
+  }
+  .PreviousArrow,
+  .NextArrow {
+    top: 188px;
+    bottom: unset;
+  }
+  .PreviousArrow {
+    left: 0px;
+  }
+  .NextArrow {
+    right: 0px;
+  }
+
+  .MainSlideImageContainer {
+    height: 208px;
+    width: 100%;
+  }
+}

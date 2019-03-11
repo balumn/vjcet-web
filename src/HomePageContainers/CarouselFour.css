@@ -1,0 +1,142 @@
+.CarouselFour {
+  position: relative;
+}
+
+.CarouselFourSlider {
+  background: #fafafa;
+  margin: 0% 6%;
+  padding: 10%;
+  padding-bottom: 0%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.CarouselFourTop {
+  padding: 5% 0%;
+  display: grid;
+  grid-auto-flow: row;
+  grid-gap: 0px;
+  overflow: none;
+  grid-template-columns: 60% 40%;
+  grid-template-areas: "events arrows";
+  text-align: center;
+}
+
+#CarouselFourEvents {
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+  padding-left: 10%;
+  grid-area: events;
+}
+
+.CarouselFourArrows {
+  grid-area: arrows;
+  justify-self: right;
+  align-self: center;
+  padding-right: 25%;
+  display: grid;
+  grid-auto-flow: row;
+  grid-gap: 0px;
+  overflow: none;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "previousArrow nextArrow";
+}
+
+#CarouselFourPreviousArrow {
+  grid-area: previousArrow;
+}
+
+#CarouselFourNextArrow {
+  grid-area: nextArrow;
+}
+
+.CarouselFourArrowRight {
+  margin-left: 30%;
+}
+
+.CarouselFourPaginationContainer {
+  padding: 8% 0% 12% 0%;
+}
+.CarouselFourPagination {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.CarouselFourSlide {
+  padding: 0px 0px;
+  align-self: center;
+  justify-self: center;
+}
+
+@media (min-width: 400px) {
+  .CarouselFourTop {
+    grid-template-columns: 70% 30%;
+  }
+
+  .CarouselFourPaginationContainer {
+    padding: 8% 0% 12% 0%;
+  }
+}
+
+@media (min-width: 560px) {
+  .CarouselFourTop {
+    padding: 4% 0%;
+  }
+
+  .CarouselFourPaginationContainer {
+    padding: 6% 0% 10% 0%;
+  }
+}
+
+@media (min-width: 768px) {
+  .CarouselFourPaginationContainer {
+    padding: 4% 0% 6% 0%;
+  }
+
+  .CarouselFourTop {
+    padding: 2%;
+    padding-top: 0%;
+  }
+
+  .CarouselFourSlider {
+    padding: 5%;
+    padding-bottom: 0%;
+  }
+
+  .CarouselFourSlide {
+    padding: 0% 1%;
+  }
+
+  .CarouselFourArrowRight {
+    margin-left: 35%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .CarouselFourTop {
+    padding: 1%;
+    padding-top: 0%;
+  }
+
+  .CarouselFourArrowRight {
+    margin-left: 40%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .CarouselFourContentWrapper {
+    width: 1024px;
+    margin: auto;
+  }
+
+  .CarouselFourPaginationContainer {
+    padding: 3% 0%;
+  }
+  .CarouselFourArrowRight {
+    margin-left: 45%;
+  }
+}

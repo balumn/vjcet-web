@@ -1,0 +1,14 @@
+.BodyTwo p {
+  font-weight: 500;
+  font-size: 14px;
+  color: #1d2129;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 19px;
+}
+
+@media (min-width: 1024px) {
+  .BodyTwo p {
+    font-size: 14px;
+  }
+}

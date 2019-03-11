@@ -1,0 +1,69 @@
+#HomePageCarouselTwo {
+  background: #880d1e;
+  position: relative;
+  padding: 3% 0%;
+}
+
+#HomePageCarouselTwoCustomOne h2 {
+  color: #fff;
+}
+
+.CarouselTwoSlide {
+  color: #fff;
+}
+.CarouselTwoText {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.CarouselTwoPagination {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 10%;
+}
+.CarouselTwoRightArrow,
+.CarouselTwoLeftArrow {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+}
+.CarouselTwoLeftArrow {
+  left: 5%;
+}
+.CarouselTwoRightArrow {
+  right: 5%;
+}
+
+@media (min-width: 560px) {
+  div::-webkit-scrollbar {
+    display: none;
+  }
+
+  #HomePageCarouselTwo {
+    padding: 2.5% 0%;
+  }
+
+  .CarouselTwoPagination {
+    bottom: 15%;
+  }
+}
+
+@media (min-width: 768px) {
+  #HomePageCarouselTwo {
+    padding: 2% 0%;
+  }
+
+  .CarouselTwoPagination {
+    bottom: 15%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .CarouselTwoPagination {
+    bottom: 20%;
+  }
+}

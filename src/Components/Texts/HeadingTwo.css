@@ -1,0 +1,13 @@
+.HeadingTwo h2 {
+  font-weight: 800;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #880d1e;
+}
+
+@media (min-width: 1024px) {
+  .HeadingTwo h2 {
+    font-size: 25px;
+  }
+}

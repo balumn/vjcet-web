@@ -1,0 +1,14 @@
+.CustomOne h2 {
+  font-weight: 800;
+  font-size: 18px;
+  color: #ffffff;
+  letter-spacing: -0.36px;
+  text-align: center;
+  line-height: 25px;
+}
+
+@media (min-width: 1024px) {
+  .CustomOne h2 {
+    font-size: 28px;
+  }
+}

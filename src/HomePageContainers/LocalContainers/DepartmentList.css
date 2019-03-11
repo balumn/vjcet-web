@@ -1,0 +1,188 @@
+.DepartmentList {
+  padding: 10px;
+}
+
+#LearnMore h5 {
+  color: #880d1e;
+  margin: 2px;
+}
+
+.ListCTA {
+  display: grid;
+  grid-auto-flow: column;
+  place-items: center;
+}
+
+.ListCTA .HeadingFive {
+  width: 100%;
+  text-align: end;
+}
+
+.ListCTA .ImageOne {
+  width: 100%;
+  text-align: start;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+@media (min-width: 768px) {
+  #DepartmentHeadingThree h3 {
+    text-align: left;
+    margin: 2% 0%;
+  }
+
+  #DepartmentBodyTwo p {
+    text-align: left;
+  }
+
+  .ListCTA {
+    grid-template-columns: 25% 75%;
+  }
+
+  .ListCTA h5 {
+    text-align: left;
+  }
+}
+
+@media (min-width: 850px) {
+  .ListCTA {
+    grid-template-columns: 22% 78%;
+  }
+}
+
+@media (min-width: 900px) {
+  .ListCTA {
+    grid-template-columns: 20% 80%;
+  }
+}
+
+@media (min-width: 950px) {
+  .ListCTA {
+    grid-template-columns: 19% 81%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .ListCTA {
+    grid-template-columns: 18% 82%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .DepartmentList {
+    padding: 2% 5%;
+  }
+
+  #DepartmentHeadingThree h3 {
+    text-align: left;
+    margin: 2% 0%;
+  }
+
+  #DepartmentBodyTwo p {
+    text-align: left;
+  }
+
+  .ListCTA {
+    display: none;
+  }
+
+  .DepartmentList:hover {
+    cursor: pointer;
+  }
+
+  .DepartmentList:hover h3 {
+    color: #ffffff;
+  }
+
+  .DepartmentList:hover p {
+    color: #ffffff;
+  }
+
+  #DepartmentListOne {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  #DepartmentListOne:hover {
+    background-image: url(../../Assets/hoverselectortoright.png);
+    background-size: cover;
+
+    background-position: right;
+  }
+
+  #DepartmentListThree {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  #DepartmentListThree:hover {
+    background-image: url(../../Assets/hoverselectortoright.png);
+    background-size: cover;
+
+    background-position: right;
+  }
+
+  #DepartmentListFive {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  #DepartmentListFive:hover {
+    background-image: url(../../Assets/hoverselectortoright.png);
+    background-size: cover;
+
+    background-position: right;
+  }
+
+  #DepartmentListSeven {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  #DepartmentListSeven:hover {
+    background-image: url(../../Assets/hoverselectortoright.png);
+    background-size: cover;
+
+    background-position: right;
+  }
+
+  #DepartmentListTwo {
+    padding-left: 10%;
+  }
+
+  #DepartmentListTwo:hover {
+    background-image: url(../../Assets/hoverselectortoleft.png);
+    background-size: cover;
+    background-position: left;
+  }
+
+  #DepartmentListFour {
+    padding-left: 10%;
+  }
+
+  #DepartmentListFour:hover {
+    background-image: url(../../Assets/hoverselectortoleft.png);
+    background-size: cover;
+    background-position: left;
+  }
+
+  #DepartmentListSix {
+    padding-left: 10%;
+  }
+
+  #DepartmentListSix:hover {
+    background-image: url(../../Assets/hoverselectortoleft.png);
+    background-size: cover;
+    background-position: left;
+  }
+
+  #DepartmentListEight {
+    padding-left: 10%;
+  }
+
+  #DepartmentListEight:hover {
+    background-image: url(../../Assets/hoverselectortoleft.png);
+    background-size: cover;
+    background-position: left;
+  }
+}

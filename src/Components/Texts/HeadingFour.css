@@ -1,0 +1,13 @@
+.HeadingFour h4 {
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 29px;
+}
+
+@media (min-width: 1024px) {
+  .HeadingFour h4 {
+    font-size: 23px;
+  }
+}
