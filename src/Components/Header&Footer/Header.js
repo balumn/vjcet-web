@@ -7,7 +7,7 @@ import Line from "../Lines/Line";
 import HeadingFive from "../Texts/HeadingFive";
 import AnchorLink from "../Texts/AnchorLink";
 import DropDown from "../../HomePageContainers/dropdown";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+// import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class Header extends Component {
   VJCLogo = {
@@ -78,7 +78,7 @@ class Header extends Component {
   Link5 = {
     instanceID: "HeaderLink5",
     title: "Departments",
-    link: "Departments"
+    link: "departments"
   };
 
   Link6 = {
