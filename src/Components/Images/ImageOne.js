@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./ImageOne.css";
 
 class ImageOne extends Component {
   render() {

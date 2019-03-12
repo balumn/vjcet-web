@@ -52,7 +52,7 @@ class Header extends Component {
   Link1 = {
     instanceID: "HeaderLink1",
     title: "About Us",
-    link: "#/About"
+    link: "About"
   };
 
   Link2 = {
@@ -64,31 +64,31 @@ class Header extends Component {
   Link3 = {
     instanceID: "HeaderLink3",
     title: "Login",
-    link: "#/login"
+    link: "https://portal.vjcet.ac.in/"
   };
 
   Link4 = {
     instanceID: "HeaderLink4",
     title: "Admissions",
-    link: ""
+    link: "http://admission.vjcet.ac.in/"
   };
 
   Link5 = {
     instanceID: "HeaderLink5",
     title: "Departments",
-    link: "#/Departments"
+    link: "Departments"
   };
 
   Link6 = {
     instanceID: "HeaderLink6",
     title: "Campus Life",
-    link: "#/Campus-Life"
+    link: "Campus-Life"
   };
 
   Link7 = {
     instanceID: "HeaderLink7",
     title: "Facilities",
-    link: "#/Facilities"
+    link: "Facilities"
   };
 
   Link8 = {

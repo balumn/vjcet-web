@@ -90,7 +90,7 @@ class CarouselTwo extends Component {
           }}
         >
           <img
-            src={require("Assets/right-arrow.svg")}
+            src={require("../Assets/right-arrow.svg")}
             style={{ height: "25px", width: "25px" }}
             alt="img"
           />
@@ -104,7 +104,7 @@ class CarouselTwo extends Component {
         >
           {" "}
           <img
-            src={require("Assets/right-arrow.svg")}
+            src={require("../Assets/right-arrow.svg")}
             style={{
               height: "25px",
               width: "25px",
