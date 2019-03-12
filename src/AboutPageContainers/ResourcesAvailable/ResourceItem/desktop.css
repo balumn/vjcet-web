@@ -1,0 +1,12 @@
+@media screen and (min-width: 1024px) and (max-width:1439px) {
+    .ResourceItem img{
+        height: 53px;	width: 53px;
+    }
+    .h3_WhyItem_label{
+        font-size: 16px;	font-weight: 600;	letter-spacing: 1.71px;	line-height: 22px;
+    }
+    .ResourcesAvailable div {
+        grid-template-columns: repeat(3, minmax(200px, 931px));
+    }
+ }
+ 

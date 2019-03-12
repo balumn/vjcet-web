@@ -5,7 +5,7 @@ import Footer from "../Components/Header&Footer/Footer";
 import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
 import FacilitiesSection from "../HomePageContainers/FacilitiesSection";
 
-class DepartmentPage extends Component {
+class FacilitiesPage extends Component {
   state = { showMenu: false };
 
   openMenu = () => {
@@ -50,4 +50,4 @@ class DepartmentPage extends Component {
   }
 }
 
-export default DepartmentPage;
+export default FacilitiesPage;

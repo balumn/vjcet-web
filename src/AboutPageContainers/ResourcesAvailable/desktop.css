@@ -1,0 +1,11 @@
+@media screen and (min-width: 1024px) and (max-width:1439px) {
+    .ResourcesAvailable h2{
+        font-size: 40px;	font-weight: bold;	letter-spacing: -0.55px;	line-height: 48px;
+    }
+    .ResourcesAvailable{
+        width: 936px;
+        margin: auto;
+        margin-top: 10px;
+    }
+ }
+ 

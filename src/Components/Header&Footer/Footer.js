@@ -71,31 +71,31 @@ class Footer extends Component {
   Link1 = {
     instanceID: "Link1",
     title: "Home",
-    link: ""
+    link: "/"
   };
 
   Link2 = {
     instanceID: "Link2",
     title: "Admissions",
-    link: ""
+    link: "http://admission.vjcet.ac.in/"
   };
 
   Link3 = {
     instanceID: "Link3",
     title: "Departments",
-    link: ""
+    link: "Departments"
   };
 
   Link4 = {
     instanceID: "Link4",
     title: "Campus Life",
-    link: ""
+    link: "Campus-Life"
   };
 
   Link5 = {
     instanceID: "Link5",
     title: "Facilities",
-    link: ""
+    link: "Facilities"
   };
 
   Link6 = {
@@ -131,7 +131,7 @@ class Footer extends Component {
   Link11 = {
     instanceID: "Link11",
     title: "About Us",
-    link: ""
+    link: "About"
   };
 
   Link12 = {
@@ -155,13 +155,13 @@ class Footer extends Component {
   Link15 = {
     instanceID: "Link15",
     title: "Student Login",
-    link: ""
+    link: "https://portal.vjcet.ac.in/"
   };
 
   Link16 = {
     instanceID: "Link16",
     title: "Faculty Login",
-    link: ""
+    link: "https://portal.vjcet.ac.in/"
   };
 
   FooterLinksTitleOne = {

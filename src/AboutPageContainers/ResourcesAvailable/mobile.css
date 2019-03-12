@@ -1,0 +1,21 @@
+@media screen and (min-width: 578px) and (max-width:768px) {
+    .ResourcesAvailable h2{
+        font-size: 24px;	font-weight: bold;	letter-spacing: -0.33px;	line-height: 48px; margin: 10px 0px;
+    }
+    .ResourcesAvailable{
+        width: 560px;
+        margin: auto;
+        margin-top: 10px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width:577px) {
+    .ResourcesAvailable h2{
+        font-size: 24px;	font-weight: bold;	letter-spacing: -0.33px;	line-height: 48px;
+        margin: 5px;
+    }
+    .ResourcesAvailable{
+        width: 310px;
+        margin: auto;
+        margin-top: 0px;
+    }
+}

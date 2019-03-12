@@ -1,63 +1,48 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import "../HomePageContainers/dropdown.css";
 
-class Card extends Component {
+class DropDown extends Component {
   constructor() {
     super();
-    
+
     this.state = {
-      showMenu: false,
+      showMenu: false
     };
-    
+
     this.showMenu = this.showMenu.bind(this);
     this.closeMenu = this.closeMenu.bind(this);
   }
-  
+
   showMenu(event) {
     event.preventDefault();
-    
+
     this.setState({ showMenu: true }, () => {
-      document.addEventListener('click', this.closeMenu);
+      document.addEventListener("click", this.closeMenu);
     });
   }
-  
+
   closeMenu(event) {
-    
     if (!this.dropdownMenu.contains(event.target)) {
-      
       this.setState({ showMenu: false }, () => {
-        document.removeEventListener('click', this.closeMenu);
-      });  
-      
+        document.removeEventListener("click", this.closeMenu);
+      });
     }
   }
 
   render() {
     return (
-      <div>
-        <button onClick={this.showMenu}>
-          Show menu
-        </button>
-        
-        {
-          this.state.showMenu
-            ? (
-              <div
-                className="menu"
-                ref={(element) => {
-                  this.dropdownMenu = element;
-                }}
-              >
-                <button> Menu item 1 </button>
-                <button> Menu item 2 </button>
-                <button> Menu item 3 </button>
-              </div>
-            )
-            : (
-              null
-            )
-        }
+      <div class="dropdown">
+        <span>Departments</span>
+        <div class="dropdown-content">
+          <p> Computer Science and Enginnering</p>
+          <p> Information Technology</p>
+          <p> Mechanical Enginnering </p>
+          <p> Civil Enginnering </p>
+          <p> Electrical & Electronics Enginnering </p>
+          <p> Electronics & Communication Enginnering </p>
+        </div>
       </div>
     );
   }
 }
-export default Card;
+export default DropDown;

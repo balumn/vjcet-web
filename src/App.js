@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import HomePage from "./Pages/HomePage";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import AboutUsPage from "./Pages/AboutUsPage";
+import AboutPage from "./Pages/AboutPage";
 import DeparmentPage from "./Pages/Departmentpage";
 import FacilitiesPage from "./Pages/FacilitiesPage";
 import CampusLifePage from "./Pages/CampusLifePage";
@@ -13,10 +13,10 @@ class App extends Component {
           <React.Fragment>
             <Switch>
               <Route exact path="/" component={HomePage} />
-              <Route exact path="/About" component={AboutUsPage} />
-              <Route exact path="/Departments" component={DeparmentPage} />
-              <Route exact path="/Facilities" component={FacilitiesPage} />
-              <Route exact path="/Campus-Life" component={CampusLifePage} />
+              <Route exact path="/about" component={AboutPage} />
+              <Route exact path="/departments" component={DeparmentPage} />
+              <Route exact path="/facilities" component={FacilitiesPage} />
+              <Route exact path="/campus-Life" component={CampusLifePage} />
             </Switch>
           </React.Fragment>
         </Router>
