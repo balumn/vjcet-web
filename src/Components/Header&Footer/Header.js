@@ -6,7 +6,7 @@ import ImageOne from "../Images/ImageOne";
 import Line from "../Lines/Line";
 import HeadingFive from "../Texts/HeadingFive";
 import AnchorLink from "../Texts/AnchorLink";
-import DropDown from "../../HomePageContainers/dropdown";
+import DropDown from "../../Components/Header&Footer/dropdown";
 // import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class Header extends Component {

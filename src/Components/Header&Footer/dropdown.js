@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import "../HomePageContainers/dropdown.css";
+import "./dropdown.css";
 
 class DropDown extends Component {
   constructor() {
