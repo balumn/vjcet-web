@@ -3,14 +3,14 @@ import "./HomePage.css";
 import DepartmentSection from "../HomePageContainers/DepartmentSection";
 import FacilitiesSection from "../HomePageContainers/FacilitiesSection";
 import VisionSection from "../HomePageContainers/VisionSection";
-import CarouselOne from "../HomePageContainers/CarouselOne";
+// import CarouselOne from "../HomePageContainers/CarouselOne";
 import CarouselTwo from "../HomePageContainers/CarouselTwo";
 import CarouselThree from "../HomePageContainers/CarouselThree";
 import CarouselFour from "../HomePageContainers/CarouselFour";
 import Header from "../Components/Header&Footer/Header";
 import Footer from "../Components/Header&Footer/Footer";
 import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
-
+import Promo from "../Components/Video/promo";
 class HomePage extends Component {
   state = { showMenu: false };
 
@@ -61,7 +61,8 @@ class HomePage extends Component {
     return (
       <div className="HomePage">
         <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
-        <CarouselOne data={this.HomePageCarouselOne} />
+        <Promo />
+        {/* <CarouselOne data={this.HomePageCarouselOne} /> */}
         <CarouselTwo data={this.HomePageCarouselTwo} />
         <CarouselThree data={this.HomePageCarouselThree} />
         <DepartmentSection data={this.HomePageDepartmentSection} />

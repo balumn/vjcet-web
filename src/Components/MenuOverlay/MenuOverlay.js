@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./MenuOverlay.css";
 class MenuOverlay extends Component {
   render() {
@@ -13,8 +14,31 @@ class MenuOverlay extends Component {
           bottom: "0px"
         }}
       >
-        <p>Home</p>
-        <p>Admission </p>
+        <p>
+          <Link to={"/"}>Home</Link>
+        </p>
+        <p>
+          <Link to={"/about"}>About us </Link>
+        </p>
+        <p>ContactUs</p>
+        <p>
+          <a href="https://portal.vjcet.ac.in/">Login</a>
+        </p>
+        <p>
+          <a href="http://admission.vjcet.ac.in/">Admission </a>
+        </p>
+        <p>
+          <Link to={"/departments"}>Departments</Link>
+        </p>
+        <p>
+          <Link to={"/campus-life"}>Campus Life</Link>
+        </p>
+        <p>
+          <Link to={"/facilities"}>Facilities</Link>
+        </p>
+        <p>Academics</p>
+        <p>Placements</p>
+        <p>R&D</p>
         <p
           onClick={e => {
             this.props.closeMenuFunction();

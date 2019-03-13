@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import { Link } from "react-router-dom";
 import "./Header.css";
 import "../Images/ImageOne";
 import ImageOne from "../Images/ImageOne";
@@ -7,7 +7,7 @@ import Line from "../Lines/Line";
 import HeadingFive from "../Texts/HeadingFive";
 import AnchorLink from "../Texts/AnchorLink";
 import DropDown from "../../HomePageContainers/dropdown";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+// import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class Header extends Component {
   VJCLogo = {
@@ -78,7 +78,7 @@ class Header extends Component {
   Link5 = {
     instanceID: "HeaderLink5",
     title: "Departments",
-    link: "Departments"
+    link: "departments"
   };
 
   Link6 = {
@@ -116,7 +116,9 @@ class Header extends Component {
 
     return (
       <div className="Header" id={instanceID}>
-        <ImageOne data={this.VJCLogo} />
+        <Link to={"/"}>
+          <ImageOne data={this.VJCLogo} />
+        </Link>
         <ImageOne
           data={this.Hamburger}
           onClickAction={this.props.openMenuFunction}
