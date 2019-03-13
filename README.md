@@ -1,3 +1,13 @@
+Welcome to the Official Website of Viswajyothi College of Engineering and Technology.
+
+This project was done by Evolve Team of VJCET.
+
+By accessing this repo, you are a previlaged person.
+Alwasys remember one thing :
+    "Greatest power comes with greatest responsibility"
+
+
+------------------- Instrucions to Future development teams ---------------------
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

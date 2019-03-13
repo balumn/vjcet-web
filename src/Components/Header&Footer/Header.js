@@ -6,6 +6,7 @@ import ImageOne from "../Images/ImageOne";
 import Line from "../Lines/Line";
 import HeadingFive from "../Texts/HeadingFive";
 import AnchorLink from "../Texts/AnchorLink";
+import AnchorLinkTwo from "../Texts/AnchorLinkTwo";
 import DropDown from "../../HomePageContainers/dropdown";
 // import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
@@ -54,7 +55,7 @@ class Header extends Component {
   Link1 = {
     instanceID: "HeaderLink1",
     title: "About Us",
-    link: "About"
+    link: "about"
   };
 
   Link2 = {
@@ -84,13 +85,13 @@ class Header extends Component {
   Link6 = {
     instanceID: "HeaderLink6",
     title: "Campus Life",
-    link: "Campus-Life"
+    link: "campus-life"
   };
 
   Link7 = {
     instanceID: "HeaderLink7",
     title: "Facilities",
-    link: "Facilities"
+    link: "facilities"
   };
 
   Link8 = {
@@ -129,12 +130,12 @@ class Header extends Component {
         <div className="HeaderLinkTabOne" id="HeaderLinkTabOne">
           {" "}
           <AnchorLink data={this.Link1} /> <AnchorLink data={this.Link2} />
-          <AnchorLink data={this.Link3} />
+          <AnchorLinkTwo data={this.Link3} />
         </div>
 
         <div className="HeaderLinkTabTwo" id="HeaderLinkTabTwo">
           <div className="HeaderLinkTabTwoAdmissionsOpen">
-            <AnchorLink data={this.Link4} />
+            <AnchorLinkTwo data={this.Link4} />
             <ImageOne data={this.AdmissionsOpen} />
           </div>
           <div className="HeaderLinkTabTwoGrouped">
