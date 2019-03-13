@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "../HomePageContainers/dropdown.css";
 
 class DropDown extends Component {
@@ -34,12 +35,59 @@ class DropDown extends Component {
       <div class="dropdown">
         <span>Departments</span>
         <div class="dropdown-content">
-          <p> Computer Science and Enginnering</p>
-          <p> Information Technology</p>
-          <p> Mechanical Enginnering </p>
-          <p> Civil Enginnering </p>
-          <p> Electrical & Electronics Enginnering </p>
-          <p> Electronics & Communication Enginnering </p>
+          <p>
+            <Link
+              to="/departments/cse"
+              style={{ textDecoration: "none", color: "#000000" }}
+            >
+              Computer Science and Enginnering
+            </Link>
+          </p>
+          <p>
+            <Link
+              to="/departments/it"
+              style={{ textDecoration: "none", color: "#000000" }}
+            >
+              {" "}
+              Information Technology
+            </Link>
+          </p>
+          <p>
+            <Link
+              to="/departments/me"
+              style={{ textDecoration: "none", color: "#000000" }}
+            >
+              {" "}
+              Mechanical Enginnering{" "}
+            </Link>
+          </p>
+          <p>
+            {" "}
+            <Link
+              to="/departments/ce"
+              style={{ textDecoration: "none", color: "#000000" }}
+            >
+              Civil Enginnering
+            </Link>{" "}
+          </p>
+          <p>
+            {" "}
+            <Link
+              to="/departments/eee"
+              style={{ textDecoration: "none", color: "#000000" }}
+            >
+              Electrical & Electronics Enginnering
+            </Link>{" "}
+          </p>
+          <p>
+            <Link
+              to="/departments/ece"
+              style={{ textDecoration: "none", color: "#000000" }}
+            >
+              {" "}
+              Electronics & Communication Enginnering
+            </Link>{" "}
+          </p>
         </div>
       </div>
     );
