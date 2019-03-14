@@ -6,7 +6,11 @@ import ImageOne from "../Images/ImageOne";
 import Line from "../Lines/Line";
 import HeadingFive from "../Texts/HeadingFive";
 import AnchorLink from "../Texts/AnchorLink";
-import DropDown from "../../Components/Header&Footer/dropdown";
+import DropDownD from "./dropdownDepartment";
+import DropDownC from "./dropdownCampus";
+import DropDownF from "./dropdownfacilities";
+import DropDownA from "./dropdownAcademics";
+import DropDownAb from "./dropdownAbout";
 // import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class Header extends Component {
@@ -84,7 +88,7 @@ class Header extends Component {
   Link6 = {
     instanceID: "HeaderLink6",
     title: "Campus Life",
-    link: "Campus-Life"
+    link: "campus-life"
   };
 
   Link7 = {
@@ -130,7 +134,9 @@ class Header extends Component {
 
         <div className="HeaderLinkTabOne" id="HeaderLinkTabOne">
           {" "}
-          <AnchorLink data={this.Link1} /> <AnchorLink data={this.Link2} />
+          <DropDownAb />
+          {/* <AnchorLink data={this.Link1} /> */}
+          <AnchorLink data={this.Link2} />
           <AnchorLink data={this.Link3} />
         </div>
 
@@ -141,10 +147,13 @@ class Header extends Component {
           </div>
           <div className="HeaderLinkTabTwoGrouped">
             {/* <AnchorLink data={this.Link5} /> */}
-            <DropDown />
-            <AnchorLink data={this.Link6} />
-            <AnchorLink data={this.Link7} />
-            <AnchorLink data={this.Link8} />
+            <DropDownD />
+            <DropDownC />
+            <DropDownF />
+            <DropDownA />
+            {/* <AnchorLink data={this.Link6} /> */}
+            {/* <AnchorLink data={this.Link7} /> */}
+            {/* <AnchorLink data={this.Link8} /> */}
             <AnchorLink data={this.Link9} />
             <AnchorLink data={this.Link10} />
           </div>

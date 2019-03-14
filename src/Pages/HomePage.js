@@ -67,7 +67,7 @@ class HomePage extends Component {
         <CarouselThree data={this.HomePageCarouselThree} />
         <DepartmentSection data={this.HomePageDepartmentSection} />
         <FacilitiesSection data={this.HomePageFacilitiesSection} />
-        <VisionSection data={this.HomePageFacilitiesSection} />
+        {/* <VisionSection data={this.HomePageFacilitiesSection} /> */}
         <CarouselFour data={this.HomePageCarouselFour} />
         <Footer data={this.HomePageFooter} />
         {this.state.showMenu ? (

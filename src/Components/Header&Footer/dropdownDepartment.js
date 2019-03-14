@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./dropdown.css";
 
-class DropDown extends Component {
+class DropDownD extends Component {
   constructor() {
     super();
 
@@ -93,4 +93,4 @@ class DropDown extends Component {
     );
   }
 }
-export default DropDown;
+export default DropDownD;
