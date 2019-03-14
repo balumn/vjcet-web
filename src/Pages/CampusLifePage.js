@@ -37,7 +37,7 @@ class CampusLifePage extends Component {
     return (
       <div className="DepartmentPage">
         <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
-        <VisionSection data={this.HomePageFacilitiesSection} />
+        <VisionSection data={this.HomePageVisionSection} />
         <Footer data={this.HomePageFooter} />
         {this.state.showMenu ? (
           <MenuOverlay closeMenuFunction={this.closeMenu} />

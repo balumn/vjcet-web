@@ -4,7 +4,7 @@
   grid-template-columns: 100%;
   grid-template-areas:
     "header"
-    "carouselOne"
+    "background-video"
     "carouselTwo"
     "carouselThree";
 
@@ -19,9 +19,10 @@
 }
 
 #HomePageCarouselOne {
-  grid-area: carouselOne;
+  grid-area: background-video;
   padding: 0px;
   margin: 0px;
+  z-index: -3;
 }
 
 #HomePageCarouselTwo {

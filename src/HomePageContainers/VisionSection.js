@@ -35,7 +35,7 @@ class VisionSection extends Component {
 
   MissionSectionTitle = {
     instanceID: "MissionSectionTitle",
-    title: "Missions"
+    title: "Mission"
   };
 
   MissionSectionOne = {

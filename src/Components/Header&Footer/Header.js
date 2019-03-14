@@ -1,13 +1,16 @@
 import React, { Component } from "react";
-
+import { Link } from "react-router-dom";
 import "./Header.css";
 import "../Images/ImageOne";
 import ImageOne from "../Images/ImageOne";
 import Line from "../Lines/Line";
 import HeadingFive from "../Texts/HeadingFive";
 import AnchorLink from "../Texts/AnchorLink";
-import AnchorLinkTwo from "../Texts/AnchorLinkTwo";
-import DropDown from "../../HomePageContainers/dropdown";
+import DropDownD from "./dropdownDepartment";
+import DropDownC from "./dropdownCampus";
+import DropDownF from "./dropdownfacilities";
+import DropDownA from "./dropdownAcademics";
+import DropDownAb from "./dropdownAbout";
 // import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class Header extends Component {
@@ -55,7 +58,7 @@ class Header extends Component {
   Link1 = {
     instanceID: "HeaderLink1",
     title: "About Us",
-    link: "about"
+    link: "About"
   };
 
   Link2 = {
@@ -91,7 +94,7 @@ class Header extends Component {
   Link7 = {
     instanceID: "HeaderLink7",
     title: "Facilities",
-    link: "facilities"
+    link: "Facilities"
   };
 
   Link8 = {
@@ -117,7 +120,9 @@ class Header extends Component {
 
     return (
       <div className="Header" id={instanceID}>
-        <ImageOne data={this.VJCLogo} />
+        <Link to={"/"}>
+          <ImageOne data={this.VJCLogo} />
+        </Link>
         <ImageOne
           data={this.Hamburger}
           onClickAction={this.props.openMenuFunction}
@@ -129,21 +134,26 @@ class Header extends Component {
 
         <div className="HeaderLinkTabOne" id="HeaderLinkTabOne">
           {" "}
-          <AnchorLink data={this.Link1} /> <AnchorLink data={this.Link2} />
-          <AnchorLinkTwo data={this.Link3} />
+          <DropDownAb />
+          {/* <AnchorLink data={this.Link1} /> */}
+          <AnchorLink data={this.Link2} />
+          <AnchorLink data={this.Link3} />
         </div>
 
         <div className="HeaderLinkTabTwo" id="HeaderLinkTabTwo">
           <div className="HeaderLinkTabTwoAdmissionsOpen">
-            <AnchorLinkTwo data={this.Link4} />
+            <AnchorLink data={this.Link4} />
             <ImageOne data={this.AdmissionsOpen} />
           </div>
           <div className="HeaderLinkTabTwoGrouped">
             {/* <AnchorLink data={this.Link5} /> */}
-            <DropDown />
-            <AnchorLink data={this.Link6} />
-            <AnchorLink data={this.Link7} />
-            <AnchorLink data={this.Link8} />
+            <DropDownD />
+            <DropDownC />
+            <DropDownF />
+            <DropDownA />
+            {/* <AnchorLink data={this.Link6} /> */}
+            {/* <AnchorLink data={this.Link7} /> */}
+            {/* <AnchorLink data={this.Link8} /> */}
             <AnchorLink data={this.Link9} />
             <AnchorLink data={this.Link10} />
           </div>

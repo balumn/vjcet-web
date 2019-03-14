@@ -1,9 +1,10 @@
 .MenuOverlay {
   background-color: #461c0cd7;
   color: azure;
-  text-align: "center";
+  text-align: center;
   align-items: center;
-  padding-left: 40%;
+  align-content: center;
+  padding-left: auto;
 }
 .MenuOverlay a {
   text-decoration: none;
