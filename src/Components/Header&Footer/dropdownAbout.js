@@ -40,34 +40,79 @@ class DropDownAb extends Component {
               to="/about"
               style={{ textDecoration: "none", color: "#000000" }}
             >
-              The Institute
+              About College
             </Link>
           </p>
           <p>
             <Link
-              to="/about/cert"
+              to="/about/vision"
               style={{ textDecoration: "none", color: "#000000" }}
             >
               {" "}
-              Cerrtification{" "}
+              Vision & Mission{" "}
             </Link>
           </p>
           <p>
             <Link
-              to="/about/factfile"
+              to="/about/mou"
               style={{ textDecoration: "none", color: "#000000" }}
             >
               {" "}
-              Fact File{" "}
+              MOU{" "}
+            </Link>
+          </p>
+          <p>
+            <Link
+              to="/about/manager"
+              style={{ textDecoration: "none", color: "#000000" }}
+            >
+              {" "}
+              Manager{" "}
+            </Link>
+          </p>
+          <p>
+            <Link
+              to="/about/director"
+              style={{ textDecoration: "none", color: "#000000" }}
+            >
+              {" "}
+              Director{" "}
+            </Link>
+          </p>
+          <p>
+            <Link
+              to="/about/principal"
+              style={{ textDecoration: "none", color: "#000000" }}
+            >
+              {" "}
+              Principal{" "}
+            </Link>
+          </p>
+          <p>
+            <Link
+              to="/about/mandatory"
+              style={{ textDecoration: "none", color: "#000000" }}
+            >
+              {" "}
+              Mandatory Disclosure{" "}
+            </Link>
+          </p>
+          <p>
+            <Link
+              to="/about/accreditation"
+              style={{ textDecoration: "none", color: "#000000" }}
+            >
+              {" "}
+              Accreditation{" "}
             </Link>
           </p>
           <p>
             {" "}
             <Link
-              to="/about/achievements"
+              to="/about/keyfunctionaries"
               style={{ textDecoration: "none", color: "#000000" }}
             >
-              Achievements
+              KeyFunctionaries
             </Link>{" "}
           </p>
         </div>
