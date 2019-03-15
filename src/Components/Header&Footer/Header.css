@@ -1,6 +1,6 @@
 .Header {
+  overflow: hidden;
   background-color: white;
-  overflow: block;
   display: grid;
   grid-template-columns: 33% 33% 33%;
   grid-template-areas:
@@ -83,7 +83,7 @@
     grid-template-areas: "admission allothers";
   }
 
-  .HeaderLinkTabTwoAdmissionsOpen {
+  .HeaderLinkTabAdmissionsOpen {
     grid-area: admission;
     display: grid;
     grid-template-columns: 100%;

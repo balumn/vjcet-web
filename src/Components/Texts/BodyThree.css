@@ -1,0 +1,16 @@
+.BodyThree p {
+  font-weight: 500;
+  font-size: 100%;
+  color: #1d2129;
+  letter-spacing: 0;
+  text-align: justify;
+  line-height: 24px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+@media (min-width: 1024px) {
+  .BodyThree p {
+    font-size: 19px;
+  }
+}

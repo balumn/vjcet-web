@@ -1,0 +1,64 @@
+.LearnMoreSection {
+  padding: 30px 10px;
+
+  padding-top: 2%;
+}
+
+@media (min-width: 768px) {
+  .LearnMoreSection {
+    background-color: #ffffff;
+    background-size: cover;
+    padding: 50px;
+  }
+
+  .LearnMoreSectionCard {
+    background-color: #ffffff;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas:
+      "title title title title"
+      "desc desc desc desc"
+      "one two three four";
+  }
+
+  #FacilitySectionTitle {
+    grid-area: title;
+  }
+
+  #FacilitySectionTitle h1 {
+    margin-bottom: 0px;
+  }
+
+  #FacilitySectionDescription {
+    grid-area: desc;
+  }
+
+  #FacilityListOne {
+    grid-area: one;
+  }
+
+  #FacilityListTwo {
+    grid-area: two;
+  }
+
+  #FacilityListThree {
+    grid-area: three;
+  }
+
+  #FacilityListFour {
+    grid-area: four;
+  }
+}
+
+@media (min-width: 1024px) {
+  .LearnMoreSectionCard {
+    padding: 5% 0%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .LearnMoreSectionCard {
+    margin: 3% 12%;
+  }
+}

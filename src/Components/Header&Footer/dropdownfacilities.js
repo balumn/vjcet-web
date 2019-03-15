@@ -37,43 +37,17 @@ class DropDownF extends Component {
         <div class="dropdown-content">
           <p>
             <Link
-              to="/infrastructure/computing-technology"
+              to="/facilities/computing-technology"
               style={{ textDecoration: "none", color: "#000000" }}
             >
               Computing Technology
             </Link>
           </p>
-          <p>
-            <Link
-              to="/infrastructure/nif"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
-              {" "}
-              Networking & Internet Facility
-            </Link>
-          </p>
-          <p>
-            <Link
-              to="/infrastructure/cms"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
-              {" "}
-              Campus Management System{" "}
-            </Link>
-          </p>
+
           <p>
             {" "}
             <Link
-              to="/infrastructure/building-area"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
-              Building Area
-            </Link>{" "}
-          </p>
-          <p>
-            {" "}
-            <Link
-              to="/infrastructure/library"
+              to="/facilities/library"
               style={{ textDecoration: "none", color: "#000000" }}
             >
               Centeral Library
@@ -83,15 +57,15 @@ class DropDownF extends Component {
           <p>
             {" "}
             <Link
-              to="/infrastructure/auditorium"
+              to="/facilities/auditorium"
               style={{ textDecoration: "none", color: "#000000" }}
             >
-              Auditorium & Seminar Hall
+              Core Facilities
             </Link>{" "}
           </p>
           <p>
             <Link
-              to="/infrastructure/hostels"
+              to="/facilities/hostels"
               style={{ textDecoration: "none", color: "#000000" }}
             >
               {" "}
@@ -100,38 +74,21 @@ class DropDownF extends Component {
           </p>
           <p>
             <Link
-              to="/infrastructure/sports"
+              to="/facilities/sports"
               style={{ textDecoration: "none", color: "#000000" }}
             >
               {" "}
               Sports
             </Link>{" "}
           </p>
+
           <p>
             <Link
-              to="/infrastructure/power-backup"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
-              {" "}
-              Power and Back up
-            </Link>{" "}
-          </p>
-          <p>
-            <Link
-              to="/infrastructure/transportation"
+              to="/facilities/transportation"
               style={{ textDecoration: "none", color: "#000000" }}
             >
               {" "}
               Transportation
-            </Link>{" "}
-          </p>
-          <p>
-            <Link
-              to="/infrastructure/campus-amenities"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
-              {" "}
-              Campus Amenities
             </Link>{" "}
           </p>
         </div>

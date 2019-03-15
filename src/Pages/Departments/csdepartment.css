@@ -1,0 +1,32 @@
+.HomePage {
+  overflow: hidden;
+  text-align: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+#HomePageHeader {
+  grid-area: header;
+}
+#HomePageHeadingOne {
+  grid-area: "heading";
+}
+#HomePageCarouselOne {
+  grid-area: carouselOne;
+  padding: 0px;
+  margin: 0px;
+  z-index: -3;
+}
+
+#HomePageCarouselTwo {
+  grid-area: carouselTwo;
+  padding: 0px;
+  margin: 0px;
+}
+
+#HomePageCarouselThree {
+  grid-area: carouselThree;
+  padding: 0px;
+  margin: 0px;
+}

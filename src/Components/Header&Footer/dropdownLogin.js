@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./dropdown.css";
 
-class DropDownA extends Component {
+class DropDownL extends Component {
   constructor() {
     super();
 
@@ -33,59 +33,25 @@ class DropDownA extends Component {
   render() {
     return (
       <div class="dropdown">
-        <span>Academics</span>
+        <span>Login</span>
         <div class="dropdown-content">
           <p>
             <Link
-              to="/academics"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
-              Academics
-            </Link>
-          </p>
-          <p>
-            <Link
-              to="/academics/calendar"
+              to="/login/student"
               style={{ textDecoration: "none", color: "#000000" }}
             >
               {" "}
-              Calendar
-            </Link>
-          </p>
-          <p>
-            <Link
-              to="/academics/curriculum"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
-              {" "}
-              Curriculum{" "}
-            </Link>
-          </p>
-          <p>
-            {" "}
-            <Link
-              to="/academics/courses-offered"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
-              Courses Offered
+              Student Login
             </Link>{" "}
           </p>
-          <p>
-            {" "}
-            <Link
-              to="/academics/honors"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
-              Honors{" "}
-            </Link>{" "}
-          </p>
+
           <p>
             <Link
-              to="/academics/convocation"
+              to="/login/faculty"
               style={{ textDecoration: "none", color: "#000000" }}
             >
               {" "}
-              Convocation
+              Faculty Login
             </Link>{" "}
           </p>
         </div>
@@ -93,4 +59,4 @@ class DropDownA extends Component {
     );
   }
 }
-export default DropDownA;
+export default DropDownL;
