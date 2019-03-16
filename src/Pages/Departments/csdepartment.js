@@ -15,6 +15,7 @@ import BodyOne from "../../Components/Texts/BodyOne";
 import ImageOne from "../../Components/Images/ImageOne";
 import HeadingTwo from "../../Components/Texts/HeadingTwo";
 import BodyThree from "../../Components/Texts/BodyThree";
+import SideNav from "../../DeptPageContainers/CsDept/SideNav";
 
 class CsDepartment extends Component {
   state = { showMenu: false };
@@ -73,7 +74,7 @@ class CsDepartment extends Component {
   CseImg = {
     instanceID: "CseImg",
     image: "CseImg.jpg",
-    width: "80%"
+    width: "100%"
   };
 
   ProfileHeading = {
@@ -97,9 +98,7 @@ class CsDepartment extends Component {
         <HeadingOne data={this.HeadingSectionTitle} />
         <BodyOne data={this.HeadingSectionDescription} />
         <ImageOne data={this.CseImg} />
-        <HeadingTwo data={this.ProfileHeading} />
-        <BodyThree data={this.ProfileDescription} />
-        <HeadingOne data={this.LearnmoreHeading} />
+        <SideNav />
         <Footer data={this.HomePageFooter} />
         {this.state.showMenu ? (
           <MenuOverlay closeMenuFunction={this.closeMenu} />

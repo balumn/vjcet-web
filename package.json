@@ -9,6 +9,7 @@
     "react-dom": "^16.8.3",
     "react-responsive-table": "^2.0.15",
     "react-router-dom": "^4.3.1",
+    "react-router-hash-link": "^1.2.1",
     "react-scripts": "2.1.5",
     "react-style-proptype": "^3.2.2"
   },
