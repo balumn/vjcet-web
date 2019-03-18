@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "8bd4af5496e62146db64",
+    "revision": "d4c91b297ccdeb1dfec5",
     "url": "/vjcet-web/static/css/main.9a0460ce.chunk.css"
   },
   {
-    "revision": "8bd4af5496e62146db64",
-    "url": "/vjcet-web/static/js/main.bb6b1a9c.chunk.js"
+    "revision": "d4c91b297ccdeb1dfec5",
+    "url": "/vjcet-web/static/js/main.40246645.chunk.js"
   },
   {
     "revision": "98ff495850d2d2f0a00c",
     "url": "/vjcet-web/static/js/runtime~main.1c890f1c.js"
   },
   {
-    "revision": "62e454ecaa1dd03e6552",
-    "url": "/vjcet-web/static/js/2.24334542.chunk.js"
+    "revision": "3442dfb88c4a2caf1ef3",
+    "url": "/vjcet-web/static/js/2.4af911ad.chunk.js"
   },
   {
     "revision": "32788e90cf496cf72e4951e2161e4c77",
@@ -92,7 +92,7 @@ self.__precacheManifest = [
     "url": "/vjcet-web/static/media/youtube.6170946f.svg"
   },
   {
-    "revision": "e155d06250f911f397b92a159b5321a5",
+    "revision": "1ee748b2fa58c3ecb9e26a60b79db97a",
     "url": "/vjcet-web/index.html"
   }
 ];
