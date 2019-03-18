@@ -7,6 +7,7 @@
   background: rgba(238, 238, 238, 0.788);
   overflow-x: hidden;
   padding: 8px 0;
+  border-radius: 10px;
 }
 
 .sidenav a {
