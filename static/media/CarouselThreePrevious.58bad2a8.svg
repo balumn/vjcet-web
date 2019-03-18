@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="15px" viewBox="0 0 27 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>CarouselThreePrevious</title>
+    <desc>Created with Sketch.</desc>
+    <g id="HomePage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile" transform="translate(-235.000000, -626.000000)" fill="#CFCFCF">
+            <g id="Section-3-:-News" transform="translate(0.000000, 588.000000)">
+                <g id="Group-4" transform="translate(11.000000, 31.000000)">
+                    <g id="arrow" transform="translate(223.000000, 6.000000)">
+                        <path d="M1.77783388,7.94886234 L7.81047512,1.78283432 C8.17852193,1.4067286 8.77546697,1.4067286 9.14357235,1.78283432 C9.51167772,2.1591299 9.51167772,2.76937395 9.14357235,3.14527254 L4.7200122,7.66677442 L26.8378715,7.66677442 C27.3584488,7.66677442 27.7804918,8.09832078 27.7804918,8.63018501 C27.7804918,9.16244624 27.3584488,9.59357835 26.8378715,9.59357835 L4.7200122,9.59357835 L9.14336737,14.1148904 C9.51153131,14.4913931 9.51153131,15.101033 9.14336737,15.4775357 C8.95932933,15.6653814 8.71810332,15.7596064 8.47681876,15.7596064 C8.23562204,15.7596064 7.99439604,15.6653814 7.81035799,15.4775357 L1.77783388,9.31150769 C1.40966994,8.93500498 1.40966994,8.32515792 1.77783388,7.94886234 Z" id="CarouselThreePrevious"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
