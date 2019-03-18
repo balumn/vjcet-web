@@ -15,7 +15,7 @@ class SideNav extends Component {
   ProfileDescriptionOne = {
     instanceID: "ProfileDescriptionOne",
     title:
-      "Started in the year 2001, the Department of Computer Science & Engineering offers  both undergraduate (B. Tech.) and postgraduate (M. Tech.) programs. B.Tech Computer Science Engineering program is accredited by NBA on July 2018 for three years.The annual intake of the B. Tech. program is 120 students and that of the M. Tech. is 18. The department provides its students an environment that stimulates their intellectual growth and personality development. Infrastructure facilities are excellent with well-equipped computer labs, classrooms and libraries. We also have high speed leased line Internet connection and online access to all IEEE journals. A team of well qualified faculty that keeps their knowledge up to date by attending conferences and workshops on a regular basis is a major asset of the department."
+      "The Department of Electrical and Electronics Engineering of VJCET was established in the year 2004, with eminent and well qualified faculty and excellent infra structure. The department is recognized for excellence in teaching and service to the profession and it offers Undergraduate Programme with an intake of 90 students. In a very short spell the department could emerge with four University ranks. The academic strength of the faculty is reflected by the alumni, many of whom are in the top echelons of industry and academicia both in India and abroad."
   };
   ProfileDescriptionTwo = {
     instanceID: "ProfileDescriptionTwo",
@@ -28,8 +28,7 @@ class SideNav extends Component {
   };
   VisionDescription = {
     instanceID: "VisionDescription",
-    title:
-      "Moulding socially responsible and professionally competent Computer Engineers to adapt to the dynamic technological landscape"
+    title: "Mould globally competent Electrical and Electronics Engineers"
   };
   MissionHeading = {
     instanceID: "MissionHeading",
@@ -37,18 +36,16 @@ class SideNav extends Component {
   };
   MissionListOne = {
     instanceID: "MissionListOne",
-    title:
-      "1.	Foster the principles and practices of computer science to empower life-long learning and   build careers in software and hardware development."
+    title: "1.   To provide the best academic ambiance."
   };
   MissionListTwo = {
     instanceID: "MissionListTwo",
     title:
-      "2.  Impart value education to elevate students to be successful, ethical and effective problem-solvers to serve the needs of the industry, government, society and the scientific community."
+      "2.  To develop technical and soft skills to cope up with the emerging global scenario."
   };
   MissionListThree = {
     instanceID: "MissionListThree",
-    title:
-      "3.  Promote industry interaction to pursue new technologies in Computer Science and provide excellent infrastructure to engage faculty and students in scholarly research activities."
+    title: "3.  To enhance knowledge by industry and alumni interaction."
   };
   peoHeading = {
     instanceID: "psoHeading",
@@ -56,22 +53,21 @@ class SideNav extends Component {
   };
   peoListOne = {
     instanceID: "peoListOne",
-    title: "Our Graduates "
+    title: "Graduate shall have  "
   };
   peoListTwo = {
     instanceID: "peoListTwo",
     title:
-      "1.	Shall have creative and critical reasoning skills to solve technical problems ethically and responsibly to serve the society."
+      "1.	The foundation in mathematical, analytical and scientific skills to design technically and economically viable engineering solutions. "
   };
   peoListThree = {
     instanceID: "peoListThree",
     title:
-      "2.	Shall have competency to collaborate as a team member and team leader to address social, technical and engineering challenges."
+      "2.	The culture and attitude of team work, to help in upbringing socially committed Entrepreneurs engaged in lifelong learning."
   };
   peoListFour = {
     instanceID: "peoListFour",
-    title:
-      "3.	Shall have ability to contribute to the development of the next generation of information technology either through innovative research or through practice in a corporate setting."
+    title: "3.	Professional communication skills, social values and work ethics."
   };
   peoListFive = {
     instanceID: "peoListFive",
@@ -85,18 +81,17 @@ class SideNav extends Component {
   };
   psoListOne = {
     instanceID: "psoListOne",
-    title:
-      "1.	Ability to integrate theory and practice to construct software systems of varying complexity."
+    title: "The Graduates shall be able to, "
   };
   psoListTwo = {
     instanceID: "psoListTwo",
     title:
-      "2.	Able to Apply Computer Science skills, tools and mathematical techniques to analyze, design and model complex systems."
+      "•	Apply fundamentals of Engineering in analyzing multidisciplinary issues, developing solutions with professional and ethical responsibilities and promoting conventional and unconventional methods for higher research. "
   };
   psoListThree = {
     instanceID: "psoListThree",
     title:
-      "3.	Ability to design and manage small-scale projects to develop a career in a related industry."
+      "•	Apply Electrical engineering knowledge to perform circuit analysis, troubleshoot electrical machines and optimize power system designs by incorporating analog and digital controls."
   };
   ProgramHeading = {
     instanceID: "ProgramHeading",
@@ -105,7 +100,7 @@ class SideNav extends Component {
   ProgramDescriptionOne = {
     instanceID: "ProgramDescriptionOne",
     title:
-      "Department of Computer Science and Engineering is offering both Under graduate and Post graduate courses in Computer Science and Engineering. The total intake in Undergraduate course is 120 per batch and for Post graduation 18 per batch."
+      "Department of EEE is under graduate degree and Post graduate courses in Electrical & Electronics Engineering.  The total intake in Undergraduate course is 90  per batch  The Under Graduate program started in the year July 2004 with an intake of  60 students per batch. "
   };
   ProgramDescriptionTwo = {
     instanceID: "ProgramDescriptionTwo",
@@ -119,7 +114,7 @@ class SideNav extends Component {
   DeptLibDescriptionOne = {
     instanceID: "DeptLibDescriptionOne",
     title:
-      "The Department of Computer Science and Engineering maintains a books enriched library where its primary aim is to support the student of the institution for education.  The Library was established in 2006.  The library has a collection of more than 600 books. Besides books the Library possesses B.Tech project and seminar reports, Monographs, Lab Manuals, Question papers, CD-ROMs, Internet facility. The departmental library serve the academic disciplines bearing their names. "
+      "The Department of Electrical & Electronics maintains a library where its primary  aim  is to improve the knowledge of the  users  by effectively  utilizing the timely updated resources  and  to  facilitate student satisfaction through high quality services.The library has a collection of more than 600 books. Moreover the Library possesses B.Tech projects, seminar reports, Lab Manuals and Question paper. The departmental library serves the academic disciplines bearing their names. "
   };
   DeptLibDescriptionTwo = {
     instanceID: "DeptLibDescriptionTwo",
@@ -129,13 +124,9 @@ class SideNav extends Component {
   DeptLibDescriptionThree = {
     instanceID: "DeptLibDescriptionThree",
     title:
-      "It has a carpet area of about 500 square feet. The library opens from 8.45 a.m. to 4.30 p.m. except Saturdays and Sundays. The library collection is arranged subject-wise. The library is maintaining records of all Purchased/Donated books, CDS, Seminar Reports/Project Reports/Magazines/Monographs/Lab Manual/Previous Year Question Papers. Members can search and view the status (Available/Not Available) of each searched item through the software.  The library is also maintaining all Issue/Deposit/Fine reports and it will be periodically updates at the end of each semesters."
+      "The Department Library can be used by the students any time during the working hours of the department. Students are allowed to take two books at a time. Faculty members are entitled to get 3 books at a time."
   };
-  ProgramDescriptionTwo = {
-    instanceID: "ProgramDescriptionTwo",
-    title:
-      "The Under Graduate program started in the year 2001 with an intake of  60 students per batch. Later in July 2007 the intake is amplified to 120 students per batch. In the year 2010 Postgraduate program in Computer Science and Engineering with an intake of 18 students per batch has started. The Department is accredited by National Board of Accreditation (NBA) of AICTE in June 2010. Also the Department applied for NBA accreditation in 2017 and is accredited."
-  };
+
   DeptAssociationHeadingOne = {
     instanceID: "DeptAssociationHeadingOne",
     title: "Association"
@@ -143,20 +134,21 @@ class SideNav extends Component {
   DeptAssociationDescriptionOne = {
     instanceID: "DeptAssociationDescriptionOne",
     title:
-      " VOICE is the association of the Computer Science &amp; Engineering department. VOICE plays its vital role of giving opportunities and exposure for the young minds of the department to the tech world through different events like Technical Quiz, Technical Talks, Group Discussions, Workshops etc. VOICE is run by the student coordinators under the guidance of faculty members from the department. "
+      " Extracurricular activities can offer youth a safe and supervised haven and a chance to learn new skills such as conflict resolution, prepare for a successful career and improve grades. ‘VIDYUTH’ the Association of Electrical and Electronics Engineering Department. Various activities are organized under Vidyuth which provides a platform for the young talents to showcase their skills. Students are actively involved in the association activities including association inauguration, organizing technical talks, exhibitions and publishing department news letter every year to promote the spirit of social harmony. "
   };
   DeptAssociationHeadingTwo = {
     instanceID: "DeptAssociationHeadingTwo",
-    title: "Sinu Arby Quiz Competition"
+    title: "2018-19"
   };
   DeptAssociationDescriptionTwo = {
     instanceID: "DeptAssociationDescriptionTwo",
     title:
-      "Sinu Arby Memorial Quiz Competition was conducted by the department."
+      "Activities of Department Association ‘VIDYUTH’ for academic year 2018 -’19 was inaugurated on 1 st Octoberl 2018, by Sri. CP George , Deputy Chief Engineer at KSEB Ltd. Generation, MoolamattomICSE Association Inauguration"
   };
   DeptAssociationDescriptionThree = {
     instanceID: "DeptAssociationDescriptionThree",
-    title: "ICSE Association Inauguration"
+    title:
+      "Activities of Department Association ‘VIDYUTH’ for academic year 2018 -’19 was inaugurated on 1 st Octoberl 2018, by Sri. CP George , Deputy Chief Engineer at KSEB Ltd. Generation, MoolamattomICSE Association Inauguration"
   };
   DeptAssociationDescriptionFour = {
     instanceID: "DeptAssociationDescriptionFour",
@@ -182,11 +174,10 @@ class SideNav extends Component {
         <div className="Profile" id="profile">
           <HeadingOne data={this.ProfileHeading} />
           <Bodythree data={this.ProfileDescriptionOne} />
-          <Bodythree data={this.ProfileDescriptionTwo} />
         </div>
         <div className="Vision&Mission" id="vision&mission">
           <HeadingOne data={this.VisionHeading} />
-          <Bodythree data={this.VisionDescription} />
+          <BodyOne data={this.VisionDescription} />
         </div>
         <div className="Mission" id="mission">
           <HeadingOne data={this.MissionHeading} />
@@ -200,7 +191,6 @@ class SideNav extends Component {
           <Bodythree data={this.peoListTwo} />
           <Bodythree data={this.peoListThree} />
           <Bodythree data={this.peoListFour} />
-          <Bodythree data={this.peoListFive} />
           <HeadingOne data={this.psoHeading} />
           <Bodythree data={this.psoListOne} />
           <Bodythree data={this.psoListTwo} />
@@ -209,7 +199,6 @@ class SideNav extends Component {
         <div className="Program" id="program">
           <HeadingOne data={this.ProgramHeading} />
           <Bodythree data={this.ProgramDescriptionOne} />
-          <Bodythree data={this.ProgramDescriptionTwo} />
         </div>
         <div className="DeptLibrary" id="dept-library">
           <HeadingOne data={this.DeptLibHeading} />
@@ -222,9 +211,6 @@ class SideNav extends Component {
           <Bodythree data={this.DeptAssociationDescriptionOne} />
           <HeadingFour data={this.DeptAssociationHeadingTwo} />
           <Bodythree data={this.DeptAssociationDescriptionTwo} />
-          <Bodythree data={this.DeptAssociationDescriptionThree} />
-          <Bodythree data={this.DeptAssociationDescriptionFour} />
-          <Bodythree data={this.DeptAssociationDescriptionFive} />
         </div>
       </div>
     );

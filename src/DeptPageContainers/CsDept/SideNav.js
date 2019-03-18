@@ -131,11 +131,6 @@ class SideNav extends Component {
     title:
       "It has a carpet area of about 500 square feet. The library opens from 8.45 a.m. to 4.30 p.m. except Saturdays and Sundays. The library collection is arranged subject-wise. The library is maintaining records of all Purchased/Donated books, CDS, Seminar Reports/Project Reports/Magazines/Monographs/Lab Manual/Previous Year Question Papers. Members can search and view the status (Available/Not Available) of each searched item through the software.  The library is also maintaining all Issue/Deposit/Fine reports and it will be periodically updates at the end of each semesters."
   };
-  ProgramDescriptionTwo = {
-    instanceID: "ProgramDescriptionTwo",
-    title:
-      "The Under Graduate program started in the year 2001 with an intake of  60 students per batch. Later in July 2007 the intake is amplified to 120 students per batch. In the year 2010 Postgraduate program in Computer Science and Engineering with an intake of 18 students per batch has started. The Department is accredited by National Board of Accreditation (NBA) of AICTE in June 2010. Also the Department applied for NBA accreditation in 2017 and is accredited."
-  };
   DeptAssociationHeadingOne = {
     instanceID: "DeptAssociationHeadingOne",
     title: "Association"
@@ -143,7 +138,7 @@ class SideNav extends Component {
   DeptAssociationDescriptionOne = {
     instanceID: "DeptAssociationDescriptionOne",
     title:
-      " VOICE is the association of the Computer Science &amp; Engineering department. VOICE plays its vital role of giving opportunities and exposure for the young minds of the department to the tech world through different events like Technical Quiz, Technical Talks, Group Discussions, Workshops etc. VOICE is run by the student coordinators under the guidance of faculty members from the department. "
+      " VOICE is the association of the Computer Science & Engineering department. VOICE plays its vital role of giving opportunities and exposure for the young minds of the department to the tech world through different events like Technical Quiz, Technical Talks, Group Discussions, Workshops etc. VOICE is run by the student coordinators under the guidance of faculty members from the department. "
   };
   DeptAssociationHeadingTwo = {
     instanceID: "DeptAssociationHeadingTwo",
