@@ -1,9 +1,0 @@
-.FacilitiesList {
-  padding: 15px 30px;
-}
-
-@media (min-width: 768px) {
-  .FacilitiesList {
-    padding-top: 20%;
-  }
-}
