@@ -138,7 +138,7 @@ class SideNav extends Component {
   };
   DeptAssociationHeadingOne = {
     instanceID: "DeptAssociationHeadingOne",
-    title: "Department Association"
+    title: "Association"
   };
   DeptAssociationDescriptionOne = {
     instanceID: "DeptAssociationDescriptionOne",
@@ -177,7 +177,7 @@ class SideNav extends Component {
           <Link to="#peo&pso">PEO & PSO</Link>
           <Link to="#program">Program</Link>
           <Link to="#dept-library">Department Library</Link>
-          <Link to="#dept-association">Department Association</Link>
+          <Link to="#dept-association">Association</Link>
         </div>
         <div className="Profile" id="profile">
           <HeadingOne data={this.ProfileHeading} />

@@ -36,6 +36,15 @@ class DropDownD extends Component {
         <span>Departments</span>
         <div class="dropdown-content">
           <p>
+            {" "}
+            <Link
+              to="/departments/ce"
+              style={{ textDecoration: "none", color: "#000000" }}
+            >
+              Civil Enginnering
+            </Link>{" "}
+          </p>
+          <p>
             <Link
               to="/departments/cse"
               style={{ textDecoration: "none", color: "#000000" }}
@@ -60,15 +69,6 @@ class DropDownD extends Component {
               {" "}
               Mechanical Enginnering{" "}
             </Link>
-          </p>
-          <p>
-            {" "}
-            <Link
-              to="/departments/ce"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
-              Civil Enginnering
-            </Link>{" "}
           </p>
           <p>
             {" "}
