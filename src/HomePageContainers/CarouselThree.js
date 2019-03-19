@@ -4,7 +4,7 @@ import HeadingTwo from "../Components/Texts/HeadingTwo";
 import HeadingFour from "../Components/Texts/HeadingFour";
 import HeadingFive from "../Components/Texts/HeadingFive";
 import ImageOne from "../Components/Images/ImageOne";
-
+import ImageTwo from "../Components/Images/imageTwo";
 class CarouselThree extends Component {
   state = { sliderSize: 3, currentPage: 0 };
   componentDidMount() {
@@ -118,13 +118,15 @@ class CarouselThree extends Component {
 
       Title: {
         instanceID: "SlideOneTitle",
-        title: "Schedule For Examinations"
+        title:
+          "B.Tech (Hons) S5 (2015 & 2016 Admissions) Examination - Rescheduled - reg"
       },
 
       Image: {
         instanceID: "CarouselThreeSlideOneImage",
-        image: "bodhi.jpg",
-        width: "210px"
+        image: "ktu.jpg",
+        width: "210px",
+        height: "150px"
       }
     },
     {
@@ -135,12 +137,12 @@ class CarouselThree extends Component {
 
       Title: {
         instanceID: "SlideOneTitle",
-        title: "Placement Details for 2019"
+        title: "325 students placed"
       },
 
       Image: {
         instanceID: "CarouselThreeSlideOneImage",
-        image: "bodhi.jpg",
+        image: "infy.png",
         width: "210px"
       }
     },
@@ -152,13 +154,12 @@ class CarouselThree extends Component {
 
       Title: {
         instanceID: "SlideOneTitle",
-        title:
-          "Congratulations to Mr.Sanil Cyriac Mathew, Mr.Abraham George, Ms. Mahima Harikrishnan…."
+        title: "IEEE :MINERVA 4.0"
       },
 
       Image: {
         instanceID: "CarouselThreeSlideOneImage",
-        image: "bodhi.jpg",
+        image: "minerva.jpg",
         width: "210px"
       }
     }
@@ -202,7 +203,7 @@ class CarouselThree extends Component {
                     <HeadingFive data={item.Category} />
                     <HeadingFour data={item.Title} />
                     <HeadingFive data={this.Read} />
-                    <ImageOne data={item.Image} />
+                    <ImageTwo data={item.Image} />
                   </div>
                 );
               }

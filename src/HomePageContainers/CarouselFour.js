@@ -122,7 +122,7 @@ class CarouselFour extends Component {
 
       Image: {
         instanceID: "EventThreeImage",
-        image: "stock3.png",
+        image: "bodhi.jpg",
         width: "202px"
       }
     }

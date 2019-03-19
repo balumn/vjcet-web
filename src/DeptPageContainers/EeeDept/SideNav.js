@@ -119,7 +119,7 @@ class SideNav extends Component {
   DeptLibDescriptionTwo = {
     instanceID: "DeptLibDescriptionTwo",
     title:
-      "The collection is strong in all aspects with special strengths in C programming, Software Engineering, Automata Theory, System Programming, Computer Architecture and Organization, Data Structures, Microprocessors, Database Management System and also books on  Digital Electronics, Humanities, Management."
+      " The library has a collection of more than 600 books. Moreover the Library possesses B.Tech projects, seminar reports, Lab Manuals and Question paper. The departmental library serves the academic disciplines bearing their names.The collection is strong in all aspects with special strengths in Electrical Machines, Power System Engineering, Electronic Circuits, Digital Circuits, Control Engineering, Electro magnetic Theory, Network Theory, Communication Engineering, programming, Computer Architecture and Organization, Microprocessors and Micro Controllers, Power Electronics, Linear System Analysis."
   };
   DeptLibDescriptionThree = {
     instanceID: "DeptLibDescriptionThree",

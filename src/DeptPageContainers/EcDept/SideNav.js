@@ -15,12 +15,12 @@ class SideNav extends Component {
   ProfileDescriptionOne = {
     instanceID: "ProfileDescriptionOne",
     title:
-      "The Department of Electrical and Electronics Engineering of VJCET was established in the year 2004, with eminent and well qualified faculty and excellent infra structure. The department is recognized for excellence in teaching and service to the profession and it offers Undergraduate Programme with an intake of 90 students. In a very short spell the department could emerge with four University ranks. The academic strength of the faculty is reflected by the alumni, many of whom are in the top echelons of industry and academicia both in India and abroad."
+      "The department of Electronics & Communication Engineering was established in the year 2001. B.Tech Electronics & Communication Engineering program was accredited by NBA in 2010 and again renewed in June 2018 for another three years. The Department is managed by devoted and diligent staff members and well equipped with all modern facilities. The first batch of ECE students from Viswajyothi passed out in 2005. Dept. offers both undergraduate (B. Tech.) and postgraduate (M. Tech.) programs. The annual intake of the B. Tech. program is 120 students and that of the M. Tech. is 24. Electronics and Communication Engineering (ECE) is a swiftly advancing field, with new ideas emerging every other second. There are a lot of exciting avenues to explore and create even better ideas. With technology becoming all pervasive in everyday life, opportunities for electronic engineers are endless. The ECE department at VJCET prepares students for careers in this constantly evolving discipline. "
   };
   ProfileDescriptionTwo = {
     instanceID: "ProfileDescriptionTwo",
     title:
-      "M. Tech. students with GATE qualification are funded by AICTE scholarships. Training programs conducted for the B. Tech. students throughout the course of their study by the Placement and Training Cell (PTC) of our college prepares them for a smooth transition from academia to the industry. In the past our students have been placed in reputed companies like Infosys, Wipro, TCS, Tata Elxsi, Oracle, HCL, L&T, IBS, Cognizant, and so on. Our students have secured very good results in the University examinations including University ranks. They regularly participate in inter collegiate technical and cultural events and have won many prizes."
+      "The department consistently organizes National Level Seminars and Symposiums, Short Term Training Programs, Faculty Development Programs sponsored by AICTE - ISTE. The department has produced several university ranks both in B.Tech and M.Tech so far. Our department enjoys very good placement every year in wide spectrum of MNC’s and core industries. One of the major strength of our department is the immense support extended by our Alumni. Our goal is to develop the department as a Center of Excellence in the field Electronics & Communication Engineering. For personality development, more emphasis is laid on the development of general, intellectual, human and social qualities which are necessary for the successful practice of the profession. The laboratory facilities were constantly upgraded to take care of the technological developments in the areas of Electronics and Telecommunications."
   };
   VisionHeading = {
     instanceID: "VisionHeading",
@@ -28,7 +28,8 @@ class SideNav extends Component {
   };
   VisionDescription = {
     instanceID: "VisionDescription",
-    title: "Mould globally competent Electrical and Electronics Engineers"
+    title:
+      "Moulding Electronics Engineers with Professional Competence and Global outlook"
   };
   MissionHeading = {
     instanceID: "MissionHeading",
@@ -36,16 +37,23 @@ class SideNav extends Component {
   };
   MissionListOne = {
     instanceID: "MissionListOne",
-    title: "1.   To provide the best academic ambiance."
+    title:
+      "1.  To create a vibrant academic ambience conducive for progressive learning"
   };
   MissionListTwo = {
     instanceID: "MissionListTwo",
     title:
-      "2.  To develop technical and soft skills to cope up with the emerging global scenario."
+      "2.  Build up excellent infrastructure and lab facilities to train the students in the current & emerging technology."
   };
   MissionListThree = {
     instanceID: "MissionListThree",
-    title: "3.  To enhance knowledge by industry and alumni interaction."
+    title:
+      "3.  Maintain well qualified faculty who are willing to upgrade their knowledge continuously."
+  };
+  MissionListFour = {
+    instanceID: "MissionListFour",
+    title:
+      "4.  Groom students towards successful careers by facilitating industry-institute relationships and value addition through regular skill-development programmes"
   };
   peoHeading = {
     instanceID: "psoHeading",
@@ -53,26 +61,22 @@ class SideNav extends Component {
   };
   peoListOne = {
     instanceID: "peoListOne",
-    title: "Graduate shall have  "
+    title: "Our Graduates shall be,  "
   };
   peoListTwo = {
     instanceID: "peoListTwo",
     title:
-      "1.	The foundation in mathematical, analytical and scientific skills to design technically and economically viable engineering solutions. "
+      "1: Suitably employed in allied industries/services with professional competency and knowledge of modern tools. "
   };
   peoListThree = {
     instanceID: "peoListThree",
     title:
-      "2.	The culture and attitude of team work, to help in upbringing socially committed Entrepreneurs engaged in lifelong learning."
+      " 2: Capable of developing economically viable, technically feasible eco-friendly electronic systems."
   };
   peoListFour = {
     instanceID: "peoListFour",
-    title: "3.	Professional communication skills, social values and work ethics."
-  };
-  peoListFive = {
-    instanceID: "peoListFive",
     title:
-      "4.	Shall have potential to build start-up companies with the foundations, knowledge and experience they acquired from undergraduate education."
+      "3: Capable to pursue higher studies/research in the field of engineering and management."
   };
 
   psoHeading = {
@@ -81,17 +85,21 @@ class SideNav extends Component {
   };
   psoListOne = {
     instanceID: "psoListOne",
-    title: "The Graduates shall be able to, "
+    title: "Our Students shall be able to,"
   };
   psoListTwo = {
     instanceID: "psoListTwo",
     title:
-      "•	Apply fundamentals of Engineering in analyzing multidisciplinary issues, developing solutions with professional and ethical responsibilities and promoting conventional and unconventional methods for higher research. "
+      "1: Design and modify embedded system based products which will find applications in the fields of Communication and Automation."
   };
   psoListThree = {
     instanceID: "psoListThree",
     title:
-      "•	Apply Electrical engineering knowledge to perform circuit analysis, troubleshoot electrical machines and optimize power system designs by incorporating analog and digital controls."
+      "2: Develop algorithms for real life applications in signal & image processing."
+  };
+  psoListFour = {
+    instanceID: "psoListFour",
+    title: " 3: Design efficient low power electronic circuits."
   };
   ProgramHeading = {
     instanceID: "ProgramHeading",
@@ -100,12 +108,17 @@ class SideNav extends Component {
   ProgramDescriptionOne = {
     instanceID: "ProgramDescriptionOne",
     title:
-      "Department of EEE is under graduate degree and Post graduate courses in Electrical & Electronics Engineering.  The total intake in Undergraduate course is 90  per batch  The Under Graduate program started in the year July 2004 with an intake of  60 students per batch. "
+      "Electronics and Communication Engineering (ECE) is a swiftly advancing field, with new ideas emerging every other second. There are a lot of exciting avenues to explore and create even better ideas. With technology becoming all pervasive in everyday life, opportunities for electronic engineers are endless. The ECE department at VJCET prepares students for careers in this constantly evolving discipline."
   };
   ProgramDescriptionTwo = {
     instanceID: "ProgramDescriptionTwo",
     title:
-      "The Under Graduate program started in the year 2001 with an intake of  60 students per batch. Later in July 2007 the intake is amplified to 120 students per batch. In the year 2010 Postgraduate program in Computer Science and Engineering with an intake of 18 students per batch has started. The Department is accredited by National Board of Accreditation (NBA) of AICTE in June 2010. Also the Department applied for NBA accreditation in 2017 and is accredited."
+      "The department of Electronics & Communication Engineering was established in the year 2001. B.Tech Electronics & Communication Engineering program was accredited by NBA in 2010 and again renewed in June 2018 for another three years. The Department is managed by devoted and diligent staff members and well equipped with all modern facilities. The first batch of ECE students from Viswajyothi passed out in 2005. Dept. offers both undergraduate (B. Tech.) and postgraduate (M. Tech.) programs. The annual intake of the B. Tech. program is 120 students and that of the M. Tech. is 24."
+  };
+  ProgramDescriptionThree = {
+    instanceID: "ProgramDescriptionThree",
+    title:
+      "Our goal is to develop the department as a Center of Excellence in the field Electronics & Communication Engineering. For personality development, more emphasis is laid on the development of general, intellectual, human and social qualities which are necessary for the successful practice of the profession. The laboratory facilities were constantly upgraded to take care of the technological developments in the areas of Electronics and Telecommunications."
   };
   DeptLibHeading = {
     instanceID: "DeptLibHeading",
@@ -114,17 +127,17 @@ class SideNav extends Component {
   DeptLibDescriptionOne = {
     instanceID: "DeptLibDescriptionOne",
     title:
-      "The Department of Electrical & Electronics maintains a library where its primary  aim  is to improve the knowledge of the  users  by effectively  utilizing the timely updated resources  and  to  facilitate student satisfaction through high quality services.The library has a collection of more than 600 books. Moreover the Library possesses B.Tech projects, seminar reports, Lab Manuals and Question paper. The departmental library serves the academic disciplines bearing their names. "
+      "Department Library is one of the Departmental support services of Viswajyothi College of Engg. And Tech in addition to the Central Library. The library provides access to various full texts, journals and magazines. The Department library is well equipped with modern facilities and resources in the form of CD-ROM, books, journals, project reports, seminar reports etc. The mission of the Central library is to provide information services and access to academic resources to support the scholarly and informational needs of the Department's user community.   "
   };
   DeptLibDescriptionTwo = {
     instanceID: "DeptLibDescriptionTwo",
     title:
-      "The collection is strong in all aspects with special strengths in C programming, Software Engineering, Automata Theory, System Programming, Computer Architecture and Organization, Data Structures, Microprocessors, Database Management System and also books on  Digital Electronics, Humanities, Management."
+      "The library has a collection of more than 900 books, 60 CDs and other magazines. The collection of books is strong in all the aspects of Electronics and Communication Engineering with respect to the academic syllabus. All the students and staffs of ECE Department can avail this facility."
   };
   DeptLibDescriptionThree = {
     instanceID: "DeptLibDescriptionThree",
     title:
-      "The Department Library can be used by the students any time during the working hours of the department. Students are allowed to take two books at a time. Faculty members are entitled to get 3 books at a time."
+      "The library opens on all working days. The book issue days to students are TUESDAY and FRIDAY (12.35 PM to 1.25 PM and 4.15 PM to 4.45 PM)."
   };
 
   DeptAssociationHeadingOne = {
@@ -134,32 +147,9 @@ class SideNav extends Component {
   DeptAssociationDescriptionOne = {
     instanceID: "DeptAssociationDescriptionOne",
     title:
-      " Extracurricular activities can offer youth a safe and supervised haven and a chance to learn new skills such as conflict resolution, prepare for a successful career and improve grades. ‘VIDYUTH’ the Association of Electrical and Electronics Engineering Department. Various activities are organized under Vidyuth which provides a platform for the young talents to showcase their skills. Students are actively involved in the association activities including association inauguration, organizing technical talks, exhibitions and publishing department news letter every year to promote the spirit of social harmony. "
+      "The Electronic Engineers have spun in their best to carve out the personal as well as the technical skills of each engineer of the VJC campus. True enough, a highly successful agenda of programmes were conducted from the usual seminars, paper presentations to the mega Personality Hunts, Brand Wars organized on a large scale. Personality hunt coined as &#39;The Mighty Cruise&#39; was a 2-3 week long chore hunting down personalities based on their technical and general awareness, group discussions, and technical dumb charades and stress management capabilities."
   };
-  DeptAssociationHeadingTwo = {
-    instanceID: "DeptAssociationHeadingTwo",
-    title: "2018-19"
-  };
-  DeptAssociationDescriptionTwo = {
-    instanceID: "DeptAssociationDescriptionTwo",
-    title:
-      "Activities of Department Association ‘VIDYUTH’ for academic year 2018 -’19 was inaugurated on 1 st Octoberl 2018, by Sri. CP George , Deputy Chief Engineer at KSEB Ltd. Generation, MoolamattomICSE Association Inauguration"
-  };
-  DeptAssociationDescriptionThree = {
-    instanceID: "DeptAssociationDescriptionThree",
-    title:
-      "Activities of Department Association ‘VIDYUTH’ for academic year 2018 -’19 was inaugurated on 1 st Octoberl 2018, by Sri. CP George , Deputy Chief Engineer at KSEB Ltd. Generation, MoolamattomICSE Association Inauguration"
-  };
-  DeptAssociationDescriptionFour = {
-    instanceID: "DeptAssociationDescriptionFour",
-    title:
-      "THE COMPUTER SCIENCE ASSOCIATION: 'VOICE' The Vision Of Imperial Computer Engineers lives with its ardent passion to be the fulcrum for change and development in the campus. Mr. Sajeev K.M, DySP, Marine Enforcement &amp; Vigilance, Trivandrum, inaugurated our association on 16 th   August 2017."
-  };
-  DeptAssociationDescriptionFive = {
-    instanceID: "DeptAssociationDescriptionFive",
-    title:
-      "Inaugural Speech by Chief Guest Mr. Sajeev K.M, DySP, Marine Enforcement &amp; Vigilance, Trivandrum"
-  };
+
   render() {
     return (
       <div className="Main">
@@ -174,6 +164,7 @@ class SideNav extends Component {
         <div className="Profile" id="profile">
           <HeadingOne data={this.ProfileHeading} />
           <Bodythree data={this.ProfileDescriptionOne} />
+          <Bodythree data={this.ProfileDescriptionTwo} />
         </div>
         <div className="Vision&Mission" id="vision&mission">
           <HeadingOne data={this.VisionHeading} />
@@ -184,6 +175,7 @@ class SideNav extends Component {
           <Bodythree data={this.MissionListOne} />
           <Bodythree data={this.MissionListTwo} />
           <Bodythree data={this.MissionListThree} />
+          <Bodythree data={this.MissionListFour} />
         </div>
         <div className="PEO&PSO" id="peo&pso">
           <HeadingOne data={this.peoHeading} />
@@ -195,10 +187,13 @@ class SideNav extends Component {
           <Bodythree data={this.psoListOne} />
           <Bodythree data={this.psoListTwo} />
           <Bodythree data={this.psoListThree} />
+          <Bodythree data={this.psoListFour} />
         </div>
         <div className="Program" id="program">
           <HeadingOne data={this.ProgramHeading} />
           <Bodythree data={this.ProgramDescriptionOne} />
+          <Bodythree data={this.ProgramDescriptionTwo} />
+          <Bodythree data={this.ProgramDescriptionThree} />
         </div>
         <div className="DeptLibrary" id="dept-library">
           <HeadingOne data={this.DeptLibHeading} />
@@ -209,8 +204,6 @@ class SideNav extends Component {
         <div className="DeptAssociation" id="dept-association">
           <HeadingOne data={this.DeptAssociationHeadingOne} />
           <Bodythree data={this.DeptAssociationDescriptionOne} />
-          <HeadingFour data={this.DeptAssociationHeadingTwo} />
-          <Bodythree data={this.DeptAssociationDescriptionTwo} />
         </div>
       </div>
     );

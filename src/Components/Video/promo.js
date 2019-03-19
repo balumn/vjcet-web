@@ -7,7 +7,7 @@ class Promo extends Component {
   render() {
     return (
       <div className="background-video">
-        <video id="background-video" loop autoPlay>
+        <video id="background-video" loop autoPlay muted poster="./poster.png">
           <source src={promovid} type="video/mp4" />
           <source src={promovid} type="video/ogg" />
           Your browser does not support the video tag.
