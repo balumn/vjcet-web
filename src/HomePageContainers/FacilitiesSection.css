@@ -6,14 +6,14 @@
 
 @media (min-width: 768px) {
   .FacilitiesSection {
-    background-image: url("../Assets/vjcbg.png");
-    background-color: #ffffff;
+    background-image: url("../Assets/Bg1.JPG");
+    background-color: #ffffff83;
     background-size: cover;
     padding: 50px;
   }
 
   .FacilitiesSectionCard {
-    background-color: #ffffff;
+    background-color: #ffffffa8;
     overflow: hidden;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
