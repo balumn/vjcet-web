@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>fb</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD/Common/Footer" transform="translate(-1135.000000, -77.000000)">
+            <g id="Desktop-HD-Footer">
+                <g id="social-media" transform="translate(1083.000000, 42.000000)">
+                    <g id="fb" transform="translate(51.000000, 34.000000)">
+                        <path d="M23,0.999994 C35.150256,0.999994 45.000006,10.849698 45.000006,23 C45.000006,35.150348 35.150256,45.000052 23,45.000052 C10.849698,45.000052 1.00004,35.150348 1.00004,23 C1.00004,10.849698 10.849698,0.999994 23,0.999994 Z" id="stroke" fill="#880D1E"></path>
+                        <path d="M20.729166,17.48632 L20.729166,19.96458 L19.000021,19.96458 L19.000021,22.99478 L20.729166,22.99478 L20.729166,31.9999 L24.281264,31.9999 L24.281264,22.99478 L26.664788,22.99478 C26.664788,22.99478 26.888033,21.54162 26.996262,19.95332 L24.294651,19.95332 L24.294651,17.88126 C24.294651,17.5715 24.681928,17.15484 25.064728,17.15484 L27.000035,17.15484 L27.000035,14.00012 L24.368637,14.00012 C20.641353,14.00012 20.729166,17.03334 20.729166,17.48632 Z" id="logo" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+.BodyOne p {
+  font-weight: 500;
+  font-size: 100%;
+  color: #1d2129;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 24px;
+}
+
+@media (min-width: 1024px) {
+  .BodyOne p {
+    font-size: 19px;
+  }
+}

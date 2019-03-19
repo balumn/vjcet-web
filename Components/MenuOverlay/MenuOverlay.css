@@ -1,0 +1,17 @@
+.MenuOverlay {
+  background-color: #461c0cd7;
+  color: azure;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  padding-left: auto;
+}
+.MenuOverlay a {
+  text-decoration: none;
+  color: azure;
+}
+@media (min-width: 768px) {
+  .MenuOverlay {
+    display: none;
+  }
+}

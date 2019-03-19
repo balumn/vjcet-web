@@ -1,0 +1,280 @@
+.Footer {
+  padding-top: 20px;
+  background: #f8f8f8;
+  display: grid;
+  grid-auto-flow: row;
+  grid-gap: 0px;
+  overflow: none;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+    "one two"
+    "three four"
+    "line1 line1"
+    "nba code"
+    "vjc vjc"
+    "line2 line2"
+    "copyright copyright"
+    "lmntrx lmntrx";
+}
+
+.FooterLinksOne .AnchorLink a {
+  color: #434343;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.FooterLinksTwo .AnchorLink a {
+  color: #434343;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.FooterLinksThree .AnchorLink a {
+  color: #434343;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.FooterLinksFour .AnchorLink a {
+  color: #434343;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+#FooterLinksOne {
+  grid-area: one;
+  text-align: left;
+  padding-left: 30px;
+}
+
+#FooterLinksTwo {
+  grid-area: two;
+  text-align: left;
+  padding-left: 30px;
+}
+
+#FooterLinksThree {
+  grid-area: three;
+  text-align: left;
+  padding-left: 30px;
+}
+
+#FooterLinksFour {
+  grid-area: four;
+  text-align: left;
+  padding-left: 30px;
+}
+
+#FooterLineOne {
+  grid-area: line1;
+  padding: 10px 0px 0px 0px;
+}
+
+#FooterLineTwo {
+  grid-area: line2;
+  padding: 10px 0px 0px 0px;
+}
+
+#FooterVJCLogo {
+  grid-area: vjc;
+  padding: 10px;
+}
+
+#FooterNBALogo {
+  grid-area: nba;
+  padding: 20px;
+}
+
+#FooterVJCCode {
+  grid-area: code;
+  padding: 20px 10px;
+}
+
+#Copyright {
+  grid-area: copyright;
+  padding: 0px 10px;
+}
+
+#LmntrxTech {
+  grid-area: lmntrx;
+  padding: 0px 10px 10px 10px;
+}
+
+.FooterLinksFour {
+  display: grid;
+  grid-auto-flow: row;
+  grid-gap: 0px;
+  overflow: none;
+  grid-template-columns: 40% 60%;
+  grid-template-areas:
+    "follow follow"
+    "fb insta"
+    "twitter youtube";
+}
+
+#FooterFBLogo {
+  grid-area: fb;
+}
+
+#FooterYoutubeLogo {
+  grid-area: youtube;
+}
+#FooterTwitterLogo {
+  grid-area: twitter;
+}
+#FooterInstaLogo {
+  grid-area: insta;
+}
+
+#FooterLinksTitleFour {
+  grid-area: follow;
+}
+
+#Copyright h2 {
+  font-weight: 500;
+  font-size: 13px;
+  color: #6a6a6a;
+  letter-spacing: 0;
+  text-align: center;
+  padding: 0px 10px;
+}
+
+#LmntrxTech h2 {
+  font-weight: 500;
+  font-size: 13px;
+  color: #6a6a6a;
+  letter-spacing: 0;
+  text-align: center;
+  padding: 0px 10px;
+}
+
+@media (min-width: 400px) {
+  .FooterLinksFour {
+    grid-template-columns: 35% 65%;
+  }
+  #FooterLinksOne {
+    padding-left: 50px;
+  }
+
+  #FooterLinksTwo {
+    padding-left: 50px;
+  }
+
+  #FooterLinksThree {
+    padding-left: 50px;
+  }
+
+  #FooterLinksFour {
+    padding-left: 50px;
+  }
+}
+
+@media (min-width: 560px) {
+  .FooterLinksFour {
+    grid-template-columns: 30% 60%;
+  }
+  .FooterLinksOne .AnchorLink a {
+    font-size: 14px;
+  }
+
+  .FooterLinksTwo .AnchorLink a {
+    font-size: 14px;
+  }
+
+  .FooterLinksThree .AnchorLink a {
+    font-size: 14px;
+  }
+
+  .FooterLinksFour .AnchorLink a {
+    font-size: 14px;
+  }
+
+  #FooterLinksOne {
+    padding-left: 100px;
+  }
+
+  #FooterLinksTwo {
+    padding-left: 100px;
+  }
+
+  #FooterLinksThree {
+    padding-left: 100px;
+  }
+
+  #FooterLinksFour {
+    padding-left: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  .Footer {
+    grid-template-columns: 28% 24% 24% 24%;
+    grid-template-areas:
+      "code one two three"
+      "nba one two four"
+      "nba one two four"
+      "vjc one two four"
+      "vjc one two four"
+      "line1 line1 line1 line1"
+      "copyright copyright copyright copyright"
+      "lmntrx lmntrx lmntrx lmntrx";
+  }
+
+  .FooterLinksFour {
+    grid-template-columns: 40% 60%;
+  }
+
+  #FooterLinksOne {
+    padding-left: 50px;
+  }
+
+  #FooterLinksTwo {
+    padding-left: 50px;
+  }
+
+  #FooterLinksThree {
+    padding-left: 50px;
+  }
+
+  #FooterLinksFour {
+    padding-left: 50px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Footer {
+    grid-template-columns: 28% 17% 17% 16% 22%;
+    grid-template-areas:
+      "code one two three four"
+      "nba one two three four"
+      "vjc one two three four"
+      "line1 line1 line1 line1 line1"
+      "copyright copyright copyright copyright copyright"
+      "lmntrx lmntrx lmntrx lmntrx lmntrx";
+  }
+
+  #FooterLinksOne {
+    padding-left: 0px;
+  }
+
+  #FooterLinksTwo {
+    padding-left: 0px;
+  }
+
+  #FooterLinksThree {
+    padding-left: 0px;
+  }
+
+  #FooterLinksFour {
+    padding-left: 0px;
+  }
+
+  .FooterLinksFour {
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas:
+      "follow follow follow follow"
+      "fb insta twitter youtube";
+    align-self: start;
+    padding-right: 30%;
+  }
+}

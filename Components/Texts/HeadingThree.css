@@ -1,0 +1,14 @@
+.HeadingThree h3 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 31px;
+}
+
+@media (min-width: 1024px) {
+  .HeadingThree h3 {
+    font-size: 21px;
+  }
+}

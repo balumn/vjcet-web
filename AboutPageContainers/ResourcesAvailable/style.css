@@ -1,0 +1,19 @@
+.ResourcesAvailable {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1115px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.ResourcesAvailable div {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 824px));
+  grid-gap: 1rem;
+}
+.ResourcesAvailable h2{
+  color:#000;
+  font-weight:bold;
+  margin-bottom:50px;
+}

@@ -1,0 +1,13 @@
+.HeadingOne h1 {
+  font-weight: 800;
+  font-size: 30px;
+  color: #880d1e;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .HeadingOne h1 {
+    font-size: 38px;
+  }
+}

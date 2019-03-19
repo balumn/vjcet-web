@@ -1,0 +1,25 @@
+@media screen and (min-width: 578px) and (max-width:768px) {
+    .ResourceItem img{
+        height: 53px;	width: 53px;
+    }
+    .h3_WhyItem_label{
+        font-size: 16px;	font-weight: 600;	letter-spacing: 1.71px;	line-height: 22px;
+        padding: 0px 20px;
+    }
+    .ResourcesAvailable div {
+        grid-template-columns: repeat(2, minmax(200px, 445px));
+    }
+}
+@media screen and (min-width: 320px) and (max-width:577px) {
+    .ResourceItem img{
+        height: 42px;	width: 42px;
+    }
+    .h3_WhyItem_label{
+        font-size: 14px;	font-weight: 600;	letter-spacing: 1px;	line-height: 16px;
+        padding: 0px 0px;
+    }
+    .ResourcesAvailable div {
+        grid-template-columns: repeat(2, minmax(100px, 320px));
+        grid-gap: 0px;
+    }
+}
