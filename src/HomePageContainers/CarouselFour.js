@@ -70,12 +70,12 @@ class CarouselFour extends Component {
 
   EventTwoTitle = {
     instanceID: "EventTwoTitle",
-    title: "Sports 2019"
+    title: "Magnum 2k19"
   };
 
   EventTwoImage = {
     instanceID: "EventTwoImage",
-    image: "stock3.png",
+    image: "magnum.jpg",
     width: "202px"
   };
 
@@ -98,19 +98,19 @@ class CarouselFour extends Component {
 
       Image: {
         instanceID: "EventOneImage",
-        image: "stock3.png",
+        image: "drishya.jpg",
         width: "202px"
       }
     },
     {
       Title: {
         instanceID: "EventTwoTitle",
-        title: "Sports 2019"
+        title: "Magnum 2019"
       },
 
       Image: {
         instanceID: "EventTwoImage",
-        image: "stock3.png",
+        image: "magnum.jpg",
         width: "202px"
       }
     },

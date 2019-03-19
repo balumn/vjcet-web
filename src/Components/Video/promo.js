@@ -12,6 +12,9 @@ class Promo extends Component {
           <source src={promovid} type="video/ogg" />
           Your browser does not support the video tag.
         </video>
+        <div class="overlay-desc">
+          <h1>VJCET</h1>
+        </div>
       </div>
     );
   }

@@ -32,9 +32,9 @@ class DropDownAb extends Component {
 
   render() {
     return (
-      <div class="dropdown">
+      <div className="dropdown">
         <span>About VJCET</span>
-        <div class="dropdown-content">
+        <div className="dropdown-content">
           <p>
             <Link
               to="/about"

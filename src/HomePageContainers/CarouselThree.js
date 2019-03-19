@@ -125,7 +125,7 @@ class CarouselThree extends Component {
       Image: {
         instanceID: "CarouselThreeSlideOneImage",
         image: "ktu.jpg",
-        width: "210px",
+        width: "100px",
         height: "150px"
       }
     },
