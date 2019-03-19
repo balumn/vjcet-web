@@ -39,7 +39,7 @@ class DropDownD extends Component {
             {" "}
             <Link
               to="/departments/ce"
-              className = "adropStyle"
+              style={{ textDecoration: "none", color: "#000000" }}
             >
               Civil Enginnering
             </Link>{" "}
@@ -47,7 +47,7 @@ class DropDownD extends Component {
           <p>
             <Link
               to="/departments/cse"
-              className = "adropStyle"
+              style={{ textDecoration: "none", color: "#000000" }}
             >
               Computer Science and Enginnering
             </Link>
@@ -56,7 +56,7 @@ class DropDownD extends Component {
             {" "}
             <Link
               to="/departments/eee"
-              className = "adropStyle"
+              style={{ textDecoration: "none", color: "#000000" }}
             >
               Electrical & Electronics Enginnering
             </Link>{" "}
@@ -64,7 +64,7 @@ class DropDownD extends Component {
           <p>
             <Link
               to="/departments/ece"
-              className = "adropStyle"
+              style={{ textDecoration: "none", color: "#000000" }}
             >
               {" "}
               Electronics & Communication Enginnering
@@ -73,7 +73,7 @@ class DropDownD extends Component {
           <p>
             <Link
               to="/departments/it"
-              className = "adropStyle"
+              style={{ textDecoration: "none", color: "#000000" }}
             >
               {" "}
               Information Technology
@@ -82,7 +82,7 @@ class DropDownD extends Component {
           <p>
             <Link
               to="/departments/me"
-              className = "adropStyle"
+              style={{ textDecoration: "none", color: "#000000" }}
             >
               {" "}
               Mechanical Enginnering{" "}
