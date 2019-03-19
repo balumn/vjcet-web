@@ -1,6 +1,6 @@
 .sidenav {
   width: 200px;
-  position: fixed;
+  position: sticky;
   z-index: -1;
   top: 50%;
   left: 10px;

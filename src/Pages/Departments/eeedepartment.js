@@ -69,7 +69,7 @@ class EeeDepartment extends Component {
 
   HeadingSectionDescription = {
     instanceID: "HeadingSectionDescription",
-    title: "Integrating the world with digital transformation"
+    title: "Amplifying an engineer with full potential"
   };
   CseImg = {
     instanceID: "CseImg",

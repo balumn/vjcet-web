@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./SideNav.css";
+import "./SideNavCs.css";
 import HeadingOne from "../../Components/Texts/HeadingOne";
 import BodyOne from "../../Components/Texts/BodyOne";
 import Bodythree from "../../Components/Texts/BodyThree";

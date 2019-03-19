@@ -68,12 +68,12 @@ class CarouselThree extends Component {
 
   SlideOneTitle = {
     instanceID: "SlideOneTitle",
-    title: "Schedule For Internal Redo Of Examinations"
+    title: "Schedule  Of Examinations"
   };
 
   SlideOneImage = {
     instanceID: "CarouselThreeSlideOneImage",
-    image: "stock1.png",
+    image: "bodhi.jpg",
     width: "210px"
   };
 
@@ -84,12 +84,12 @@ class CarouselThree extends Component {
 
   SlideTwoTitle = {
     instanceID: "SlideOneTitle",
-    title: "Placement Details for 2019"
+    title: "Placement Drive , March 20-21"
   };
 
   SlideTwoImage = {
     instanceID: "CarouselThreeSlideOneImage",
-    image: "stock2.png",
+    image: "bodhi.jpg",
     width: "210px"
   };
 
@@ -106,7 +106,7 @@ class CarouselThree extends Component {
 
   SlideThreeImage = {
     instanceID: "CarouselThreeSlideOneImage",
-    image: "stock1.png",
+    image: "bodhi.jpg",
     width: "0px"
   };
   slides = [
@@ -118,12 +118,12 @@ class CarouselThree extends Component {
 
       Title: {
         instanceID: "SlideOneTitle",
-        title: "Schedule For Internal Redo Of Examinations"
+        title: "Schedule For Examinations"
       },
 
       Image: {
         instanceID: "CarouselThreeSlideOneImage",
-        image: "stock1.png",
+        image: "bodhi.jpg",
         width: "210px"
       }
     },
@@ -140,7 +140,7 @@ class CarouselThree extends Component {
 
       Image: {
         instanceID: "CarouselThreeSlideOneImage",
-        image: "stock2.png",
+        image: "bodhi.jpg",
         width: "210px"
       }
     },
@@ -158,8 +158,8 @@ class CarouselThree extends Component {
 
       Image: {
         instanceID: "CarouselThreeSlideOneImage",
-        image: "stock1.png",
-        width: "0px"
+        image: "bodhi.jpg",
+        width: "210px"
       }
     }
   ];

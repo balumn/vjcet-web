@@ -17,7 +17,15 @@
   padding: 12px 16px;
   z-index: 1;
 }
+.dropdown-content p {
+  padding: 12px 16px;
+  margin: 0px;
+  border-radius: 10px;
+}
 
+.dropdown-content p:hover {
+  background-color: #dbd4d4;
+}
 .dropdown:hover .dropdown-content {
   display: block;
 }
