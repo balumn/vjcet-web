@@ -38,7 +38,7 @@ class DropDownC extends Component {
           <p>
             <Link
               to="/campus-life"
-              className = "adropStyle"
+              style={{ textDecoration: "none", color: "#000000" }}
             >
               Campus
             </Link>
@@ -46,7 +46,7 @@ class DropDownC extends Component {
           <p>
             <Link
               to="/campus-life/campus-map"
-              className = "adropStyle"
+              style={{ textDecoration: "none", color: "#000000" }}
             >
               {" "}
               Campus-Map
@@ -55,7 +55,7 @@ class DropDownC extends Component {
           <p>
             <Link
               to="/campus-life/security"
-              className = "adropStyle"
+              style={{ textDecoration: "none", color: "#000000" }}
             >
               {" "}
               Security{" "}
@@ -65,7 +65,7 @@ class DropDownC extends Component {
             {" "}
             <Link
               to="/campus-life/gallery"
-              className = "adropStyle"
+              style={{ textDecoration: "none", color: "#000000" }}
             >
               Gallery
             </Link>{" "}

@@ -38,7 +38,7 @@ class DropDownL extends Component {
           <p>
             <Link
               to="/login/student"
-              className = "adropStyle"
+              style={{ textDecoration: "none", color: "#000000" }}
             >
               {" "}
               Student Login
@@ -48,7 +48,7 @@ class DropDownL extends Component {
           <p>
             <Link
               to="/login/faculty"
-              className = "adropStyle"
+              style={{ textDecoration: "none", color: "#000000" }}
             >
               {" "}
               Faculty Login
