@@ -3,7 +3,7 @@ import HomePage from "./Pages/HomePage";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import AboutPage from "./Pages/AboutPage";
 import DepartmentPage from "./Pages/Departmentpage";
-import FacilitiesPage from "./Pages/FacilitiesPage";
+import FacilityPage from "./Pages/Facilities/FacilityPage";
 import CampusLifePage from "./Pages/CampusLifePage";
 import CsDepartment from "./Pages/Departments/csdepartment";
 import CeDepartment from "./Pages/Departments/cedepartment";
@@ -18,7 +18,7 @@ class App extends Component {
               <Route exact path="/" component={HomePage} />
               <Route exact path="/about" component={AboutPage} />
               <Route exact path="/departments" component={DepartmentPage} />
-              <Route exact path="/facilities" component={FacilitiesPage} />
+              <Route exact path="/facilities/facility" component={FacilityPage} />
               <Route exact path="/campus-life" component={CampusLifePage} />
               <Route exact path="/departments/cse" component={CsDepartment} />
               <Route exact path="/departments/ce" component={CeDepartment} />

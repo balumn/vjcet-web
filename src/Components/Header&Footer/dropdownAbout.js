@@ -38,7 +38,7 @@ class DropDownAb extends Component {
           <p>
             <Link
               to="/about"
-              style={{ textDecoration: "none", color: "#000000" }}
+              className = "adropStyle"
             >
               About College
             </Link>
@@ -46,7 +46,7 @@ class DropDownAb extends Component {
           <p>
             <Link
               to="/about/vision"
-              style={{ textDecoration: "none", color: "#000000" }}
+              className = "adropStyle"
             >
               {" "}
               Vision & Mission{" "}
@@ -55,7 +55,7 @@ class DropDownAb extends Component {
           <p>
             <Link
               to="/about/mou"
-              style={{ textDecoration: "none", color: "#000000" }}
+              className = "adropStyle"
             >
               {" "}
               MOU{" "}
@@ -64,7 +64,7 @@ class DropDownAb extends Component {
           <p>
             <Link
               to="/about/manager"
-              style={{ textDecoration: "none", color: "#000000" }}
+              className = "adropStyle"
             >
               {" "}
               Manager{" "}
@@ -73,7 +73,7 @@ class DropDownAb extends Component {
           <p>
             <Link
               to="/about/director"
-              style={{ textDecoration: "none", color: "#000000" }}
+              className = "adropStyle"
             >
               {" "}
               Director{" "}
@@ -82,7 +82,7 @@ class DropDownAb extends Component {
           <p>
             <Link
               to="/about/principal"
-              style={{ textDecoration: "none", color: "#000000" }}
+              className = "adropStyle"
             >
               {" "}
               Principal{" "}
@@ -91,7 +91,7 @@ class DropDownAb extends Component {
           <p>
             <Link
               to="/about/mandatory"
-              style={{ textDecoration: "none", color: "#000000" }}
+              className = "adropStyle"
             >
               {" "}
               Mandatory Disclosure{" "}
@@ -100,7 +100,7 @@ class DropDownAb extends Component {
           <p>
             <Link
               to="/about/accreditation"
-              style={{ textDecoration: "none", color: "#000000" }}
+              className = "adropStyle"
             >
               {" "}
               Accreditation{" "}
@@ -110,7 +110,7 @@ class DropDownAb extends Component {
             {" "}
             <Link
               to="/about/keyfunctionaries"
-              style={{ textDecoration: "none", color: "#000000" }}
+              className = "adropStyle"
             >
               KeyFunctionaries
             </Link>{" "}

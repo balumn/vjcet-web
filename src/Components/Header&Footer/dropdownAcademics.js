@@ -36,9 +36,8 @@ class DropDownA extends Component {
         <span>Academics</span>
         <div class="dropdown-content">
           <p>
-            <Link 
+            <Link className = "adropStyle"
               to="/academics"
-              style={{ textDecoration: "none" , color: "#000000"}}
             >
               Academics
             </Link>
@@ -46,7 +45,7 @@ class DropDownA extends Component {
           <p>
             <Link
               to="/academics/calendar"
-              style={{ textDecoration: "none" , color: "#000000" }}
+              className = "adropStyle"
             >
               {" "}
               Calendar
@@ -55,7 +54,7 @@ class DropDownA extends Component {
           <p>
             <Link
               to="/academics/curriculum"
-              style={{ textDecoration: "none" , color: "#000000"}}
+              className = "adropStyle"
             >
               {" "}
               Curriculum{" "}
@@ -65,7 +64,7 @@ class DropDownA extends Component {
             {" "}
             <Link
               to="/academics/courses-offered"
-              style={{ textDecoration: "none" , color: "#000000" }}
+              className = "adropStyle"
             >
               Courses Offered
             </Link>{" "}
@@ -74,7 +73,7 @@ class DropDownA extends Component {
             {" "}
             <Link
               to="/academics/honors"
-              style={{ textDecoration: "none" , color: "#000000"  }}
+              className = "adropStyle"
             >
               Honors{" "}
             </Link>{" "}
@@ -82,7 +81,7 @@ class DropDownA extends Component {
           <p>
             <Link
               to="/academics/convocation"
-              style={{ textDecoration: "none" , color: "#000000"}}
+              className = "adropStyle"
             >
               {" "}
               Convocation

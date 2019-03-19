@@ -25,10 +25,20 @@
 }
 
 .dropdown-content p:hover{
-  background-color: #dbd4d4;
+  background-color:#880d1e;
+  color: #ffffff;
 }
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.adropStyle{
+  text-decoration: none;
+  color: #000000; 
+}
+
+.adropStyle:hover{
+  color: #ffffff; 
 }
 
 @media (min-width: 1024px) {

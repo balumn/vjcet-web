@@ -38,7 +38,7 @@ class DropDownF extends Component {
           <p>
             <Link
               to="/facilities/computing-technology"
-              style={{ textDecoration: "none", color: "#000000" }}
+              className = "adropStyle"
             >
               Computing Technology
             </Link>
@@ -48,7 +48,7 @@ class DropDownF extends Component {
             {" "}
             <Link
               to="/facilities/library"
-              style={{ textDecoration: "none", color: "#000000" }}
+              className = "adropStyle"
             >
               Centeral Library
             </Link>{" "}
@@ -58,7 +58,7 @@ class DropDownF extends Component {
             {" "}
             <Link
               to="/facilities/auditorium"
-              style={{ textDecoration: "none", color: "#000000" }}
+              className = "adropStyle"
             >
               Core Facilities
             </Link>{" "}
@@ -66,7 +66,7 @@ class DropDownF extends Component {
           <p>
             <Link
               to="/facilities/hostels"
-              style={{ textDecoration: "none", color: "#000000" }}
+              className = "adropStyle"
             >
               {" "}
               Hostels
@@ -75,7 +75,7 @@ class DropDownF extends Component {
           <p>
             <Link
               to="/facilities/sports"
-              style={{ textDecoration: "none", color: "#000000" }}
+              className = "adropStyle"
             >
               {" "}
               Sports
@@ -85,7 +85,7 @@ class DropDownF extends Component {
           <p>
             <Link
               to="/facilities/transportation"
-              style={{ textDecoration: "none", color: "#000000" }}
+              className = "adropStyle"
             >
               {" "}
               Transportation
