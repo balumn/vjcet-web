@@ -7,24 +7,24 @@ class CarouselTwo extends Component {
   data = [
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: "Bodhi 2k19 on March 20 & 21"
+      title: "Admissions are open. Click here to know more"
     },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: "Drishya 2k19 on March 22 & 23"
+      title: "News 2. Click here to know more"
+    },
+    {
+      instanceID: this.props.data.instanceID + "CustomOne",
+      title: "News 3. Click here to know more"
+    },
+    {
+      instanceID: this.props.data.instanceID + "CustomOne",
+      title: "News 4. Click here to know more"
+    },
+    {
+      instanceID: this.props.data.instanceID + "CustomOne",
+      title: "News 5. Click here to know more"
     }
-    // {
-    //   instanceID: this.props.data.instanceID + "CustomOne",
-    //   title: "News 3. Click here to know more"
-    // },
-    // {
-    //   instanceID: this.props.data.instanceID + "CustomOne",
-    //   title: "News 4. Click here to know more"
-    // },
-    // {
-    //   instanceID: this.props.data.instanceID + "CustomOne",
-    //   title: "News 5. Click here to know more"
-    // }
   ];
   rotateRight = () => {
     this.setState({

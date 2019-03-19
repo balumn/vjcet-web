@@ -3,7 +3,7 @@ import "./HomePage.css";
 import DepartmentSection from "../HomePageContainers/DepartmentSection";
 import FacilitiesSection from "../HomePageContainers/FacilitiesSection";
 import VisionSection from "../HomePageContainers/VisionSection";
-import CarouselOne from "../HomePageContainers/CarouselOne";
+// import CarouselOne from "../HomePageContainers/CarouselOne";
 import CarouselTwo from "../HomePageContainers/CarouselTwo";
 import CarouselThree from "../HomePageContainers/CarouselThree";
 import CarouselFour from "../HomePageContainers/CarouselFour";
@@ -62,9 +62,9 @@ class HomePage extends Component {
       <div className="HomePage">
         <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
         <Promo />
-        <CarouselTwo data={this.HomePageCarouselTwo} />
         {/* <CarouselOne data={this.HomePageCarouselOne} /> */}
-        {/* <CarouselThree data={this.HomePageCarouselThree} /> */}
+        <CarouselTwo data={this.HomePageCarouselTwo} />
+        <CarouselThree data={this.HomePageCarouselThree} />
         <DepartmentSection data={this.HomePageDepartmentSection} />
         <FacilitiesSection data={this.HomePageFacilitiesSection} />
         {/* <VisionSection data={this.HomePageFacilitiesSection} /> */}
