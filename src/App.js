@@ -9,6 +9,8 @@ import CsDepartment from "./Pages/Departments/csdepartment";
 import CeDepartment from "./Pages/Departments/cedepartment";
 import EeeDepartment from "./Pages/Departments/eeedepartment";
 import EcDepartment from "./Pages/Departments/ecdepartment";
+import ItDepartment from "./Pages/Departments/itdepartment";
+import MeDepartment from "./Pages/Departments/medepartment";
 class App extends Component {
   render() {
     return (
@@ -25,6 +27,8 @@ class App extends Component {
               <Route exact path="/departments/ce" component={CeDepartment} />
               <Route exact path="/departments/eee" component={EeeDepartment} />
               <Route exact path="/departments/ece" component={EcDepartment} />
+              <Route exact path="/departments/it" component={ItDepartment} />
+              <Route exact path="/departments/me" component={MeDepartment} />
             </Switch>
           </React.Fragment>
         </Router>

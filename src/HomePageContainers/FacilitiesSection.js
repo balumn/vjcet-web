@@ -30,7 +30,7 @@ class FacilitiesSection extends Component {
   FacilityListThree = {
     instanceID: "FacilityListThree",
     image: "FacilitiesThree.svg",
-    title: "Networking and Internet facilities. 1001 Mbps Wi-Fi Speeds."
+    title: "Networking and Internet facilities. 100 Mbps Wi-Fi Speeds."
   };
 
   FacilityListFour = {
