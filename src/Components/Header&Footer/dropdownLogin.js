@@ -36,23 +36,23 @@ class DropDownL extends Component {
         <span>Login</span>
         <div class="dropdown-content">
           <p>
-            <Link
-              to="/login/student"
+            <a
+              href="https://portal.vjcet.ac.in"
               style={{ textDecoration: "none", color: "#000000" }}
             >
               {" "}
-              Student Login
-            </Link>{" "}
+              Staff & Parents login{" "}
+            </a>{" "}
           </p>
 
           <p>
-            <Link
-              to="/login/faculty"
+            <a
+              href="https://moodle.vjcet.ac.in"
               style={{ textDecoration: "none", color: "#000000" }}
             >
               {" "}
-              Faculty Login
-            </Link>{" "}
+              Moodle
+            </a>{" "}
           </p>
         </div>
       </div>

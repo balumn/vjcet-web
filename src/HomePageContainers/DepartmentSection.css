@@ -33,7 +33,8 @@
       "subtitle subtitle"
       "one two"
       "three four"
-      "five six";
+      "five six"
+      "seven eight";
   }
 
   #DepartmentSectionTitle {
@@ -96,8 +97,9 @@
     grid-template-columns: 35% 30% 35%;
     grid-template-areas:
       "one title two"
-      "three subtitle four"
-      "five subtitle six";
+      "three title four"
+      "five subtitle six"
+      "seven subtitle eight";
   }
 
   #DepartmentSectionTitle {

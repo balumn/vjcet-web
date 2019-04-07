@@ -52,7 +52,7 @@ class DropDownC extends Component {
               Campus-Map
             </Link>
           </p>
-          <p>
+          {/* <p>
             <Link
               to="/campus-life/security"
               style={{ textDecoration: "none", color: "#000000" }}
@@ -69,7 +69,7 @@ class DropDownC extends Component {
             >
               Gallery
             </Link>{" "}
-          </p>
+          </p> */}
         </div>
       </div>
     );

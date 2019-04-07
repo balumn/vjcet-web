@@ -43,7 +43,7 @@ class DropDownAb extends Component {
               About College
             </Link>
           </p>
-          <p>
+          {/* <p>
             <Link
               to="/about/vision"
               style={{ textDecoration: "none", color: "#000000" }}
@@ -51,7 +51,7 @@ class DropDownAb extends Component {
               {" "}
               Vision & Mission{" "}
             </Link>
-          </p>
+          </p> */}
           <p>
             <Link
               to="/about/mou"
@@ -61,7 +61,7 @@ class DropDownAb extends Component {
               MOU{" "}
             </Link>
           </p>
-          <p>
+          {/* <p>
             <Link
               to="/about/manager"
               style={{ textDecoration: "none", color: "#000000" }}
@@ -96,7 +96,7 @@ class DropDownAb extends Component {
               {" "}
               Mandatory Disclosure{" "}
             </Link>
-          </p>
+          </p> */}
           <p>
             <Link
               to="/about/accreditation"

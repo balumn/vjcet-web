@@ -40,7 +40,7 @@ class DropDownF extends Component {
               to="/facilities/computing-technology"
               style={{ textDecoration: "none", color: "#000000" }}
             >
-              Computing Technology
+              Common Computer Center
             </Link>
           </p>
 

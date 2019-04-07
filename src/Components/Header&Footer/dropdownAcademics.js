@@ -36,9 +36,9 @@ class DropDownA extends Component {
         <span>Academics</span>
         <div class="dropdown-content">
           <p>
-            <Link 
+            <Link
               to="/academics"
-              style={{ textDecoration: "none" , color: "#000000"}}
+              style={{ textDecoration: "none", color: "#000000" }}
             >
               Academics
             </Link>
@@ -46,7 +46,7 @@ class DropDownA extends Component {
           <p>
             <Link
               to="/academics/calendar"
-              style={{ textDecoration: "none" , color: "#000000" }}
+              style={{ textDecoration: "none", color: "#000000" }}
             >
               {" "}
               Calendar
@@ -55,31 +55,31 @@ class DropDownA extends Component {
           <p>
             <Link
               to="/academics/curriculum"
-              style={{ textDecoration: "none" , color: "#000000"}}
+              style={{ textDecoration: "none", color: "#000000" }}
             >
               {" "}
               Curriculum{" "}
             </Link>
           </p>
-          <p>
+          {/* <p>
             {" "}
             <Link
               to="/academics/courses-offered"
-              style={{ textDecoration: "none" , color: "#000000" }}
+              style={{ textDecoration: "none", color: "#000000" }}
             >
               Courses Offered
             </Link>{" "}
-          </p>
+          </p> */}
           <p>
             {" "}
             <Link
               to="/academics/honors"
-              style={{ textDecoration: "none" , color: "#000000"  }}
+              style={{ textDecoration: "none", color: "#000000" }}
             >
               Honors{" "}
             </Link>{" "}
           </p>
-          <p>
+          {/* <p>
             <Link
               to="/academics/convocation"
               style={{ textDecoration: "none" , color: "#000000"}}
@@ -87,7 +87,7 @@ class DropDownA extends Component {
               {" "}
               Convocation
             </Link>{" "}
-          </p>
+          </p> */}
         </div>
       </div>
     );

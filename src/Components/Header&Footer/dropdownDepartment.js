@@ -53,15 +53,6 @@ class DropDownD extends Component {
             </Link>
           </p>
           <p>
-            {" "}
-            <Link
-              to="/departments/eee"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
-              Electrical & Electronics Enginnering
-            </Link>{" "}
-          </p>
-          <p>
             <Link
               to="/departments/ece"
               style={{ textDecoration: "none", color: "#000000" }}
@@ -70,6 +61,16 @@ class DropDownD extends Component {
               Electronics & Communication Enginnering
             </Link>{" "}
           </p>
+          <p>
+            {" "}
+            <Link
+              to="/departments/eee"
+              style={{ textDecoration: "none", color: "#000000" }}
+            >
+              Electrical & Electronics Enginnering
+            </Link>{" "}
+          </p>
+
           <p>
             <Link
               to="/departments/it"
@@ -87,6 +88,23 @@ class DropDownD extends Component {
               {" "}
               Mechanical Enginnering{" "}
             </Link>
+          </p>
+          <p>
+            <Link
+              to="/departments/s&h"
+              style={{ textDecoration: "none", color: "#000000" }}
+            >
+              {" "}
+              Science & Humanities{" "}
+            </Link>
+          </p>
+          <p>
+            <a
+              href="www.vjcetmba.in"
+              style={{ textDecoration: "none", color: "#000000" }}
+            >
+              MBA
+            </a>
           </p>
         </div>
       </div>
