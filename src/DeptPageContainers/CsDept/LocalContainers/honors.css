@@ -1,0 +1,44 @@
+.honors {
+  background: #ffffff;
+  padding: 2%;
+  display: grid;
+
+  padding-top: 2%;
+}
+@media (min-width: 1024px) {
+  .honors {
+    padding: 2%;
+  }
+
+  .honors {
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+      "one two"
+      "three four"
+      "five six";
+  }
+
+  #row1 {
+    grid-area: one;
+  }
+
+  #row2 {
+    grid-area: two;
+  }
+
+  #row3 {
+    grid-area: three;
+  }
+
+  #row4 {
+    grid-area: four;
+  }
+
+  #row5 {
+    grid-area: five;
+  }
+
+  #row6 {
+    grid-area: six;
+  }
+}

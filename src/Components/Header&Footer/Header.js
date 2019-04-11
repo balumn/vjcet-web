@@ -8,10 +8,10 @@ import HeadingFive from "../Texts/HeadingFive";
 import AnchorLink from "../Texts/AnchorLink";
 import DropDownD from "./dropdownDepartment";
 import DropDownC from "./dropdownCampus";
-import DropDownF from "./dropdownfacilities";
 import DropDownA from "./dropdownAcademics";
 import DropDownAb from "./dropdownAbout";
 import DropDownL from "./dropdownLogin";
+import DropDownF from "./dropdownfacilities";
 // import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class Header extends Component {
@@ -95,7 +95,7 @@ class Header extends Component {
   Link7 = {
     instanceID: "HeaderLink7",
     title: "Facilities",
-    link: "Facilities"
+    link: "facilities"
   };
 
   Link8 = {
@@ -114,6 +114,9 @@ class Header extends Component {
     instanceID: "HeaderLink10",
     title: "R&D",
     link: ""
+  };
+  LineHeading = {
+    instanceID: "LineHeading"
   };
 
   render() {
@@ -134,17 +137,13 @@ class Header extends Component {
         <HeadingFive data={this.HeaderVJCCode} />
 
         <div className="HeaderLinkTabOne" id="HeaderLinkTabOne">
-          {" "}
-          {/* <AnchorLink data={this.Link1} /> */}
           <div className="HeaderLinkTabOne" id="HeaderLinkOne">
             <DropDownL />
             <AnchorLink data={this.Link2} />
-            {/* <AnchorLink data={this.Link3} /> */}
           </div>
         </div>
 
         <div className="HeaderLinkTabTwo" id="HeaderLinkTabTwo">
-          {/* <AnchorLink data={this.Link5} /> */}
           <div className="HeaderLinkTabAdmissionsOpen">
             <ImageOne data={this.AdmissionsOpen} />
             <AnchorLink data={this.Link4} />
@@ -153,11 +152,9 @@ class Header extends Component {
             <DropDownAb />
             <DropDownD />
             <DropDownC />
-            <DropDownF />
             <DropDownA />
-            {/* <AnchorLink data={this.Link6} /> */}
-            {/* <AnchorLink data={this.Link7} /> */}
-            {/* <AnchorLink data={this.Link8} /> */}
+            <DropDownF />
+            {/* <AnchorLink data={this.Link7} />             */}
             <AnchorLink data={this.Link9} />
             <AnchorLink data={this.Link10} />
           </div>

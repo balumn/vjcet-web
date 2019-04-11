@@ -4,6 +4,7 @@ import Header from "../Components/Header&Footer/Header";
 import Footer from "../Components/Header&Footer/Footer";
 import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
 import FacilitiesSection from "../HomePageContainers/FacilitiesSection";
+import FacilitiesPageContainers from "../FacilitiesPageContainers";
 
 class FacilitiesPage extends Component {
   state = { showMenu: false };
@@ -38,7 +39,8 @@ class FacilitiesPage extends Component {
     return (
       <div className="AboutPage">
         <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
-        <FacilitiesSection data={this.HomePageFacilitiesSection} />
+        <FacilitiesPageContainers />
+        {/* <FacilitiesSection data={this.HomePageFacilitiesSection} /> */}
         <Footer data={this.HomePageFooter} />
         {this.state.showMenu ? (
           <MenuOverlay closeMenuFunction={this.closeMenu} />

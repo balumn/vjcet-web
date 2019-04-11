@@ -20,42 +20,42 @@ class DepartmentSection extends Component {
     instanceID: "DepartmentListOne",
     title: "Civil (CE)",
     description:
-      "Accredited by NBA on June 2018 for three years. It is an exciting profession because at the end of the day you can see the results of your work, whether that be a house or a high-rise building, a subway station or a hydroelectric dam."
+      "With its multifaceted faculty continues to maintain and cultivate its strong links with the infrastructural industry developing the students to assure the highest quality education buoyed by our state of the art laboratories in order to familiarize them with the practical aspects of their trade."
   };
 
   DepartmentListTwo = {
     instanceID: "DepartmentListTwo",
     title: "Computer Science (CSE)",
     description:
-      "Accredited by NBA on June 2018 for three years. The annual intake of the B. Tech. program is 120 students and that of the M. Tech. is 24. Well-equipped computer labs, classrooms and libraries."
+      "With the strength of preparing competent Computer Scientists, the department aspires to play a lead role in national vision of creating the futuristic knowledge economy through creativity and innovation in Computer Technologies."
   };
 
   DepartmentListThree = {
     instanceID: "DepartmentListThree",
     title: "Electronics & Communication (ECE)",
     description:
-      "Accredited by NBA on June 2018 for three years. The annual intake of the B. Tech. program is 120 students and that of the M. Tech. is 24."
+      "In this era of globalization where the whole world is well knit and networked, the electronics engineering students are transformed with the practical and technological aspects of the newly evolving technologies."
   };
 
   DepartmentListFour = {
     instanceID: "DepartmentListFour",
     title: "Electrical & Electronics (EEE)",
     description:
-      "The department is recognized for excellence in teaching and service to the profession and it offers Undergraduate Programme with an intake of 90 students. "
+      "The Electrical and electronics engineers are working today in all spheres of modern society, be it internet, power systems, DC and AC transmission systems , a quality engineer with the ability to explore, experiment and exhibit are refined. "
   };
 
   DepartmentListFive = {
     instanceID: "DepartmentListFive",
     title: "Information Technology (IT)",
     description:
-      "It offers undergraduate program with an annual intake of 60 students .The scope of this discipline includes the development of systems based on computer and information technology."
+      "With the excellence in providing the right environment for development of physical, intellectual, emotional and spiritual quotients with a view to produce total quality engineers preparing them to face challenges of modern information society."
   };
 
   DepartmentListSix = {
     instanceID: "DepartmentListSix",
     title: "Mechanical (ME)",
     description:
-      "Accredited by NBA on June 2018 for three years. Continued research and development have led to the development better machines and processes helping the mankind to ease the tasks & to achieve the never thought possible dreams."
+      "The students of Mechanical Engineering are provided with the most advanced equipment in our laboratories on which to experiment and innovate thereby moulding students  by coupling the theoretical knowledge with the industry exposure."
   };
 
   DepartmentListSeven = {

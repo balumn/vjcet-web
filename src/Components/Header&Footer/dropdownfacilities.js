@@ -32,66 +32,8 @@ class DropDownF extends Component {
 
   render() {
     return (
-      <div class="dropdown">
-        <span>Facilities</span>
-        <div class="dropdown-content">
-          <p>
-            <Link
-              to="/facilities/computing-technology"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
-              Common Computer Center
-            </Link>
-          </p>
-
-          <p>
-            {" "}
-            <Link
-              to="/facilities/library"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
-              Centeral Library
-            </Link>{" "}
-          </p>
-
-          <p>
-            {" "}
-            <Link
-              to="/facilities/auditorium"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
-              Core Facilities
-            </Link>{" "}
-          </p>
-          <p>
-            <Link
-              to="/facilities/hostels"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
-              {" "}
-              Hostels
-            </Link>{" "}
-          </p>
-          <p>
-            <Link
-              to="/facilities/sports"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
-              {" "}
-              Sports
-            </Link>{" "}
-          </p>
-
-          <p>
-            <Link
-              to="/facilities/transportation"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
-              {" "}
-              Transportation
-            </Link>{" "}
-          </p>
-        </div>
+      <div className="AnchorLink">
+        <Link to="/facilities">Facilities</Link>
       </div>
     );
   }

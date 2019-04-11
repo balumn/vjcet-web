@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://theaswincj.github.io/VJCET",
   "dependencies": {
+    "node-sass": "^4.11.0",
     "react": "^16.8.4",
     "react-bootstrap": "^1.0.0-beta.5",
     "react-dom": "^16.8.3",
@@ -11,7 +12,8 @@
     "react-router-dom": "^4.3.1",
     "react-router-hash-link": "^1.2.1",
     "react-scripts": "2.1.5",
-    "react-style-proptype": "^3.2.2"
+    "react-style-proptype": "^3.2.2",
+    "reactstrap": "^8.0.0"
   },
   "scripts": {
     "start": "react-scripts start",

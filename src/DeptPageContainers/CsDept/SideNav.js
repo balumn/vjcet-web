@@ -1,11 +1,12 @@
 import React, { Component } from "react";
-import "./SideNavCs.css";
+import "./SideNav.css";
 import Profile from "./profile";
 import Vision from "./vision";
 import PEO from "./peo";
 import Program from "./program";
 import Library from "./library";
 import Association from "./association";
+import Result from "./result";
 class SideNav extends Component {
   state = {
     showProfile: true,
@@ -13,7 +14,8 @@ class SideNav extends Component {
     showPeo: false,
     showProgram: false,
     showLib: false,
-    showAss: false
+    showAss: false,
+    showRes: false
   };
   onClickP = () => {
     this.setState({
@@ -22,7 +24,8 @@ class SideNav extends Component {
       showPeo: false,
       showProgram: false,
       showLib: false,
-      showAss: false
+      showAss: false,
+      showRes: false
     });
   };
   onClickV = () => {
@@ -32,7 +35,8 @@ class SideNav extends Component {
       showPeo: false,
       showProgram: false,
       showLib: false,
-      showAss: false
+      showAss: false,
+      showRes: false
     });
   };
   onClickPeo = () => {
@@ -42,7 +46,8 @@ class SideNav extends Component {
       showPeo: true,
       showProgram: false,
       showLib: false,
-      showAss: false
+      showAss: false,
+      showRes: false
     });
   };
   onClickProg = () => {
@@ -52,7 +57,8 @@ class SideNav extends Component {
       showPeo: false,
       showProgram: true,
       showLib: false,
-      showAss: false
+      showAss: false,
+      showRes: false
     });
   };
   onClickLib = () => {
@@ -62,7 +68,8 @@ class SideNav extends Component {
       showPeo: false,
       showProgram: false,
       showLib: true,
-      showAss: false
+      showAss: false,
+      showRes: false
     });
   };
   onClickAss = () => {
@@ -72,14 +79,26 @@ class SideNav extends Component {
       showPeo: false,
       showProgram: false,
       showLib: false,
-      showAss: true
+      showAss: true,
+      showRes: false
+    });
+  };
+  onClickRes = () => {
+    this.setState({
+      showProfile: false,
+      showVision: false,
+      showPeo: false,
+      showProgram: false,
+      showLib: false,
+      showAss: false,
+      showRes: true
     });
   };
 
   render() {
     return (
       <div>
-        <div class="nav">
+        <div class="sidenav">
           <input
             type="button"
             value="Profile"
@@ -116,13 +135,22 @@ class SideNav extends Component {
             class="button"
             onClick={this.onClickAss}
           />
+          <input
+            type="button"
+            value="Result & Honors"
+            class="button"
+            onClick={this.onClickRes}
+          />
         </div>
-        {this.state.showProfile ? <Profile /> : null}
-        {this.state.showVision ? <Vision /> : null}
-        {this.state.showPeo ? <PEO /> : null}
-        {this.state.showProgram ? <Program /> : null}
-        {this.state.showLib ? <Library /> : null}
-        {this.state.showAss ? <Association /> : null}
+        <div class="content">
+          {this.state.showProfile ? <Profile /> : null}
+          {this.state.showVision ? <Vision /> : null}
+          {this.state.showPeo ? <PEO /> : null}
+          {this.state.showProgram ? <Program /> : null}
+          {this.state.showLib ? <Library /> : null}
+          {this.state.showAss ? <Association /> : null}
+          {this.state.showRes ? <Result /> : null}
+        </div>
       </div>
     );
   }

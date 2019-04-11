@@ -1,4 +1,5 @@
 .button {
+  width: 250px;
   background-color: #880d1e;
   border: none;
   color: white;
@@ -10,7 +11,16 @@
   margin: 4px 2px;
   cursor: pointer;
 }
-
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: absolute;
+  top: 650px;
+  left: 0;
+  display: block;
+  overflow: block;
+  padding-top: 20px;
+}
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
@@ -22,7 +32,16 @@
 .sidenav a:hover {
   color: #064579;
 }
-/* .Main {
-  margin-left: 160px; /* Same width as the sidebar + left position in px */
-/* padding: 0px 10px;
-} */
+
+.content {
+  margin-left: 265px; /* Same width as the sidebar + left position in px */
+  padding: 0px 10px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
