@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import CsGraph from "./LocalContainers/graph";
+import MeGraph from "./LocalContainers/graph";
 class Result extends Component {
   state = {};
   render() {
     return (
       <div>
         <p>
-          <CsGraph />
+          <MeGraph />
         </p>
       </div>
     );

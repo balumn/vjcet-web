@@ -6,9 +6,9 @@ import Graph13 from "./graph2013";
 import Graph12 from "./graph2012";
 import Graph11 from "./graph2011";
 import Graph10 from "./graph2010";
-import CsHonors from "./cshonors";
+import EcHonors from "./echonors";
 import HeadingOne from "../../../Components/Texts/HeadingOne";
-class CeGraph extends Component {
+class EcGraph extends Component {
   state = {
     show15: true,
     show14: false,
@@ -107,16 +107,16 @@ class CeGraph extends Component {
           <HeadingOne data={this.Heading} />
           <input
             type="button"
-            value="University Results March 2018"
+            value="University Results May 2018"
             class="buttongraph"
             onClick={this.onClick15}
           />
-          <input
+          {/* <input
             type="button"
             value="University Results May 2017"
             class="buttongraph"
             onClick={this.onClick14}
-          />
+          /> */}
           <input
             type="button"
             value="Roll of Honors"
@@ -151,7 +151,7 @@ class CeGraph extends Component {
         <div class="graphContent">
           {this.state.show15 ? <Graph15 /> : null}
           {this.state.show14 ? <Graph14 /> : null}
-          {this.state.showhon ? <CsHonors /> : null}
+          {this.state.showhon ? <EcHonors /> : null}
           {/* {this.state.show13 ? <Graph13 /> : null}
           {this.state.show12 ? <Graph12 /> : null}
           {this.state.show11 ? <Graph11 /> : null}
@@ -162,4 +162,4 @@ class CeGraph extends Component {
   }
 }
 
-export default CeGraph;
+export default EcGraph;

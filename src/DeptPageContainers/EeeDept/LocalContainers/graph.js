@@ -6,9 +6,9 @@ import Graph13 from "./graph2013";
 import Graph12 from "./graph2012";
 import Graph11 from "./graph2011";
 import Graph10 from "./graph2010";
-import CsHonors from "./cshonors";
+import EeHonors from "./eehonors";
 import HeadingOne from "../../../Components/Texts/HeadingOne";
-class CeGraph extends Component {
+class EeGraph extends Component {
   state = {
     show15: true,
     show14: false,
@@ -107,15 +107,21 @@ class CeGraph extends Component {
           <HeadingOne data={this.Heading} />
           <input
             type="button"
-            value="University Results March 2018"
+            value="Even Semester 2017-2018"
             class="buttongraph"
             onClick={this.onClick15}
           />
           <input
             type="button"
-            value="University Results May 2017"
+            value="Odd Semester 2017-2018"
             class="buttongraph"
             onClick={this.onClick14}
+          />
+          <input
+            type="button"
+            value="Even Semester 2016-2017"
+            class="buttongraph"
+            onClick={this.onClick13}
           />
           <input
             type="button"
@@ -123,12 +129,7 @@ class CeGraph extends Component {
             class="buttongraph"
             onClick={this.onClickHon}
           />
-          {/* <input
-            type="button"
-            value="2013-2017"
-            class="buttongraph"
-            onClick={this.onClick13}
-          />
+          {/* 
           <input
             type="button"
             value="2012-2016"
@@ -151,15 +152,15 @@ class CeGraph extends Component {
         <div class="graphContent">
           {this.state.show15 ? <Graph15 /> : null}
           {this.state.show14 ? <Graph14 /> : null}
-          {this.state.showhon ? <CsHonors /> : null}
-          {/* {this.state.show13 ? <Graph13 /> : null}
+          {this.state.showhon ? <EeHonors /> : null}
+          {this.state.show13 ? <Graph13 /> : null}
           {this.state.show12 ? <Graph12 /> : null}
-          {this.state.show11 ? <Graph11 /> : null}
-          {this.state.show10 ? <Graph10 /> : null} */}
+          {/* {this.state.show11 ? <Graph11 /> : null}
+          {this.state.show10 ? <Graph10 /> : null}  */}
         </div>
       </div>
     );
   }
 }
 
-export default CeGraph;
+export default EeGraph;
