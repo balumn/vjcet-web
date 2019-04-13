@@ -6,7 +6,7 @@ class ItHonors extends Component {
   state = {};
   ItHonorsHeading = {
     instanceID: "ItHonorsHeading",
-    title: " Roll Of Honors"
+    title: "Honors of Information Technology"
   };
   ItHonors1 = {
     instanceID: "ithonors1",

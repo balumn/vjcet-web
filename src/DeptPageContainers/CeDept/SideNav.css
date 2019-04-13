@@ -18,7 +18,7 @@
   top: 650px;
   left: 0;
   display: block;
-  overflow: block;
+  overflow: none;
   padding-top: 20px;
 }
 .sidenav a {

@@ -19,7 +19,7 @@
   top: 600px;
   left: 0;
   display: block;
-  overflow: block;
+  overflow: non;
   padding-top: 20px;
   text-align: center;
   font-size: 14px;
