@@ -2,17 +2,11 @@ import React, { Component } from "react";
 import "./SideNav.css";
 import Profile from "./profile";
 import Vision from "./vision";
-<<<<<<< HEAD
+import FacultyNav from "./facultynav"
 // import PEO from "./peo";
 // import Program from "./program";
 // import Library from "./library";
 // import Association from "./association";
-=======
-import FacultyNav from "./facultynav";
-import Program from "./program";
-import Library from "./library";
-import Association from "./association";
->>>>>>> cfaf3c989fcc45709bede74c51900dcba55e7ed9
 class SideNav extends Component {
   state = {
     showProfile: true,

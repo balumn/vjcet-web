@@ -13,6 +13,10 @@ import ItDepartment from "./Pages/Departments/itdepartment";
 import MeDepartment from "./Pages/Departments/medepartment";
 import SHDepartment from "./Pages/Departments/s&hdepartment";
 import HonorsPage from "./Pages/HonorsPage";
+import Sports from "./FacilitiesPageContainers/Sports"
+import Library from "./FacilitiesPageContainers/Library"
+import CCC from "./FacilitiesPageContainers/CCC";
+import Hostal from "./FacilitiesPageContainers/Hostel";
 class App extends Component {
   render() {
     return (
@@ -23,7 +27,12 @@ class App extends Component {
               <Route exact path="/" component={HomePage} />
               <Route exact path="/about" component={AboutPage} />
               <Route exact path="/departments" component={DepartmentPage} />
-              <Route exact path="/facilities" component={FacilitiesPage} />
+              <Route exact path="/facilities/sports" component={Sports} />
+              <Route exact path="/facilities/library" component={Library} />
+              <Route exact path="/facilities/ccc" component={CCC} />
+              <Route exact path="/facilities/network" component={CCC} />
+              <Route exact path="/facilities/hostel" component={Hostal} />
+              <Route exact path="/facilities/" component={FacilitiesPage} />
               <Route exact path="/campus-life" component={CampusLifePage} />
               <Route exact path="/departments/cse" component={CsDepartment} />
               <Route exact path="/departments/ce" component={CeDepartment} />

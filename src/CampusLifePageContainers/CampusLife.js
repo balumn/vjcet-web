@@ -4,6 +4,7 @@ import HeadingOne from "../Components/Texts/HeadingOne";
 import HeadingThree from "../Components/Texts/HeadingThree";
 import BodyOne from "../Components/Texts/BodyOne";
 import ImageOne from "../Components/Images/ImageOne";
+import BodyOneJustified from "../Components/Texts/BodyOneJustified";
 
 
 class VisionSection extends Component {
@@ -14,13 +15,13 @@ class VisionSection extends Component {
   VisionVjcImage = {
     instanceID: "AboutVjcImage",
     image: "campus2.jpg",
-    width: "93%"
+    width: "90%"
   };
 
   VisionSectionABody = {
     instanceID: "VisionSectionBody",
     title:
-      "The building complex of the college with an area of 45944.47 m.sq., is situated in a sprawling campus of 26 acres, nestled among lush greenery over a hillock on the side of Ernakulam - Thodupuzha State highway.The college is surrounded by a number of beautiful places blessed by mother nature. Here we have a number of locations which are must see locations for any tourist visiting Kerala."
+      "The building complex of the college with an area of 45944.47 m.sq., is situated in a sprawling campus of 26 acres, nestled among lush greenery over a hillock on the side of Ernakulam - Thodupuzha State highway. The college is surrounded by a number of beautiful places blessed by mother nature. Here we have a number of locations which are must see locations for any tourist visiting Kerala."
   };
 
   VisionSectionBTitle = {
@@ -77,7 +78,9 @@ class VisionSection extends Component {
         <div className="VisionSectionA">
           <HeadingOne data={this.VisionSectionATitle} />
           <ImageOne className="centerImage" data={this.VisionVjcImage} />
-          <BodyOne data={this.VisionSectionABody} />
+          <div className="about-para">
+          <BodyOneJustified data={this.VisionSectionABody} />
+          </div>
         </div>
         <div className="VisionSectionB">
           <HeadingOne data={this.VisionSectionBTitle} />

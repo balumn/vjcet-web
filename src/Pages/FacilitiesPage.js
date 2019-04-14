@@ -40,11 +40,7 @@ class FacilitiesPage extends Component {
       <div className="AboutPage">
         <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
         <FacilitiesPageContainers />
-<<<<<<< HEAD
-        <FacilitiesSection data={this.HomePageFacilitiesSection} />
-=======
         {/* <FacilitiesSection data={this.HomePageFacilitiesSection} /> */}
->>>>>>> cfaf3c989fcc45709bede74c51900dcba55e7ed9
         <Footer data={this.HomePageFooter} />
         {this.state.showMenu ? (
           <MenuOverlay closeMenuFunction={this.closeMenu} />

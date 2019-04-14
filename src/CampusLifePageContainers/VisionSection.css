@@ -6,6 +6,11 @@
   grid-template-areas: "b";
   padding-top: 2%;
 }
+.about-para {
+  width: 80%;
+  margin: 10px auto;
+  text-align: initial justify;
+}
 
 .VisionSectionA {
   grid-area: a;

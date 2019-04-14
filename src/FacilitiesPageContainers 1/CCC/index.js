@@ -1,7 +1,6 @@
 import React from "react";
 import HeadingTwo from "../../Components/Texts/HeadingTwo";
 import ImageOne from "../../Components/Images/ImageOne";
-<<<<<<< HEAD
 import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
 import "../styles.css"
 
@@ -10,17 +9,10 @@ class CCC extends React.Component{
         instanceID: "CCCTitle",
         title: "Common Computing Center and Network Architecture"
     };
-=======
-import BodyOne from "../../Components/Texts/BodyOne";
-import "../styles.css"
-
-class CCC extends React.Component{
->>>>>>> cfaf3c989fcc45709bede74c51900dcba55e7ed9
     CCCTitle = {
         instanceID: "CCCTitle",
         title: "Common Computing Center"
     };
-<<<<<<< HEAD
     NATitle = {
         instanceID: "CCCTitle",
         title: "Network Architecture of VJCET"
@@ -32,18 +24,12 @@ class CCC extends React.Component{
     CCCContent2 = {
         instanceID: "CCCContent2",
         title:"We have more than 1000 computers and 11 servers in the campus and all of these are connected across a single LAN. All the computers are in Hence staff and students can access their data at any lab at any time during working hours. Our servers are 24 hours working throughout the year. We have a central point called server room from where all the locations are connected via fiber optic back bone cable. All the operations are monitored from the server room."
-=======
-    CCCContent = {
-        instanceID: "CCCContent",
-        title:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
->>>>>>> cfaf3c989fcc45709bede74c51900dcba55e7ed9
     }
     CCCImagedata = {
         instanceID: "CCCVjcImage",
         image: "cover2-1.jpg",
         width: "100%"
     }
-<<<<<<< HEAD
     Server1 = {
         instanceID:"Server1",
         title:"1. Main Server"
@@ -77,13 +63,10 @@ class CCC extends React.Component{
         title:"8. Print Server"
     }
 
-=======
->>>>>>> cfaf3c989fcc45709bede74c51900dcba55e7ed9
     render() {
       return (
           <React.Fragment>
               <div className="contain">
-<<<<<<< HEAD
               <HeadingTwo data={this.CCCNATitle} className="Heading" />
               <ImageOne data={this.CCCImagedata} />
               <br />
@@ -104,12 +87,6 @@ class CCC extends React.Component{
                 </div>
                 
               </div>
-=======
-              <HeadingTwo data={this.CCCTitle} className="Heading" />
-              <ImageOne data={this.CCCImagedata} />
-              <br />
-              <BodyOne data={this.CCCContent} />
->>>>>>> cfaf3c989fcc45709bede74c51900dcba55e7ed9
               </div>
           </React.Fragment>
       )
