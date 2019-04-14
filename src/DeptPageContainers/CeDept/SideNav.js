@@ -120,54 +120,109 @@ class SideNav extends Component {
     return (
       <div>
         <div class="sidenav">
-          <input
-            type="button"
-            value="Profile"
-            class="button"
-            onClick={this.onClickP}
-          />
-          <input
-            type="button"
-            value="Vision & Mission"
-            class="button"
-            onClick={this.onClickV}
-          />
-          <input
-            type="button"
-            value="PEO & PSO"
-            class="button"
-            onClick={this.onClickPeo}
-          />
-          <input
-            type="button"
-            value="Program"
-            class="button"
-            onClick={this.onClickProg}
-          />
-          <input
-            type="button"
-            value="Faculty"
-            class="button"
-            onClick={this.onClickFac}
-          />
-          <input
-            type="button"
-            value="Department Library"
-            class="button"
-            onClick={this.onClickLib}
-          />
-          <input
-            type="button"
-            value="Department Association"
-            class="button"
-            onClick={this.onClickAss}
-          />
-          <input
-            type="button"
-            value="Result & Honors"
-            class="button"
-            onClick={this.onClickRes}
-          />
+          <div class="sidemenu">
+            <input
+              type="button"
+              value="Profile"
+              class="button"
+              onClick={this.onClickP}
+            />
+            <input
+              type="button"
+              value="Vision & Mission"
+              class="button"
+              onClick={this.onClickV}
+            />
+            <input
+              type="button"
+              value="PEO & PSO"
+              class="button"
+              onClick={this.onClickPeo}
+            />
+            <input
+              type="button"
+              value="Program"
+              class="button"
+              onClick={this.onClickProg}
+            />
+            <input
+              type="button"
+              value="Faculty"
+              class="button"
+              onClick={this.onClickFac}
+            />
+            <input
+              type="button"
+              value="Department Library"
+              class="button"
+              onClick={this.onClickLib}
+            />
+            <input
+              type="button"
+              value="Department Association"
+              class="button"
+              onClick={this.onClickAss}
+            />
+            <input
+              type="button"
+              value="Result & Honors"
+              class="button"
+              onClick={this.onClickRes}
+            />
+          </div>
+        </div>
+        <div class="dropdownD">
+          <button class="button">Menu</button>
+          <div class="dropdownD-content">
+            <input
+              type="button"
+              value="Profile"
+              class="button"
+              onClick={this.onClickP}
+            />
+            <input
+              type="button"
+              value="Vision & Mission"
+              class="button"
+              onClick={this.onClickV}
+            />
+            <input
+              type="button"
+              value="PEO & PSO"
+              class="button"
+              onClick={this.onClickPeo}
+            />
+            <input
+              type="button"
+              value="Program"
+              class="button"
+              onClick={this.onClickProg}
+            />
+            <input
+              type="button"
+              value="Faculty"
+              class="button"
+              onClick={this.onClickFac}
+            />
+            <input
+              type="button"
+              value="Department Library"
+              class="button"
+              onClick={this.onClickLib}
+            />
+            <input
+              type="button"
+              value="Department Association"
+              class="button"
+              onClick={this.onClickAss}
+            />
+            <input
+              type="button"
+              value="Result & Honors"
+              class="button"
+              onClick={this.onClickRes}
+            />
+          </div>
         </div>
         <div class="content">
           {this.state.showProfile ? <Profile /> : null}
