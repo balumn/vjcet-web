@@ -4,6 +4,7 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #880d1e;
+  /* padding-left: 20%; */
 }
 
 @media (min-width: 1024px) {

@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./HomePage.css";
 import DepartmentSection from "../HomePageContainers/DepartmentSection";
 import FacilitiesSection from "../HomePageContainers/FacilitiesSection";
-import VisionSection from "../HomePageContainers/VisionSection";
 // import CarouselOne from "../HomePageContainers/CarouselOne";
 import CarouselTwo from "../HomePageContainers/CarouselTwo";
 import CarouselThree from "../HomePageContainers/CarouselThree";

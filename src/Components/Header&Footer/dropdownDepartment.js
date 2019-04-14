@@ -36,73 +36,43 @@ class DropDownD extends Component {
         <span>Departments</span>
         <div class="dropdown-content">
           <p>
-            {" "}
-            <Link
-              to="/departments/ce"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
+            <Link to="/departments/ce" className="patch1" >
               Civil Enginnering
-            </Link>{" "}
+            </Link>
           </p>
           <p>
-            <Link
-              to="/departments/cse"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
+            <Link to="/departments/cse" className="patch1">
               Computer Science and Enginnering
             </Link>
           </p>
           <p>
-            <Link
-              to="/departments/ece"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
-              {" "}
+            <Link to="/departments/ece" className="patch1" >
               Electronics & Communication Enginnering
-            </Link>{" "}
+            </Link>
           </p>
           <p>
-            {" "}
-            <Link
-              to="/departments/eee"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
+            <Link to="/departments/eee" className="patch1" >
               Electrical & Electronics Enginnering
-            </Link>{" "}
+            </Link>
           </p>
 
           <p>
-            <Link
-              to="/departments/it"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
-              {" "}
+            <Link to="/departments/it" className="patch1" >
               Information Technology
             </Link>
           </p>
           <p>
-            <Link
-              to="/departments/me"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
-              {" "}
-              Mechanical Enginnering{" "}
+            <Link to="/departments/me" className="patch1" >
+              Mechanical Enginnering
             </Link>
           </p>
           <p>
-            <Link
-              to="/departments/s&h"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
-              {" "}
-              Science & Humanities{" "}
+            <Link to="/departments/s&h" className="patch1">
+              Science & Humanities
             </Link>
           </p>
           <p>
-            <a
-              href="www.vjcetmba.in"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
+            <a href="http://www.vjcetmba.in" className="patch1" >
               MBA
             </a>
           </p>

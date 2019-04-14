@@ -38,82 +38,28 @@ class DropDownAb extends Component {
           <p>
             <Link
               to="/about"
-              style={{ textDecoration: "none", color: "#000000" }}
+              className="patch1"
             >
               About College
             </Link>
           </p>
-          {/* <p>
-            <Link
-              to="/about/vision"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
-              {" "}
-              Vision & Mission{" "}
-            </Link>
-          </p> */}
-          <p>
-            <Link
-              to="/about/mou"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
-              {" "}
-              MOU{" "}
-            </Link>
-          </p>
-          {/* <p>
-            <Link
-              to="/about/manager"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
-              {" "}
-              Manager{" "}
-            </Link>
-          </p>
-          <p>
-            <Link
-              to="/about/director"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
-              {" "}
-              Director{" "}
-            </Link>
-          </p>
-          <p>
-            <Link
-              to="/about/principal"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
-              {" "}
-              Principal{" "}
-            </Link>
-          </p>
-          <p>
-            <Link
-              to="/about/mandatory"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
-              {" "}
-              Mandatory Disclosure{" "}
-            </Link>
-          </p> */}
           <p>
             <Link
               to="/about/accreditation"
-              style={{ textDecoration: "none", color: "#000000" }}
+              className="patch1"
             >
-              {" "}
-              Accreditation{" "}
+              
+              Accreditation
             </Link>
           </p>
           <p>
-            {" "}
+            
             <Link
               to="/about/keyfunctionaries"
-              style={{ textDecoration: "none", color: "#000000" }}
+              className="patch1"              
             >
               KeyFunctionaries
-            </Link>{" "}
+            </Link>
           </p>
         </div>
       </div>

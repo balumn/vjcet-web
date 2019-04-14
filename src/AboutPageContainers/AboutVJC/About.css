@@ -1,7 +1,7 @@
 .Heading {
-  text-align: start;
+  text-align: left;
 }
 .about-para {
   margin: 10px 20px;
-  text-align: justify;
+  text-align: initial justify;
 }

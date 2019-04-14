@@ -1,9 +1,8 @@
 import React from "react";
 import HeadingTwo from "../../Components/Texts/HeadingTwo";
 import ImageOne from "../../Components/Images/ImageOne";
-import BodyOne from "../../Components/Texts/BodyOne";
 import "./About.css";
-import ResourcesAvailable from "../ResourcesAvailable/index";
+import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
 
 class AboutVJC extends React.Component {
   AboutVjcTitle = {
@@ -12,7 +11,8 @@ class AboutVJC extends React.Component {
   };
   AboutVjcImage = {
     instanceID: "AboutVjcImage",
-    image: "vjcetbg.jpg"
+    image: "cover2-1.jpg",
+    width: "93%"
   };
   AboutVjcText = {
     instanceID: "AboutVjcText",
@@ -23,10 +23,10 @@ class AboutVJC extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <HeadingTwo data={this.AboutVjcTitle} className="Heading" />
+        <HeadingTwo data={this.AboutVjcTitle} />
         <ImageOne data={this.AboutVjcImage} />
         <div className="about-para">
-          <BodyOne data={this.AboutVjcText} />
+          <BodyOneJustified data={this.AboutVjcText} />
         </div>
         {/* <ResourcesAvailable /> */}
       </React.Fragment>

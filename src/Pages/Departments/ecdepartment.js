@@ -1,20 +1,11 @@
 import React, { Component } from "react";
 import "./csdepartment.css";
-import DepartmentSection from "../../HomePageContainers/DepartmentSection";
-import FacilitiesSection from "../../HomePageContainers/FacilitiesSection";
-import VisionSection from "../../HomePageContainers/VisionSection";
-import CarouselOne from "../../HomePageContainers/CarouselOne";
-import CarouselTwo from "../../HomePageContainers/CarouselTwo";
-import CarouselThree from "../../HomePageContainers/CarouselThree";
-import CarouselFour from "../../HomePageContainers/CarouselFour";
 import Header from "../../Components/Header&Footer/Header";
 import Footer from "../../Components/Header&Footer/Footer";
 import MenuOverlay from "../../Components/MenuOverlay/MenuOverlay";
 import HeadingOne from "../../Components/Texts/HeadingOne";
 import BodyOne from "../../Components/Texts/BodyOne";
 import ImageOne from "../../Components/Images/ImageOne";
-import HeadingTwo from "../../Components/Texts/HeadingTwo";
-import BodyThree from "../../Components/Texts/BodyThree";
 import SideNav from "../../DeptPageContainers/EcDept/SideNav";
 
 class EcDepartment extends Component {

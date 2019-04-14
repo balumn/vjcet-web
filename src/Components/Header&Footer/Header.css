@@ -21,6 +21,7 @@
 .HeaderLinkTabOne {
   grid-area: tab1;
   display: none;
+  margin: auto 0%;
 }
 
 .HeaderLinkTabTwo {

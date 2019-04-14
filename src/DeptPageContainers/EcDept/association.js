@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import HeadingOne from "../../Components/Texts/HeadingOne";
 import Bodythree from "../../Components/Texts/BodyThree";
-import HeadingFour from "../../Components/Texts/HeadingFour";
 class Library extends Component {
   state = {};
   DeptAssociationHeadingOne = {

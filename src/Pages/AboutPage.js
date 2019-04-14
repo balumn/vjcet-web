@@ -5,11 +5,7 @@ import VisionSection from "../HomePageContainers/VisionSection";
 import Header from "../Components/Header&Footer/Header";
 import Footer from "../Components/Header&Footer/Footer";
 import AboutVJC from "../AboutPageContainers/AboutVJC";
-
-// import Header from "../Components/Header&Footer/Header";
-// import Footer from "../Components/Header&Footer/Footer";
 import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
-// import VisionSection from "../HomePageContainers/VisionSection";
 
 class AboutPage extends Component {
   state = { showMenu: false };

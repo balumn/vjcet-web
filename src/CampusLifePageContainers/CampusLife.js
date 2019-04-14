@@ -3,11 +3,18 @@ import "./VisionSection.css";
 import HeadingOne from "../Components/Texts/HeadingOne";
 import HeadingThree from "../Components/Texts/HeadingThree";
 import BodyOne from "../Components/Texts/BodyOne";
+import ImageOne from "../Components/Images/ImageOne";
+
 
 class VisionSection extends Component {
   VisionSectionATitle = {
     instanceID: "VisionSectionTitle",
     title: "Campus Life"
+  };
+  VisionVjcImage = {
+    instanceID: "AboutVjcImage",
+    image: "campus2.jpg",
+    width: "93%"
   };
 
   VisionSectionABody = {
@@ -69,6 +76,7 @@ class VisionSection extends Component {
       <div className="VisionSection" id={instanceID}>
         <div className="VisionSectionA">
           <HeadingOne data={this.VisionSectionATitle} />
+          <ImageOne className="centerImage" data={this.VisionVjcImage} />
           <BodyOne data={this.VisionSectionABody} />
         </div>
         <div className="VisionSectionB">

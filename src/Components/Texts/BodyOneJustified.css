@@ -1,0 +1,25 @@
+.BodyOne p {
+    font-weight: 400;
+    font-size: 19px;
+    color: #1d2129;
+    letter-spacing: 0;
+    text-align: justify;
+    line-height: 27px;
+    margin: 0% 10px;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .BodyOne p {
+      line-height: 33px;
+      font-weight: 400;
+      font-size: 60%;
+    }
+  }
+    @media only screen and (min-width: 400px) {
+      .BodyOne p {
+        font-size: 21px;
+        font-weight: 300;
+        /* font-size: 100%; */
+      }
+  }
+  

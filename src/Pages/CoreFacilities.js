@@ -3,7 +3,8 @@ import "./HomePage.css";
 import Header from "../Components/Header&Footer/Header";
 import Footer from "../Components/Header&Footer/Footer";
 import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
-import VisionSection from "../CampusLifePageContainers/CampusLife";
+import FacilitiesPageContainers from "../FacilitiesPageContainers";
+
 class CampusLifePage extends Component {
   state = { showMenu: false };
 
@@ -37,7 +38,7 @@ class CampusLifePage extends Component {
     return (
       <div className="DepartmentPage">
         <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
-        <VisionSection data={this.HomePageVisionSection} />
+        <FacilitiesPageContainers />
         <Footer data={this.HomePageFooter} />
         {this.state.showMenu ? (
           <MenuOverlay closeMenuFunction={this.closeMenu} />

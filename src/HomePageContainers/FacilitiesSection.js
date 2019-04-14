@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./FacilitiesSection.css";
 import HeadingOne from "../Components/Texts/HeadingOne";
-import BodyOne from "../Components/Texts/BodyOne";
 import FacilitiesList from "./LocalContainers/FacilitiesList";
+import BodyOne from "../Components/Texts/BodyOne";
 
 class FacilitiesSection extends Component {
   FacilitySectionTitle = {
@@ -46,7 +46,7 @@ class FacilitiesSection extends Component {
       <div className="FacilitiesSection" id={instanceID}>
         <div className="FacilitiesSectionCard">
           <HeadingOne data={this.FacilitySectionTitle} />
-          <BodyOne data={this.FacilitySectionDescription} />
+          <BodyOne className="patch" data={this.FacilitySectionDescription}/>
           <FacilitiesList data={this.FacilityListOne} />
           <FacilitiesList data={this.FacilityListTwo} />
           <FacilitiesList data={this.FacilityListThree} />
