@@ -1,0 +1,30 @@
+.buttonhonor {
+  width: auto;
+  background-color: #880d1e;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  padding-right: 1%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  cursor: pointer;
+}
+.honorssidenav {
+  /* height: 100%; */
+  width: 100%;
+  position: relative;
+  top: 10px;
+  left: 0;
+  overflow: block;
+  padding-top: 0px;
+  text-align: center;
+  font-size: 14px;
+}
+.honorsContent {
+  padding-top: 1%;
+  top: 0px;
+  margin-top: -150px;
+}

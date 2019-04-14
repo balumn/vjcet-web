@@ -1,11 +1,13 @@
 import React, { Component } from "react";
-import "./SideNavCs.css";
+import "./SideNav.css";
 import Profile from "./profile";
 import Vision from "./vision";
 import PEO from "./peo";
 import Program from "./program";
 import Library from "./library";
 import Association from "./association";
+import Result from "./result";
+import FacultyNav from "./facultynav";
 class SideNav extends Component {
   state = {
     showProfile: true,
@@ -13,7 +15,9 @@ class SideNav extends Component {
     showPeo: false,
     showProgram: false,
     showLib: false,
-    showAss: false
+    showAss: false,
+    showRes: false,
+    showfac: false
   };
   onClickP = () => {
     this.setState({
@@ -22,7 +26,9 @@ class SideNav extends Component {
       showPeo: false,
       showProgram: false,
       showLib: false,
-      showAss: false
+      showAss: false,
+      showRes: false,
+      showfac: false
     });
   };
   onClickV = () => {
@@ -32,7 +38,9 @@ class SideNav extends Component {
       showPeo: false,
       showProgram: false,
       showLib: false,
-      showAss: false
+      showAss: false,
+      showRes: false,
+      showfac: false
     });
   };
   onClickPeo = () => {
@@ -42,7 +50,9 @@ class SideNav extends Component {
       showPeo: true,
       showProgram: false,
       showLib: false,
-      showAss: false
+      showAss: false,
+      showRes: false,
+      showfac: false
     });
   };
   onClickProg = () => {
@@ -52,7 +62,9 @@ class SideNav extends Component {
       showPeo: false,
       showProgram: true,
       showLib: false,
-      showAss: false
+      showAss: false,
+      showRes: false,
+      showfac: false
     });
   };
   onClickLib = () => {
@@ -62,7 +74,9 @@ class SideNav extends Component {
       showPeo: false,
       showProgram: false,
       showLib: true,
-      showAss: false
+      showAss: false,
+      showRes: false,
+      showfac: false
     });
   };
   onClickAss = () => {
@@ -72,57 +86,154 @@ class SideNav extends Component {
       showPeo: false,
       showProgram: false,
       showLib: false,
-      showAss: true
+      showAss: true,
+      showRes: false,
+      showfac: false
+    });
+  };
+  onClickRes = () => {
+    this.setState({
+      showProfile: false,
+      showVision: false,
+      showPeo: false,
+      showProgram: false,
+      showLib: false,
+      showAss: false,
+      showRes: true,
+      showfac: false
+    });
+  };
+  onClickFac = () => {
+    this.setState({
+      showProfile: false,
+      showVision: false,
+      showPeo: false,
+      showProgram: false,
+      showLib: false,
+      showAss: false,
+      showRes: false,
+      showfac: true
     });
   };
 
   render() {
     return (
       <div>
-        <div class="nav">
-          <input
-            type="button"
-            value="Profile"
-            class="button"
-            onClick={this.onClickP}
-          />
-          <input
-            type="button"
-            value="Vision & Mission"
-            class="button"
-            onClick={this.onClickV}
-          />
-          <input
-            type="button"
-            value="PEO & PSO"
-            class="button"
-            onClick={this.onClickPeo}
-          />
-          <input
-            type="button"
-            value="Program"
-            class="button"
-            onClick={this.onClickProg}
-          />
-          <input
-            type="button"
-            value="Department Library"
-            class="button"
-            onClick={this.onClickLib}
-          />
-          <input
-            type="button"
-            value="Department Association"
-            class="button"
-            onClick={this.onClickAss}
-          />
+        <div class="sidenav">
+          <div class="sidemenu">
+            <input
+              type="button"
+              value="Profile"
+              class="button"
+              onClick={this.onClickP}
+            />
+            <input
+              type="button"
+              value="Vision & Mission"
+              class="button"
+              onClick={this.onClickV}
+            />
+            <input
+              type="button"
+              value="PEO & PSO"
+              class="button"
+              onClick={this.onClickPeo}
+            />
+            <input
+              type="button"
+              value="Program"
+              class="button"
+              onClick={this.onClickProg}
+            />
+            <input
+              type="button"
+              value="Faculty"
+              class="button"
+              onClick={this.onClickFac}
+            />
+            <input
+              type="button"
+              value="Department Library"
+              class="button"
+              onClick={this.onClickLib}
+            />
+            <input
+              type="button"
+              value="Department Association"
+              class="button"
+              onClick={this.onClickAss}
+            />
+            <input
+              type="button"
+              value="Result & Honors"
+              class="button"
+              onClick={this.onClickRes}
+            />
+          </div>
         </div>
-        {this.state.showProfile ? <Profile /> : null}
-        {this.state.showVision ? <Vision /> : null}
-        {this.state.showPeo ? <PEO /> : null}
-        {this.state.showProgram ? <Program /> : null}
-        {this.state.showLib ? <Library /> : null}
-        {this.state.showAss ? <Association /> : null}
+        <div class="dropdownD">
+          <button class="button">Menu</button>
+          <div class="dropdownD-content">
+            <input
+              type="button"
+              value="Profile"
+              class="button"
+              onClick={this.onClickP}
+            />
+            <input
+              type="button"
+              value="Vision & Mission"
+              class="button"
+              onClick={this.onClickV}
+            />
+            <input
+              type="button"
+              value="PEO & PSO"
+              class="button"
+              onClick={this.onClickPeo}
+            />
+            <input
+              type="button"
+              value="Program"
+              class="button"
+              onClick={this.onClickProg}
+            />
+            <input
+              type="button"
+              value="Faculty"
+              class="button"
+              onClick={this.onClickFac}
+            />
+            <input
+              type="button"
+              value="Department Library"
+              class="button"
+              onClick={this.onClickLib}
+            />
+            <input
+              type="button"
+              value="Department Association"
+              class="button"
+              onClick={this.onClickAss}
+            />
+            <input
+              type="button"
+              value="Result & Honors"
+              class="button"
+              onClick={this.onClickRes}
+            />
+          </div>
+        </div>
+        <div class="content">
+          {this.state.showProfile ? <Profile /> : null}
+          {this.state.showVision ? <Vision /> : null}
+          {this.state.showPeo ? <PEO /> : null}
+          {this.state.showProgram ? <Program /> : null}
+          {this.state.showfac ? <FacultyNav /> : null}
+          {this.state.showLib ? <Library /> : null}
+          {this.state.showAss ? <Association /> : null}
+          {this.state.showRes ? <Result /> : null}
+        </div>
       </div>
     );
   }

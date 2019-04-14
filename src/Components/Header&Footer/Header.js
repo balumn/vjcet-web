@@ -11,6 +11,7 @@ import DropDownC from "./dropdownCampus";
 import DropDownA from "./dropdownAcademics";
 import DropDownAb from "./dropdownAbout";
 import DropDownL from "./dropdownLogin";
+import DropDownF from "./dropdownfacilities";
 // import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class Header extends Component {
@@ -115,11 +116,16 @@ class Header extends Component {
     link: ""
   };
   LineHeading = {
+<<<<<<< HEAD
     instanceID:"LineHeading"
   }
 
 
 
+=======
+    instanceID: "LineHeading"
+  };
+>>>>>>> cfaf3c989fcc45709bede74c51900dcba55e7ed9
 
   render() {
     const { instanceID } = this.props.data;
@@ -155,7 +161,12 @@ class Header extends Component {
             <DropDownD />
             <DropDownC />
             <DropDownA />
+<<<<<<< HEAD
             <AnchorLink data={this.Link7} />            
+=======
+            <DropDownF />
+            {/* <AnchorLink data={this.Link7} />             */}
+>>>>>>> cfaf3c989fcc45709bede74c51900dcba55e7ed9
             <AnchorLink data={this.Link9} />
             <AnchorLink data={this.Link10} />
           </div>

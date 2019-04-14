@@ -36,60 +36,37 @@ class DropDownF extends Component {
         <span>Facilities</span>
         <div class="dropdown-content">
           <p>
-            <Link
-              to="/facilities/computing-technology"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
+            <Link to="/facilities/computing-technology" className="patch1">
               Common Computer Center
             </Link>
           </p>
 
           <p>
-            {" "}
-            <Link
-              to="/facilities/library"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
+            <Link to="/facilities/library" className="patch1">
               Centeral Library
-            </Link>{" "}
+            </Link>
           </p>
 
           <p>
-            {" "}
-            <Link
-              to="/facilities/auditorium"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
+            <Link to="/facilities/auditorium" className="patch1">
               Core Facilities
-            </Link>{" "}
+            </Link>
           </p>
           <p>
-            <Link
-              to="/facilities/hostels"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
-              {" "}
-              Hostels
-            </Link>{" "}
+            <Link to="/facilities/hostel" className="patch1">
+              Hostel
+            </Link>
           </p>
           <p>
-            <Link
-              to="/facilities/sports"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
-              {" "}
+            <Link to="/facilities/sport" className="patch1">
               Sports
-            </Link>{" "}
+            </Link>
           </p>
 
           <p>
-            <Link
-              to="/facilities/transportation"
-              style={{ textDecoration: "none", color: "#000000" }}
-            >
-              {" "}
+            <Link to="/facilities/transportation" className="patch1">
               Transportation
-            </Link>{" "}
+            </Link>
           </p>
         </div>
       </div>

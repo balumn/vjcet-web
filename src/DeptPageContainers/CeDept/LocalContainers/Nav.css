@@ -1,0 +1,29 @@
+.buttongraph {
+  width: auto;
+  background-color: #880d1e;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  padding-right: 1%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  cursor: pointer;
+}
+.graph {
+  /* height: 100%; */
+  width: 100%;
+  position: absolute;
+  top: 600px;
+  left: 0;
+  display: block;
+  overflow: non;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+.graphContent {
+  padding-top: 4%;
+}
