@@ -107,7 +107,7 @@ class Header extends Component {
   Link9 = {
     instanceID: "HeaderLink9",
     title: "Placements",
-    link: ""
+    link: "/placement"
   };
 
   Link10 = {

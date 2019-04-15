@@ -13,10 +13,7 @@ import ItDepartment from "./Pages/Departments/itdepartment";
 import MeDepartment from "./Pages/Departments/medepartment";
 import SHDepartment from "./Pages/Departments/s&hdepartment";
 import HonorsPage from "./Pages/HonorsPage";
-import Sports from "./FacilitiesPageContainers/Sports"
-import Library from "./FacilitiesPageContainers/Library"
-import CCC from "./FacilitiesPageContainers/CCC";
-import Hostal from "./FacilitiesPageContainers/Hostel";
+import PlacementPage from "./Pages/placementpage";
 class App extends Component {
   render() {
     return (
@@ -42,6 +39,7 @@ class App extends Component {
               <Route exact path="/departments/me" component={MeDepartment} />
               <Route exact path="/departments/s&h" component={SHDepartment} />
               <Route exact path="/academics/honors" component={HonorsPage} />
+              <Route exact path="/placement" component={PlacementPage} />
             </Switch>
           </React.Fragment>
         </Router>
