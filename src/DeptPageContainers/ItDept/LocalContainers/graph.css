@@ -15,7 +15,7 @@
   padding-top: 5%;
 }
 .bar-graph li {
-  display: block;
+  /* display: block; */
   padding: 1.5625rem 0;
   position: relative;
   text-align: center;
