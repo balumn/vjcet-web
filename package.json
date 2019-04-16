@@ -2,7 +2,7 @@
   "name": "vjcet",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://balumn.github.io/VJCET",
+  "homepage": "http://balumn.github.io/vjcet-web",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "node-sass": "^4.11.0",
