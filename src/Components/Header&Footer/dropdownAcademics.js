@@ -38,12 +38,12 @@ class DropDownA extends Component {
           <p>
             <Link
               to="/academics"
-              className="patch1"              
+              className="patch1"
             >
               Academics
             </Link>
           </p>
-          <p>
+          {/* <p>
             <Link
               to="/academics/calendar"
               className="patch1"              
@@ -60,9 +60,9 @@ class DropDownA extends Component {
               
               Curriculum
             </Link>
-          </p>
+          </p> */}
           <p>
-            
+
             <Link
               to="/academics/honors"
               className="patch1"

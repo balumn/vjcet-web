@@ -48,15 +48,14 @@ class DropDownAb extends Component {
               to="/about/accreditation"
               className="patch1"
             >
-              
               Accreditation
             </Link>
           </p>
           <p>
-            
+
             <Link
               to="/about/keyfunctionaries"
-              className="patch1"              
+              className="patch1"
             >
               KeyFunctionaries
             </Link>

@@ -5,7 +5,7 @@ class Program extends Component {
   state = {};
   ProgramHeading = {
     instanceID: "ProgramHeading",
-    title: "Not Provided"
+    title: "Data should be rectified"
   };
   ProgramDescriptionOne = {
     instanceID: "ProgramDescriptionOne",

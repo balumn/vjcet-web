@@ -65,7 +65,7 @@ class ContactUs extends React.Component {
                                 </h3>
                             </div>
                             <div className="child">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d125752.05890978406!2d76.5889803!3d9.9545934!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07dd2f387bbce7%3A0x33c9780276b797b6!2sViswajyothi+College+of+Engineering+and+Technology!5e0!3m2!1sen!2sin!4v1555349832912!5m2!1sen!2sin" width="450" height="450" frameborder="0"></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d125752.05890978406!2d76.5889803!3d9.9545934!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07dd2f387bbce7%3A0x33c9780276b797b6!2sViswajyothi+College+of+Engineering+and+Technology!5e0!3m2!1sen!2sin!4v1555349832912!5m2!1sen!2sin" width="450" height="450" frameborder="0" title="google-map"></iframe>
                             </div>
                         </div>
                         <div className="child" >

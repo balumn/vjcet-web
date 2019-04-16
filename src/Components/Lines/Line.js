@@ -6,7 +6,7 @@ class Line extends Component {
     const { instanceID } = this.props.data;
     return (
       <div className="Line" id={instanceID}>
-        <hr />
+        {/* <hr /> */}
       </div>
     );
   }

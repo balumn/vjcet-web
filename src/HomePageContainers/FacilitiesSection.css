@@ -1,13 +1,7 @@
 .FacilitiesSection {
   padding: 30px 10px;
-  text-align: center;
-  padding-top: 2%;
-}
 
-.patch{
-  text-align: center;
-  width: 100%;
-  margin-left: 20px;
+  padding-top: 2%;
 }
 
 @media (min-width: 768px) {

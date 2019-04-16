@@ -5,17 +5,17 @@ class Faculty extends Component {
   state = {};
   Cestaff1 = {
     instanceID: "Cestaff1",
-    image: "223.jpg",
+    image: "335.jpg",
     width: "30%",
-    name: "Mr. Shajan P J",
-    content: "Technical Officer"
+    name: "Mrs. Anju Eldhose",
+    content: "Demonstrator"
   };
   Cefaculty2 = {
     instanceID: "Cefaculty2",
-    image: "224.jpg",
+    image: "336.jpg",
     width: "30%",
-    name: "Mr. Benny Sebastian",
-    content: "Instructor-Grade I"
+    name: "Mr. Jils Jolly",
+    content: "Demonstrator"
   };
   Cefaculty3 = {
     instanceID: "Cefaculty3",
@@ -89,33 +89,6 @@ class Faculty extends Component {
           </div>
           <div>
             <FacultyData data={this.Cefaculty2} />
-          </div>
-          <div>
-            <FacultyData data={this.Cefaculty3} />
-          </div>
-          <div>
-            <FacultyData data={this.Cefaculty4} />
-          </div>
-          <div>
-            <FacultyData data={this.Cefaculty5} />
-          </div>
-          <div>
-            <FacultyData data={this.Cefaculty6} />
-          </div>
-          <div>
-            <FacultyData data={this.Cefaculty7} />
-          </div>
-          <div>
-            <FacultyData data={this.Cefaculty8} />
-          </div>
-          <div>
-            <FacultyData data={this.Cefaculty9} />
-          </div>
-          <div>
-            <FacultyData data={this.Cefaculty10} />
-          </div>
-          <div>
-            <FacultyData data={this.Cefaculty11} />
           </div>
         </div>
       </div>

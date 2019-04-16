@@ -3,7 +3,6 @@ import "./HomePage.css";
 import Header from "../Components/Header&Footer/Header";
 import Footer from "../Components/Header&Footer/Footer";
 import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
-import FacilitiesSection from "../HomePageContainers/FacilitiesSection";
 import FacilitiesPageContainers from "../FacilitiesPageContainers";
 
 class FacilitiesPage extends Component {
@@ -45,8 +44,8 @@ class FacilitiesPage extends Component {
         {this.state.showMenu ? (
           <MenuOverlay closeMenuFunction={this.closeMenu} />
         ) : (
-          ""
-        )}
+            ""
+          )}
       </div>
     );
   }

@@ -1,12 +1,10 @@
 import React, { Component } from "react";
 import HeadingOne from "../../Components/Texts/HeadingOne";
-import Bodythree from "../../Components/Texts/BodyThree";
-import HeadingFour from "../../Components/Texts/HeadingFour";
 class Library extends Component {
   state = {};
   DeptAssociationHeadingOne = {
     instanceID: "DeptAssociationHeadingOne",
-    title: "Correction Needed "
+    title: "Department Association"
   };
   DeptAssociationDescriptionOne = {
     instanceID: "DeptAssociationDescriptionOne",
@@ -42,9 +40,64 @@ class Library extends Component {
     return (
       <div className="DeptAssociation" id="dept-association">
         <HeadingOne data={this.DeptAssociationHeadingOne} />
-        <Bodythree data={this.DeptAssociationDescriptionOne} />
+        {/* <Bodythree data={this.DeptAssociationDescriptionOne} />
         <HeadingFour data={this.DeptAssociationHeadingTwo} />
-        <Bodythree data={this.DeptAssociationDescriptionTwo} />
+        <Bodythree data={this.DeptAssociationDescriptionTwo} /> */}
+        <table border="1">
+          <tr>
+            <th>SL No</th>
+            <th>PROGRAMME</th>
+            <th>DATE</th>
+            <th>RESOURCE PERSON</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Expert Talk on "Modern Trends in Coal-Fired Thermal Power Plants" for all final year students organised by IIIC, VJCET and Mechanical Engineering Association, VJCET </td>
+            <td>13/02/2019</td>
+            <td>Mr. Sushil Cherian
+Co Founder and Vice President
+Kalki Communications pvt Ltd</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Ist INTERNATIONAL SYMPOSIUM ON INNOVATIVE ENGINEERING PARAGDIMS by SES</td>
+            <td>03.12.2018-
+21.12.2018</td>
+            <td>RALPH SCHNEIDER
+GERMANY</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Lecture Meet   on ‘AUTOMOTIVE ELECTRONICS 2020’
+organised by Mechanical Engineering Department in association with SAEINDIA</td>
+            <td>22.11.2018</td>
+            <td>Mr. Kasiraja Thangapandian
+Software Project Manager , Visteon Technical and Services  Centre Pvt Ltd,</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Alumni Talk on "Marine Engineering"
+for S5 and S7 ME Students</td>
+            <td>12.11.2018</td>
+            <td>Mathaikutty Sunny
+3rd Engineer, Anglo Eastern Ship Management Ltd</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Expert Talk on "Cyber Security"
+for all ME students organised by Technical Staff MED</td>
+            <td>07.11.2018</td>
+            <td>Mr. Thalhath PM
+Cyber Cell Officer Aluva</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>One day Training on PLC for final year ME students organised by Robotics Club Mechanical Department</td>
+            <td>23.10.2018
+24.10.2018</td>
+            <td>Recode Innovations, Muvattupuzha</td>
+          </tr>
+        </table>
       </div>
     );
   }

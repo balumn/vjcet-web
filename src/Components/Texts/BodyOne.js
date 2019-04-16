@@ -7,7 +7,7 @@ class BodyOne extends Component {
 
     return (
       <div className="BodyOne" id={instanceID}>
-        <p style={{textAlign:'center'}}>{title}</p>
+        <p>{title}</p>
       </div>
     );
   }

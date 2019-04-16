@@ -6,7 +6,7 @@ class BodyOneJustified extends Component {
     const { instanceID, title } = this.props.data;
 
     return (
-      <div className="BodyOne" id={instanceID}>
+      <div className="BodyOneJustified" id={instanceID}>
         <p> {title}</p>
       </div>
     );

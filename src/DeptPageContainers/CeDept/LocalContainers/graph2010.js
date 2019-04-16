@@ -10,8 +10,8 @@ class Graph10 extends Component {
   render() {
     return (
       <React.Fragment>
-        <HeadingTwo data={this.Graphheading} />
         <div class="graphbody">
+          <HeadingTwo data={this.Graphheading} />
           <ul class="bar-graph">
             <li class="bar-graph-axis">
               <div class="bar-graph-label">100%</div>

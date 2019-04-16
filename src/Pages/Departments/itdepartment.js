@@ -80,8 +80,8 @@ class ItDepartment extends Component {
         {this.state.showMenu ? (
           <MenuOverlay closeMenuFunction={this.closeMenu} />
         ) : (
-          ""
-        )}
+            ""
+          )}
       </div>
     );
   }

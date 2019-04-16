@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import HeadingOne from "../../../Components/Texts/HeadingOne";
-import ImageOne from "../../../Components/Images/ImageOne";
 class CeHonors extends Component {
   state = {};
   CeHonorsHeading = {

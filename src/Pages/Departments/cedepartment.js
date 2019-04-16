@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import "./csdepartment.css";
+
 import Header from "../../Components/Header&Footer/Header";
 import Footer from "../../Components/Header&Footer/Footer";
 import MenuOverlay from "../../Components/MenuOverlay/MenuOverlay";
 import HeadingOne from "../../Components/Texts/HeadingOne";
+import BodyOne from "../../Components/Texts/BodyOne";
 import ImageOne from "../../Components/Images/ImageOne";
 import SideNav from "../../DeptPageContainers/CeDept/SideNav";
-import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
 
 class CeDepartment extends Component {
   state = { showMenu: false };
@@ -87,15 +88,18 @@ class CeDepartment extends Component {
       <div className="HomePage">
         <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
         <HeadingOne data={this.HeadingSectionTitle} />
-        <BodyOneJustified data={this.HeadingSectionDescription} />
+        <BodyOne data={this.HeadingSectionDescription} />
         <ImageOne data={this.CseImg} />
-        <SideNav />
+        <div>
+
+          <SideNav />
+        </div>
         <Footer data={this.HomePageFooter} />
         {this.state.showMenu ? (
           <MenuOverlay closeMenuFunction={this.closeMenu} />
         ) : (
-          ""
-        )}
+            ""
+          )}
       </div>
     );
   }

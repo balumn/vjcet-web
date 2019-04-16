@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import "./HomePage.css";
-import "./AboutPage.css"
+import "../HomePage.css";
+import "../AboutPage.css"
 import HeadingTwo from "../../Components/Texts/HeadingTwo";
 import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
 
@@ -85,7 +85,7 @@ class AcademicsList extends Component {
 
         <div className="AboutPage">
           <HeadingTwo data={this.AcademicsTitle} /><br />
-          <BodyOneJustified data={this.AcademicsTitle} />
+          <BodyOneJustified data={this.AcademicsText} />
           <div className="inner-para">
             <p><BodyOneJustified data={this.PGCourse} /></p>
             <ul>

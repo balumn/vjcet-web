@@ -20,10 +20,12 @@
   left: 0;
   display: block;
   overflow: block;
+
   padding-top: 20px;
   text-align: center;
   font-size: 14px;
 }
 .graphContent {
   padding-top: 4%;
+
 }

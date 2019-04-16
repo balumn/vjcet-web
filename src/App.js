@@ -3,7 +3,6 @@ import HomePage from "./Pages/HomePage";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import AboutPage from "./Pages/AboutPage";
 import DepartmentPage from "./Pages/Departmentpage";
-import FacilitiesPage from "./Pages/FacilitiesPage";
 import CampusLifePage from "./Pages/CampusLifePage";
 import CsDepartment from "./Pages/Departments/csdepartment";
 import CeDepartment from "./Pages/Departments/cedepartment";
@@ -13,14 +12,16 @@ import ItDepartment from "./Pages/Departments/itdepartment";
 import MeDepartment from "./Pages/Departments/medepartment";
 import SHDepartment from "./Pages/Departments/s&hdepartment";
 import HonorsPage from "./Pages/HonorsPage";
-import Sports from "./FacilitiesPageContainers/Sports"
-import Library from "./FacilitiesPageContainers/Library"
-import CCC from "./FacilitiesPageContainers/CCC";
-import Hostal from "./FacilitiesPageContainers/Hostel";
 import PlacementPage from "./Pages/placementpage";
-import ContactUs from "./ContactUsContainers/ContactUs"
+import FacilitiesPage from "./Pages/FacilitiesPage";
+import CCC from "./FacilitiesPageContainers/CCC/index"
+import Library from "./FacilitiesPageContainers/Library/index";
+import Hostel from "./FacilitiesPageContainers/Hostel/index";
+import Sports from "./FacilitiesPageContainers/Sports/index";
 import NBA from "./Pages/NBA";
 import KeyFunc from "./Pages/KeyFunc";
+import ContactUs from "./ContactUsContainers/ContactUs"
+import Academics from "./Pages/Academics"
 class App extends Component {
   render() {
     return (
@@ -30,16 +31,9 @@ class App extends Component {
             <Switch>
               <Route exact path="/" component={HomePage} />
               <Route exact path="/about" component={AboutPage} />
-              <Route exact path="/about/accreditation" component={NBA} />
-              <Route exact path="/about/keyfunctionaries" component={KeyFunc} />
-              <Route exact path="/contact" component={ContactUs} />
+              <Route exact path="/academics" component={Academics} />
               <Route exact path="/departments" component={DepartmentPage} />
-              <Route exact path="/facilities/sports" component={Sports} />
-              <Route exact path="/facilities/library" component={Library} />
-              <Route exact path="/facilities/ccc" component={CCC} />
-              <Route exact path="/facilities/network" component={CCC} />
-              <Route exact path="/facilities/hostel" component={Hostal} />
-              <Route exact path="/facilities/" component={FacilitiesPage} />
+              <Route exact path="/facilities" component={FacilitiesPage} />
               <Route exact path="/campus-life" component={CampusLifePage} />
               <Route exact path="/departments/cse" component={CsDepartment} />
               <Route exact path="/departments/ce" component={CeDepartment} />
@@ -50,6 +44,14 @@ class App extends Component {
               <Route exact path="/departments/s&h" component={SHDepartment} />
               <Route exact path="/academics/honors" component={HonorsPage} />
               <Route exact path="/placement" component={PlacementPage} />
+              <Route exact path="/facilities/core-facilities" component={FacilitiesPage} />
+              <Route exact path="/facilities/ccc" component={CCC} />
+              <Route exact path="/facilities/library" component={Library} />
+              <Route exact path="/facilities/hostel" component={Hostel} />
+              <Route exact path="/facilities/sports" component={Sports} />
+              <Route exact path="/about/accreditation" component={NBA} />
+              <Route exact path="/about/keyfunctionaries" component={KeyFunc} />
+              <Route exact path="/contact" component={ContactUs} />
             </Switch>
           </React.Fragment>
         </Router>

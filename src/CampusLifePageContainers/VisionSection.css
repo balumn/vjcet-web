@@ -2,22 +2,15 @@
   padding: 10px 20px;
   background-color: #fff;
   display: grid;
-  grid-template-columns: 94%;
+  grid-template-columns: 100%;
   grid-template-areas: "b";
+
   padding-top: 2%;
-}
-.about-para {
-  width: 80%;
-  margin: 10px auto;
-  text-align: initial justify;
 }
 
 .VisionSectionA {
   grid-area: a;
   display: none;
-  margin: 0 auto;
-  align-content: center;
-
 }
 
 .VisionSectionB {
@@ -52,7 +45,6 @@
   }
   .VisionSectionA {
     padding: 2% 2% 5% 2%;
-    text-align: center;
   }
   .VisionSectionB {
     text-align: left;

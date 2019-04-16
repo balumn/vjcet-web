@@ -155,7 +155,7 @@ class CarouselFour extends Component {
           </div>
 
           <div className="CarouselFourSlider">
-            {this.slides.forEach((item, index, arr) => {
+            {this.slides.map((item, index, arr) => {
               if (
                 index < this.state.sliderSize + this.state.currentPage &&
                 index >= this.state.currentPage * this.state.sliderSize
@@ -176,7 +176,7 @@ class CarouselFour extends Component {
 
         <div className="CarouselFourPaginationContainer">
           <div className="CarouselFourPagination">
-            {this.slides.forEach((item, index, arr) => {
+            {this.slides.map((item, index, arr) => {
               if (index % this.state.sliderSize === 0)
                 return (
                   <div

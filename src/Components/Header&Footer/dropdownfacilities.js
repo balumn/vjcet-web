@@ -36,7 +36,7 @@ class DropDownF extends Component {
         <span>Facilities</span>
         <div class="dropdown-content">
           <p>
-            <Link to="/facilities/" className="patch1">
+            <Link to="/facilities/core-facilities" className="patch1">
               Core Facilities
             </Link>
           </p>
@@ -48,7 +48,7 @@ class DropDownF extends Component {
 
           <p>
             <Link to="/facilities/library" className="patch1">
-               Library
+              Centeral Library
             </Link>
           </p>
 
