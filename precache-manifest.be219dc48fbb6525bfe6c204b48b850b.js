@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/vjcet-web/static/media/372.6b023c3b.jpg"
   },
   {
-    "revision": "72c3755d08efbd38c615",
+    "revision": "cf6cd776f237af13442c",
     "url": "/vjcet-web/static/css/main.9843552f.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/vjcet-web/static/js/runtime~main.98ff4958.js"
   },
   {
-    "revision": "5eff4937b8f2cbdf8706",
-    "url": "/vjcet-web/static/js/2.5eff4937.chunk.js"
+    "revision": "acbbc1373e16127fe2c7",
+    "url": "/vjcet-web/static/js/2.acbbc137.chunk.js"
   },
   {
     "revision": "32788e90cf496cf72e4951e2161e4c77",
@@ -536,8 +536,8 @@ self.__precacheManifest = [
     "url": "/vjcet-web/static/media/37.dd5ab213.JPG"
   },
   {
-    "revision": "72c3755d08efbd38c615",
-    "url": "/vjcet-web/static/js/main.72c3755d.chunk.js"
+    "revision": "cf6cd776f237af13442c",
+    "url": "/vjcet-web/static/js/main.cf6cd776.chunk.js"
   },
   {
     "revision": "f7f47d32eaf85155630788853b07f2ac",
@@ -1072,7 +1072,7 @@ self.__precacheManifest = [
     "url": "/vjcet-web/static/media/youtube.6170946f.svg"
   },
   {
-    "revision": "496db90145367437a76901979941fb64",
+    "revision": "0423d0fd28b95272d0cd168e639358da",
     "url": "/vjcet-web/index.html"
   }
 ];
