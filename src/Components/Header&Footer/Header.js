@@ -65,7 +65,7 @@ class Header extends Component {
   Link2 = {
     instanceID: "HeaderLink2",
     title: "Contact Us",
-    link: ""
+    link: "contact"
   };
 
   Link3 = {

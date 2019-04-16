@@ -13,7 +13,14 @@ import ItDepartment from "./Pages/Departments/itdepartment";
 import MeDepartment from "./Pages/Departments/medepartment";
 import SHDepartment from "./Pages/Departments/s&hdepartment";
 import HonorsPage from "./Pages/HonorsPage";
+import Sports from "./FacilitiesPageContainers/Sports"
+import Library from "./FacilitiesPageContainers/Library"
+import CCC from "./FacilitiesPageContainers/CCC";
+import Hostal from "./FacilitiesPageContainers/Hostel";
 import PlacementPage from "./Pages/placementpage";
+import ContactUs from "./ContactUsContainers/ContactUs"
+import NBA from "./Pages/NBA";
+import KeyFunc from "./Pages/KeyFunc";
 class App extends Component {
   render() {
     return (
@@ -23,6 +30,9 @@ class App extends Component {
             <Switch>
               <Route exact path="/" component={HomePage} />
               <Route exact path="/about" component={AboutPage} />
+              <Route exact path="/about/accreditation" component={NBA} />
+              <Route exact path="/about/keyfunctionaries" component={KeyFunc} />
+              <Route exact path="/contact" component={ContactUs} />
               <Route exact path="/departments" component={DepartmentPage} />
               <Route exact path="/facilities/sports" component={Sports} />
               <Route exact path="/facilities/library" component={Library} />
