@@ -1,0 +1,55 @@
+#AboutPageResourcesContainer {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-areas:
+    "one"
+    "two"
+    "three"
+    "four"
+    "five"
+    "six";
+  overflow: none;
+}
+
+#ResourceListOne {
+  grid-area: one;
+}
+
+#ResourceListTwo {
+  grid-area: two;
+}
+
+#ResourceListThree {
+  grid-area: three;
+}
+
+#ResourceListFour {
+  grid-area: four;
+}
+
+#ResourceListFive {
+  grid-area: five;
+}
+
+#ResourceListSix {
+  grid-area: six;
+}
+
+@media (min-width: 560px) {
+  #AboutPageResourcesContainer {
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+      "one two"
+      "three four"
+      "five six";
+  }
+}
+
+@media (min-width: 768px) {
+  #AboutPageResourcesContainer {
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-areas:
+      "one two three"
+      "four five six";
+  }
+}
