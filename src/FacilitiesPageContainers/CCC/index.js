@@ -28,7 +28,7 @@ class CCC extends React.Component {
 
     CCCNATitle = {
         instanceID: "CCCTitle",
-        title: "Common Computing Center and Network Architecture"
+        title: "Common Computing Center"
     };
     CCCTitle = {
         instanceID: "CCCTitle",

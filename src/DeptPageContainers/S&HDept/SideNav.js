@@ -32,28 +32,25 @@ class SideNav extends Component {
   };
   render() {
     return (
-      <div>
-        <div class="nav">
+      <div className="Deptcontent">
+        <div class="sidemenu">
           <input
-            type="button"
             value="Profile"
-            class="button"
+            className="button"
             onClick={this.onClickP}
           />
           <input
-            type="button"
             value="Vision & Mission"
-            class="button"
+            className="button"
             onClick={this.onClickV}
           />
           <input
-            type="button"
             value="Faculty"
-            class="button"
+            className="button"
             onClick={this.onClickFac}
           />
         </div>
-        <div>
+        <div className="content">
           {this.state.showProfile ? <Profile /> : null}
           {this.state.showVision ? <Vision /> : null}
           {this.state.showfac ? <FacultyNav /> : null}

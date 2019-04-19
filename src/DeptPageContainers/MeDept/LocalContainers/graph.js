@@ -103,46 +103,46 @@ class EcGraph extends Component {
   render() {
     return (
       <div>
-        <div class="graph">
-          <HeadingOne data={this.Heading} />
-          <input
-            type="button"
-            value="2015-2019"
-            class="buttongraph"
-            onClick={this.onClick15}
-          />
-          <input
-            type="button"
-            value="2014-2018"
-            class="buttongraph"
-            onClick={this.onClick14}
-          />
-          <input
-            type="button"
-            value="2013-2017"
-            class="buttongraph"
-            onClick={this.onClick13}
-          />
-          <input
-            type="button"
-            value="2016-2020"
-            class="buttongraph"
-            onClick={this.onClick12}
-          />
-          <input
-            type="button"
-            value="2017-2021"
-            class="buttongraph"
-            onClick={this.onClick11}
-          />
-          <input
-            type="button"
-            value="Honors"
-            class="buttongraph"
-            onClick={this.onClickHon}
-          />
-        </div>
         <div class="graphContent">
+          <div >
+            <HeadingOne data={this.Heading} />
+            <input
+              type="button"
+              value="2015-2019"
+              class="buttongraph"
+              onClick={this.onClick15}
+            />
+            <input
+              type="button"
+              value="2014-2018"
+              class="buttongraph"
+              onClick={this.onClick14}
+            />
+            <input
+              type="button"
+              value="2013-2017"
+              class="buttongraph"
+              onClick={this.onClick13}
+            />
+            <input
+              type="button"
+              value="2016-2020"
+              class="buttongraph"
+              onClick={this.onClick12}
+            />
+            <input
+              type="button"
+              value="2017-2021"
+              class="buttongraph"
+              onClick={this.onClick11}
+            />
+            <input
+              type="button"
+              value="Honors"
+              class="buttongraph"
+              onClick={this.onClickHon}
+            />
+          </div>
           {this.state.show15 ? <Graph15 /> : null}
           {this.state.show13 ? <Graph13 /> : null}
           {this.state.show14 ? <Graph14 /> : null}

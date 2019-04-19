@@ -13,7 +13,7 @@ class DepartmentSection extends Component {
   DepartmentSectionSubTitle = {
     instanceID: "DepartmentSectionSubTitle",
     title:
-      "All courses are NBA accredited.We have UG and PG courses ranging from B.Tech, M.Tech, MBA and Science & Humanities"
+      "All courses are NBA accredited.We have UG and PG courses ranging from B.Tech, M.Tech, and Management of Bussiness Administration"
   };
 
   DepartmentListOne = {
@@ -60,7 +60,7 @@ class DepartmentSection extends Component {
 
   DepartmentListSeven = {
     instanceID: "DepartmentListSeven",
-    title: "Master of Business Administration (MBA)",
+    title: "Management of Business Administration (MBA)",
     description:
       "A dynamic institute of repute in developing management professionals with value integration for social transformation."
   };

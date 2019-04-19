@@ -1,37 +1,49 @@
 .Deptcontent{
   display: grid;
-  grid-template-columns: 20% 70%;
+  grid-template-columns: 22% 75%;
   grid-template-areas: "sidenav data";
   grid-template-rows: 1fr;
   /* width: auto; */
-  /* background-color: green; */
-  margin: 0% auto;
+  margin: auto;
   text-align: center;
 }
 .button {
-  width: 250px;
+  width: auto;
   background-color: #880d1e;
   border: none;
   color: white;
-  padding: 15px 15px;
+  padding: 0% auto;
+  padding-right: 1%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  /* margin: 4px 2px; */
-  cursor: pointer;
+  font-size: 18px;
+  font-weight: 650px;
+  margin: 4px auto;
+  cursor: pointer !important;
+  /* no select */
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  user-select: none;
+  text-shadow: 0 0 0;
+}
+.button:hover{
+  outline: none;
+}
+input {
+  caret-color: transparent;
 }
 .sidenav {
- 
+  
   grid-area: sidenav; 
-
+  
 }
 .sidenav a {
-  /* padding: 6px 8px 6px 16px; */
   text-decoration: none;
   font-size: 18px;
   color: #880d1e;
-  /* display: block; */
 }
 
 .sidenav a:hover {
@@ -39,9 +51,8 @@
 }
 
 .content {
-/* margin-left: -10%; */
+  /* background-color: green; */
   grid-area:data;
-  /* background-color: yellow; */
 
 }
  
@@ -49,15 +60,27 @@
   .dropdownD {
     display: none;
   } 
+  .sidemenu { 
+    display: block;
+  }
 }
 @media screen and (max-width: 768px) {
+
+  .Deptcontent {
+    display: block;
+
+  }
   .sidemenu {
-    display: none;
+    display: inline-block;
+  }
+  .sidenav {
+    display: block;
   }
   .button {
-    display: none;
-    width: 60%;
-    align-self: center;
+    /* display: inline-block; */
+    width: 250px;
+    align-self: left;
+    text-align: center;
   }
   .content {
     margin-left: 0%;
@@ -66,9 +89,9 @@
     font-size: 18px;
   }
   .dropdownD {
-    width: 100%;
+    width: 80%;
     position: relative;
-    display: inline-block;
+    display: none;
   }
   .dropdownD-content {
     position: absolute;

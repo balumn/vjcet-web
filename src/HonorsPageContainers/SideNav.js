@@ -66,28 +66,24 @@ class SideNav extends Component {
   };
   render() {
     return (
-      <div>
         <div >
           <HeadingOne data={this.Heading} />
           <div >
-            <div id="cs">
-              <CsHonors />
-            </div>
-            <div id="ec">
-              <EcHonors />
-            </div>
-            <div id="ee">
-              <EeHonors />
-            </div>
-            <div id="it">
-              <ItHonors />
-            </div>
-            <div id="me">
-              <MeHonors />
-            </div>
+            <CsHonors />
+          </div>
+          <div id="ec">
+            <EcHonors />
+          </div>
+          <div id="ee">
+            <EeHonors />
+          </div>
+          <div id="it">
+            <ItHonors />
+          </div>
+          <div id="me">
+            <MeHonors />
           </div>
         </div>
-      </div>
     );
   }
 }
