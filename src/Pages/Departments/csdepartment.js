@@ -56,7 +56,7 @@ class CsDepartment extends Component {
   };
   HeadingSectionTitle = {
     instanceID: "Headingtext",
-    title: "Computer Science Department"
+    title: "Department of Computer Science"
   };
 
   HeadingSectionDescription = {

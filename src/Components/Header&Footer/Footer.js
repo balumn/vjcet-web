@@ -220,8 +220,8 @@ class Footer extends Component {
         <div className="FooterLinksFour" id="FooterLinksFour">
           <HeadingFive data={this.FooterLinksTitleFour} />
           <ImageOne data={this.fb} />
-          <ImageOne data={this.insta} />
-          <ImageOne data={this.twitter} />
+          {/* <ImageOne data={this.insta} /> */}
+          {/* <ImageOne data={this.twitter} /> */}
           <ImageOne data={this.youtube} />
         </div>
 

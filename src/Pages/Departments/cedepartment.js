@@ -56,7 +56,7 @@ class CeDepartment extends Component {
   };
   HeadingSectionTitle = {
     instanceID: "Headingtext",
-    title: "Civil Engineering Department"
+    title: "Department of Civil Engineering"
   };
 
   HeadingSectionDescription = {

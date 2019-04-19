@@ -55,7 +55,7 @@ class ItDepartment extends Component {
   };
   HeadingSectionTitle = {
     instanceID: "Headingtext",
-    title: "Information Technology"
+    title: "Department of Information Technology"
   };
 
   HeadingSectionDescription = {

@@ -56,7 +56,7 @@ class EcDepartment extends Component {
   };
   HeadingSectionTitle = {
     instanceID: "Headingtext",
-    title: " Electronics and Communication Engineering"
+    title: "Department of Electronics and Communication Engineering"
   };
 
   HeadingSectionDescription = {

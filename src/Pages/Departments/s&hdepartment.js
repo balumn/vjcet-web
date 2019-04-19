@@ -55,7 +55,7 @@ class SHDepartment extends Component {
   };
   HeadingSectionTitle = {
     instanceID: "Headingtext",
-    title: "Science & Humanities"
+    title: "Department of Science & Humanities"
   };
 
   HeadingSectionDescription = {

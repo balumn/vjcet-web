@@ -56,7 +56,7 @@ class EeeDepartment extends Component {
   };
   HeadingSectionTitle = {
     instanceID: "Headingtext",
-    title: "Electrical and Electronics Department"
+    title: "Department of Electrical and Electronics"
   };
 
   HeadingSectionDescription = {

@@ -72,8 +72,8 @@ class DropDownD extends Component {
             </Link>
           </p>
           <p>
-            <a href="http://www.vjcetmba.in" className="patch1" >
-              MBA
+            <a href="http://www.vjcetmba.in" className="patch1" target="_blank">
+              Management of Bussiness Administration
             </a>
           </p>
         </div>

@@ -154,9 +154,6 @@ class Header extends Component {
             <DropDownC />
             <DropDownA />
             <DropDownF />
-            {/* <AnchorLink data={this.Link7} /> */}
-            {/* <AnchorLink data={this.Link9} /> */}
-            {/* <AnchorLink data={this.Link10} /> */}
           </div>
         </div>
       </div>

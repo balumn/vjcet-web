@@ -108,8 +108,7 @@
   grid-template-columns: 40% 60%;
   grid-template-areas:
     "follow follow"
-    "fb insta"
-    "twitter youtube";
+    "fb youtube";
 }
 
 #FooterFBLogo {
@@ -272,8 +271,8 @@
   .FooterLinksFour {
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-areas:
-      "follow follow follow follow"
-      "fb insta twitter youtube";
+      "follow follow"
+      "fb youtube";
     align-self: start;
     padding-right: 30%;
   }
