@@ -1,4 +1,4 @@
-.buttonhonor {
+/* .buttonhonor {
   width: auto;
   background-color: #880d1e;
   border: none;
@@ -13,18 +13,17 @@
   cursor: pointer;
 }
 .honorssidenav {
-  /* height: 100%; */
   width: 100%;
   position: relative;
-  top: 10px;
-  left: 0;
+
   overflow: block;
   padding-top: 0px;
   text-align: center;
   font-size: 14px;
+  background-color: yellow;
 }
 .honorsContent {
-  padding-top: 1%;
+  padding: auto;
   top: 0px;
   margin-top: -150px;
-}
+} */

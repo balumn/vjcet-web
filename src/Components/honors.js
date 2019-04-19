@@ -20,9 +20,10 @@ class Honors extends Component {
       >
         <img
           src={require("../Assets/" + image)}
-          width={width}
+          // width={width}
+          height="200px"
           style={{ ...this.props.imgStyle }}
-          alt="img"
+          alt="alt"
         />
         <h3>{name}</h3>
         <p>{content}</p>

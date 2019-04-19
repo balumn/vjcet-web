@@ -67,40 +67,9 @@ class SideNav extends Component {
   render() {
     return (
       <div>
-        <div class="honorssidenav">
+        <div >
           <HeadingOne data={this.Heading} />
-          {/* <input
-            type="button"
-            value="CSE"
-            class="buttonhonor"
-            onClick={this.onClickcs}
-          />
-          <input
-            type="button"
-            value="ECE"
-            class="buttonhonor"
-            onClick={this.onClickec}
-          />
-          <input
-            type="button"
-            value="EEE"
-            class="buttonhonor"
-            onClick={this.onClickee}
-          />
-          <input
-            type="button"
-            value="IT"
-            class="buttonhonor"
-            onClick={this.onClickit}
-          />
-          <input
-            type="button"
-            value="ME"
-            class="buttonhonor"
-            onClick={this.onClickme}
-          /> */}
-
-          <div class="honorsContent">
+          <div >
             <div id="cs">
               <CsHonors />
             </div>
