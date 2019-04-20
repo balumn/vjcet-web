@@ -1,66 +1,60 @@
 .MenuOverlay {
-  background-color: #461c0c;
+  background-color: white;
   color: azure;
   text-align: center;
   align-items: center;
   align-content: center;
   padding-left: auto;
   height: 100%;
+  overflow: auto;
 }
 .MenuOverlay a {
   text-decoration: none;
+}
+
+.MenuOverlayContent {
+  display: grid;
+}
+
+#MenuOverlayCloseButton {
+  justify-self: end;
+  margin-right: 7%;
+  margin-top: 7%;
+  color: white;
+  background-color: #461c0c;
+  padding: 2.5% 5%;
+}
+
+.MenuOverlayItem {
+  padding: 5% 0%;
+  font-size: 16px;
+  background-color: #461c0c;
+  width: 100%;
+  font-weight: 900;
+}
+
+.MenuOverlayItem a {
   color: azure;
 }
-.dropdownMenu {
-  float: Center;
-  overflow: hidden;
+
+.MenuOverlaySubLinkGroup {
+  display: grid;
+  background: white;
 }
 
-.dropdownMenu .dropbtn {
-  font-size: 100%;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-  width: 100%;
-  align-self: center;
-}
-
-.dropdownMenu-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  width: 100%;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdownMenu-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: center;
-}
-
-.topnav a:hover,
-.dropdownMenu:hover .dropbtn {
-  background-color: #555;
-  color: white;
-}
-
-.dropdownMenu-content a:hover {
-  background-color: #ddd;
+.MenuOverlaySubLinkGroup a {
   color: black;
 }
 
-.dropdownMenu:hover .dropdownMenu-content {
-  display: block;
+.MenuOverlaySubLinks {
+  padding: 5% 0%;
+  font-size: 16px;
 }
+
+#menuItem7 {
+  color: azure;
+}
+
 @media (min-width: 768px) {
   .MenuOverlay {
     display: none;

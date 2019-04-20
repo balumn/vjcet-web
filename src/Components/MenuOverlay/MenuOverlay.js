@@ -2,7 +2,79 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./MenuOverlay.css";
 class MenuOverlay extends Component {
+  constructor() {
+    super();
+    this.state = {
+      menuItem1: true,
+      menuItem2: true,
+      menuItem3: true,
+      menuItem4: true,
+      menuItem5: true,
+      menuItem6: true
+    };
+  }
+
+  menuItem1() {
+    this.setState({
+      menuItem1: !this.state.menuItem1
+    });
+  }
+
+  menuItem2() {
+    this.setState({
+      menuItem2: !this.state.menuItem2
+    });
+  }
+
+  menuItem3() {
+    this.setState({
+      menuItem3: !this.state.menuItem3
+    });
+  }
+
+  menuItem4() {
+    this.setState({
+      menuItem4: !this.state.menuItem4
+    });
+  }
+
+  menuItem5() {
+    this.setState({
+      menuItem5: !this.state.menuItem5
+    });
+  }
+
+  menuItem6() {
+    this.setState({
+      menuItem6: !this.state.menuItem6
+    });
+  }
+
   render() {
+    var menuItem1Style = {
+      display: this.state.menuItem1 ? "none" : "grid"
+    };
+
+    var menuItem2Style = {
+      display: this.state.menuItem2 ? "none" : "grid"
+    };
+
+    var menuItem3Style = {
+      display: this.state.menuItem3 ? "none" : "grid"
+    };
+
+    var menuItem4Style = {
+      display: this.state.menuItem4 ? "none" : "grid"
+    };
+
+    var menuItem5Style = {
+      display: this.state.menuItem5 ? "none" : "grid"
+    };
+
+    var menuItem6Style = {
+      display: this.state.menuItem6 ? "none" : "grid"
+    };
+
     return (
       <div
         className="MenuOverlay"
@@ -14,185 +86,173 @@ class MenuOverlay extends Component {
           bottom: "0px"
         }}
       >
-        <div className="dropdownMenu">
-          <button class="dropbtn">About Vjcet</button>
-          <div className="dropdownMenu-content">
-            <p>
-              <Link to="/about" className="patch1">
+        <div className="MenuOverlayContent">
+          <p
+            id="MenuOverlayCloseButton"
+            onClick={e => {
+              this.props.closeMenuFunction();
+            }}
+          >
+            x
+          </p>
+
+          <div id="menuItem1">
+            <button
+              className="MenuOverlayItem"
+              onClick={this.menuItem1.bind(this)}
+            >
+              <Link to="#">About VJCET</Link>
+            </button>
+
+            <div className="MenuOverlaySubLinkGroup" style={menuItem1Style}>
+              <Link className="MenuOverlaySubLinks" to="/about">
                 About College
               </Link>
-            </p>
-            <p>
-              <Link to="/about/accreditation" className="patch1">
+              <Link className="MenuOverlaySubLinks" to="/about">
                 Accreditation
               </Link>
-            </p>
-            <p>
-              <Link to="/about/keyfunctionaries" className="patch1">
+              <Link className="MenuOverlaySubLinks" to="/about">
                 KeyFunctionaries
               </Link>
-            </p>
+              <Link className="MenuOverlaySubLinks" to="/about">
+                Contact Us
+              </Link>
+            </div>
           </div>
-        </div>
-        <p>ContactUs</p>
-        <div class="dropdownMenu">
-          <button class="dropbtn">Login</button>
-          <div class="dropdownMenu-content">
-            <p>
-              <a href="https://portal.vjcet.ac.in" className="patch1">
-                {" "}
-                Staff & Parents login{" "}
-              </a>{" "}
-            </p>
 
-            <p>
-              <a href="https://moodle.vjcet.ac.in" className="patch1">
-                {" "}
+          <div id="menuItem2">
+            <button
+              className="MenuOverlayItem"
+              onClick={this.menuItem2.bind(this)}
+            >
+              <Link to="#">Login</Link>
+            </button>
+
+            <div className="MenuOverlaySubLinkGroup" style={menuItem2Style}>
+              <Link className="MenuOverlaySubLinks" to="/about">
+                Staff & Parents
+              </Link>
+              <Link className="MenuOverlaySubLinks" to="/about">
                 Moodle
-              </a>{" "}
-            </p>
+              </Link>
+              <Link className="MenuOverlaySubLinks" to="/about">
+                Admissions
+              </Link>
+            </div>
           </div>
-        </div>
-        <p>
-          <a href="http://admission.vjcet.ac.in/">Admission </a>
-        </p>
-        <div class="dropdownMenu">
-          <button class="dropbtn">Departments</button>
-          <div class="dropdownMenu-content">
-            <p>
-              <Link to="/departments/ce" className="patch1">
-                Civil Enginnering
-              </Link>
-            </p>
-            <p>
-              <Link to="/departments/cse" className="patch1">
-                Computer Science and Enginnering
-              </Link>
-            </p>
-            <p>
-              <Link to="/departments/ece" className="patch1">
-                Electronics & Communication Enginnering
-              </Link>
-            </p>
-            <p>
-              <Link to="/departments/eee" className="patch1">
-                Electrical & Electronics Enginnering
-              </Link>
-            </p>
 
-            <p>
-              <Link to="/departments/it" className="patch1">
-                Information Technology
+          <div id="menuItem3">
+            <button
+              className="MenuOverlayItem"
+              onClick={this.menuItem3.bind(this)}
+            >
+              <Link to="#">Departments</Link>
+            </button>
+
+            <div className="MenuOverlaySubLinkGroup" style={menuItem3Style}>
+              <Link className="MenuOverlaySubLinks" to="/about">
+                Civil Engineering
               </Link>
-            </p>
-            <p>
-              <Link to="/departments/me" className="patch1">
-                Mechanical Enginnering
+              <Link className="MenuOverlaySubLinks" to="/about">
+                Computer Science Engineering
               </Link>
-            </p>
-            <p>
-              <Link to="/departments/s&h" className="patch1">
+              <Link className="MenuOverlaySubLinks" to="/about">
+                Electronics & Communication Engineering
+              </Link>
+              <Link className="MenuOverlaySubLinks" to="/about">
+                Electrical & Electronics Engineering
+              </Link>
+              <Link className="MenuOverlaySubLinks" to="/about">
+                Information Technology Engineering
+              </Link>
+              <Link className="MenuOverlaySubLinks" to="/about">
+                Mechanical Engineering
+              </Link>
+              <Link className="MenuOverlaySubLinks" to="/about">
                 Science & Humanities
               </Link>
-            </p>
-            <p>
-              <a href="http://www.vjcetmba.in" className="patch1">
+              <Link className="MenuOverlaySubLinks" to="/about">
                 MBA
-              </a>
-            </p>
+              </Link>
+            </div>
           </div>
-        </div>
-        <div class="dropdownMenu">
-          <button class="dropbtn">Campus Life</button>
-          <div class="dropdownMenu-content">
-            <p>
-              <Link to="/campus-life" className="patch1">
+
+          <div id="menuItem4">
+            <button
+              className="MenuOverlayItem"
+              onClick={this.menuItem4.bind(this)}
+            >
+              <Link to="#">Campus Life</Link>
+            </button>
+
+            <div className="MenuOverlaySubLinkGroup" style={menuItem4Style}>
+              <Link className="MenuOverlaySubLinks" to="/about">
                 Campus
               </Link>
-            </p>
-            <p>
-              <Link to="/campus-life/campus-map" className="patch1">
-                Campus-Map
+              <Link className="MenuOverlaySubLinks" to="/about">
+                Campus M-Map
               </Link>
-            </p>
+            </div>
           </div>
-        </div>
-        <div class="dropdownMenu">
-          <button class="dropbtn">Facilities</button>
-          <div class="dropdownMenu-content">
-            <p>
-              <Link to="/facilities/computing-technology" className="patch1">
-                Common Computer Center
-              </Link>
-            </p>
 
-            <p>
-              <Link to="/facilities/library" className="patch1">
-                Centeral Library
-              </Link>
-            </p>
+          <div id="menuItem5">
+            <button
+              className="MenuOverlayItem"
+              onClick={this.menuItem5.bind(this)}
+            >
+              <Link to="#">Facilities</Link>
+            </button>
 
-            <p>
-              <Link to="/facilities/auditorium" className="patch1">
+            <div className="MenuOverlaySubLinkGroup" style={menuItem5Style}>
+              <Link className="MenuOverlaySubLinks" to="/about">
+                Common Computing Center
+              </Link>
+              <Link className="MenuOverlaySubLinks" to="/about">
+                Central Library
+              </Link>
+              <Link className="MenuOverlaySubLinks" to="/about">
                 Core Facilities
               </Link>
-            </p>
-            <p>
-              <Link to="/facilities/hostel" className="patch1">
+              <Link className="MenuOverlaySubLinks" to="/about">
                 Hostel
               </Link>
-            </p>
-            <p>
-              <Link to="/facilities/sport" className="patch1">
+              <Link className="MenuOverlaySubLinks" to="/about">
                 Sports
               </Link>
-            </p>
-
-            <p>
-              <Link to="/facilities/transportation" className="patch1">
+              <Link className="MenuOverlaySubLinks" to="/about">
                 Transportation
               </Link>
-            </p>
+            </div>
           </div>
-        </div>
-        <div class="dropdownMenu">
-          <button class="dropbtn">Academics</button>
-          <div class="dropdownMenu-content">
-            <p>
-              <Link to="/academics" className="patch1">
-                Academics
-              </Link>
-            </p>
-            <p>
-              <Link to="/academics/calendar" className="patch1">
-                {" "}
+
+          <div id="menuItem6">
+            <button
+              className="MenuOverlayItem"
+              onClick={this.menuItem6.bind(this)}
+            >
+              <Link to="#">Academics</Link>
+            </button>
+
+            <div className="MenuOverlaySubLinkGroup" style={menuItem6Style}>
+              <Link className="MenuOverlaySubLinks" to="/about">
                 Calendar
               </Link>
-            </p>
-            <p>
-              <Link to="/academics/curriculum" className="patch1">
+              <Link className="MenuOverlaySubLinks" to="/about">
                 Curriculum
               </Link>
-            </p>
-            <p>
-              <Link to="/academics/honors" className="patch1">
+              <Link className="MenuOverlaySubLinks" to="/about">
                 Honors
               </Link>
-            </p>
+              <Link className="MenuOverlaySubLinks" to="/about">
+                Placements
+              </Link>
+            </div>
           </div>
-        </div>
 
-        <p>
-          <Link to="/placements">Placements</Link>
-        </p>
-        <p>R&D</p>
-        <p
-          onClick={e => {
-            this.props.closeMenuFunction();
-          }}
-        >
-          X
-        </p>
+          <Link id="menuItem7" className="MenuOverlayItem" to="/about">
+            RD
+          </Link>
+        </div>
       </div>
     );
   }
