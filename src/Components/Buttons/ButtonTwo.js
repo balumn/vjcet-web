@@ -1,15 +1,14 @@
-import React, { Component } from "react";
+import React from "react";
 import "./ButtonTwo.css";
-import Button from "../../Assets/ButtonTwo.png";
 
-class ButtonTwo extends Component {
+class ButtonTwo extends React.Component {
   render() {
-    const { instanceID, width } = this.props.data;
-
     return (
-      <div className="ButtonTwo" id={instanceID}>
-        <img src={Button} width={width} />
-      </div>
+      <React.Fragment>
+        <div className="ButtonTwo">
+          <p>Download</p>
+        </div>
+      </React.Fragment>
     );
   }
 }
