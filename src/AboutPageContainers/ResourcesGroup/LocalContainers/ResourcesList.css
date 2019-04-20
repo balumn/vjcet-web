@@ -1,3 +1,15 @@
+.ResourcesList {
+  display: grid;
+  justify-items: center;
+  margin: 5% 0%;
+}
+
 .ResourcesList h4 {
   color: #880d1e;
+}
+
+@media (min-width: 560px) {
+  .ResourcesList {
+    margin: 10% 0%;
+  }
 }

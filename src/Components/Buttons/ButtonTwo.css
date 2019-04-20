@@ -1,0 +1,32 @@
+.ButtonTwo {
+  width: 120px;
+  background-color: #880d1e;
+  color: white;
+  padding: 0.5% 2%;
+  font-family: sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 14px;
+  margin: 5%;
+}
+
+@media (min-width: 768px) {
+  .ButtonTwo {
+    width: 140px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .ButtonTwo {
+    width: 180px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .ButtonTwo {
+    width: 220px;
+    font-size: 20px;
+  }
+}
