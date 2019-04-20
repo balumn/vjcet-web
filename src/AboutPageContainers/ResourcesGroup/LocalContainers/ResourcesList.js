@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./ResourcesList.css";
 import HeadingFour from "../../../Components/Texts/HeadingFour";
 import ImageOne from "../../../Components/Images/ImageOne";
-import ButtonThree from "../../../Components/Buttons/ButtonThree";
+import ButtonTwo from "../../../Components/Buttons/ButtonTwo";
 
 class ResourcesList extends Component {
   ListTitle = {
@@ -20,8 +20,8 @@ class ResourcesList extends Component {
     return (
       <div className="ResourcesList" id={this.props.data.instanceID}>
         <ImageOne data={this.ListIcon} />
-        <HeadingFour data={this.ListTitle} />
-        <ButtonThree />
+        <HeadingFour id="ResourcesListHeading" data={this.ListTitle} />
+        <ButtonTwo />
       </div>
     );
   }
