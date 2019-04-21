@@ -19,10 +19,10 @@
 #MenuOverlayCloseButton {
   justify-self: end;
   margin-right: 7%;
-  margin-top: 7%;
+  margin-top: 4%;
   color: white;
-  background-color: #461c0c;
   padding: 2.5% 5%;
+  padding-bottom: 7%;
 }
 
 .MenuOverlayItem {
@@ -39,7 +39,7 @@
 
 .MenuOverlaySubLinkGroup {
   display: grid;
-  background: white;
+  background: rgb(250, 255, 255);
 }
 
 .MenuOverlaySubLinkGroup a {
@@ -47,12 +47,18 @@
 }
 
 .MenuOverlaySubLinks {
-  padding: 5% 0%;
+  padding: 4% 0%;
   font-size: 16px;
 }
 
 #menuItem7 {
   color: azure;
+}
+
+@media (min-width: 560px) {
+  #MenuOverlayCloseButton {
+    width: 22px;
+  }
 }
 
 @media (min-width: 768px) {
