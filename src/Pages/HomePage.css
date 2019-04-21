@@ -27,12 +27,8 @@
 
 #HomePageCarouselTwo {
   grid-area: carouselTwo;
-  padding: 0px;
-  margin: 0px;
 }
 
 #HomePageCarouselThree {
   grid-area: carouselThree;
-  padding: 0px;
-  margin: 0px;
 }

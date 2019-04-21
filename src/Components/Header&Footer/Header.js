@@ -18,7 +18,7 @@ class Header extends Component {
   VJCLogo = {
     instanceID: "HeaderVJCLogo",
     image: "VJCLogo.png",
-    width: "180px"
+    width: "200px"
   };
 
   Hamburger = {
@@ -30,7 +30,7 @@ class Header extends Component {
   NBALogo = {
     instanceID: "HeaderNBALogo",
     image: "nba.png",
-    width: "30px"
+    width: "55px"
   };
 
   HeaderLineOne = {

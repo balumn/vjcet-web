@@ -1,4 +1,4 @@
-.Deptcontent{
+.Deptcontent {
   display: grid;
   grid-template-columns: 22% 75%;
   grid-template-areas: "sidenav data";
@@ -29,16 +29,14 @@
   user-select: none;
   text-shadow: 0 0 0;
 }
-.button:hover{
+.button:hover {
   outline: none;
 }
 input {
   caret-color: transparent;
 }
 .sidenav {
-  
-  grid-area: sidenav; 
-  
+  grid-area: sidenav;
 }
 .sidenav a {
   text-decoration: none;
@@ -52,26 +50,26 @@ input {
 
 .content {
   /* background-color: green; */
-  grid-area:data;
-
+  grid-area: data;
+  padding: 5% 0%;
 }
- 
+
 @media screen and (min-width: 768px) {
   .dropdownD {
     display: none;
-  } 
-  .sidemenu { 
+  }
+  .sidemenu {
     display: block;
+    padding: 15% 0% 15% 5%;
   }
 }
 @media screen and (max-width: 768px) {
-
   .Deptcontent {
     display: block;
-
   }
   .sidemenu {
     display: inline-block;
+    padding: 15% 0% 15% 5%;
   }
   .sidenav {
     display: block;
@@ -102,4 +100,4 @@ input {
   .dropdownD:hover .dropdownD-content {
     display: block;
   }
-} 
+}
