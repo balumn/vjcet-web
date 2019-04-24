@@ -1,49 +1,49 @@
 .contain {
-    margin: 0% 10%;
+  margin: 5% 10%;
 }
 .Heading {
-    text-align: start !important;
+  text-align: start !important;
 }
-.bodyContainer{
-    width: 75%;
-    margin: 10px auto;
-    text-align: justify;
+.bodyContainer {
+  width: 75%;
+  margin: 10px auto;
+  text-align: justify;
 }
-.bodyContainerInner{
-    width: 70%;
-    margin: 10px auto;
+.bodyContainerInner {
+  width: 70%;
+  margin: 10px auto;
 }
 @media (min-width: 400px) {
-    .bodyContainer{
-        width: 100%;
-        margin: 10px auto;
-        text-align: justify;
-    }
-    .bodyContainerInner{
-        width: 100%;
-        margin: 10px auto;
-    }
+  .bodyContainer {
+    width: 100%;
+    margin: 10px auto;
+    text-align: justify;
+  }
+  .bodyContainerInner {
+    width: 100%;
+    margin: 10px auto;
+  }
 }
 @media (min-width: 350px) {
-    .bodyContainer{
-        width: 95%;
-        margin: 10px auto;
-        text-align: justify;
-    }
-    .bodyContainerInner{
-        width: 95%;
-        margin: 10px auto;
-    }
+  .bodyContainer {
+    width: 95%;
+    margin: 10px auto;
+    text-align: justify;
+  }
+  .bodyContainerInner {
+    width: 95%;
+    margin: 10px auto;
+  }
 }
 @media (min-width: 1000px) {
-    .bodyContainer{
-        width: 95%;
-        margin: 10px auto;
-        text-align: justify;
-        font-size: 30px;
-    }
-    .bodyContainerInner{
-        width: 95%;
-        margin: 10px auto;
-    }
+  .bodyContainer {
+    width: 95%;
+    margin: 10px auto;
+    text-align: justify;
+    font-size: 30px;
+  }
+  .bodyContainerInner {
+    width: 95%;
+    margin: 10px auto;
+  }
 }

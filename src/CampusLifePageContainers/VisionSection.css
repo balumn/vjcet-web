@@ -11,6 +11,7 @@
 .VisionSectionA {
   grid-area: a;
   display: none;
+  padding: 1% 4%;
 }
 
 .VisionSectionB {
@@ -30,7 +31,6 @@
 
 @media (min-width: 1024px) {
   .VisionSectionA {
-    padding: 5% 0%;
     display: inline-block;
   }
 
@@ -44,7 +44,7 @@
       "b c";
   }
   .VisionSectionA {
-    padding: 2% 2% 5% 2%;
+    padding: 2% 5% 5% 5%;
   }
   .VisionSectionB {
     text-align: left;

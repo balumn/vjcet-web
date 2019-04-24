@@ -4,7 +4,7 @@ import "./AboutPage.css";
 import VisionSection from "../HomePageContainers/VisionSection";
 import Header from "../Components/Header&Footer/Header";
 import Footer from "../Components/Header&Footer/Footer";
-import AboutVJC from "../AboutPageContainers/AboutVJC/index";
+import AboutVJC from "../AboutPageContainers/AboutVJC";
 import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
 import HeadingTwo from "../Components/Texts/HeadingTwo";
 import BodyOneJustified from "../Components/Texts/BodyOneJustified";
@@ -46,7 +46,7 @@ class AboutPage extends Component {
         <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
         <AboutVJC />
         <VisionSection data={this.HomePageFacilitiesSection} />
-        <div className="AboutPage">
+        <div className="AboutPage" id="ManagementText">
           <HeadingTwo data={this.ManagmentTitle} />
           <BodyOneJustified data={this.ManagmentText1} />
         </div>

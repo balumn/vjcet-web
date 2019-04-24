@@ -11,6 +11,7 @@
 
   text-align: center;
   align-items: center;
+  padding: 1% 0%;
 }
 
 #HeaderLineThree {
@@ -27,6 +28,7 @@
 .HeaderLinkTabTwo {
   grid-area: tab2;
   display: none;
+  padding-top: 2%;
 }
 
 #HeaderVJCLogo {
@@ -165,7 +167,7 @@
 }
 @media (min-width: 1024px) {
   .Header {
-    grid-template-columns: 22% 8% 20% 50%;
+    grid-template-columns: 28% 12% 20% 40%;
     grid-template-areas:
       "vjc nba code tab1"
       "line1 line1 line1 line1"
@@ -183,7 +185,7 @@
   }
 
   #HeaderNBALogo {
-    justify-self: start;
+    justify-self: center;
     padding: 0px;
     padding-top: 7%;
   }
@@ -203,11 +205,20 @@
 }
 
 @media (min-width: 1440px) {
+  .Header {
+    grid-template-columns: 26% 8% 16% 50%;
+  }
+
   .HeaderLinkTabTwo {
     padding: 0% 18%;
+    padding-top: 1%;
   }
 
   .HeaderLinkTabOne {
     padding-left: 40%;
+  }
+
+  #HeaderNBALogo {
+    justify-self: start;
   }
 }

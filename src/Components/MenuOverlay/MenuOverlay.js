@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./MenuOverlay.css";
+
 class MenuOverlay extends Component {
   constructor() {
     super();
@@ -87,14 +88,15 @@ class MenuOverlay extends Component {
         }}
       >
         <div className="MenuOverlayContent">
-          <p
+          <img
             id="MenuOverlayCloseButton"
+            src={require("../../Assets/close.svg")}
+            width="16px"
+            alt="img"
             onClick={e => {
               this.props.closeMenuFunction();
             }}
-          >
-            x
-          </p>
+          />
 
           <div id="menuItem1">
             <button

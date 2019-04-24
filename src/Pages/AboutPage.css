@@ -1,5 +1,20 @@
-.AboutPage{
-    text-align: start;
-    width: 90%;
-    margin: 0% auto;
+.AboutPage {
+  text-align: start;
+  margin: 0% auto;
+}
+
+#AcademicsList {
+  padding: 5%;
+}
+
+#ManagementText {
+  padding: 5%;
+}
+
+#AccreditationList {
+  padding: 5%;
+}
+
+#KeyFunctionariesList {
+  padding: 5%;
 }
