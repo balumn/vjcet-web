@@ -1,13 +1,10 @@
 import React, { Component } from "react";
 import "./HomePage.css";
 import "./AboutPage.css";
-import VisionSection from "../HomePageContainers/VisionSection";
 import Header from "../Components/Header&Footer/Header";
 import Footer from "../Components/Header&Footer/Footer";
 import AboutVJC from "../AboutPageContainers/AboutVJC";
 import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
-import HeadingTwo from "../Components/Texts/HeadingTwo";
-import BodyOneJustified from "../Components/Texts/BodyOneJustified";
 
 class AboutPage extends Component {
   state = { showMenu: false };
@@ -45,17 +42,17 @@ class AboutPage extends Component {
       <div className="HomePage">
         <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
         <AboutVJC />
-        <VisionSection data={this.HomePageFacilitiesSection} />
-        <div className="AboutPage" id="ManagementText">
+        {/* <VisionSection data={this.HomePageFacilitiesSection} /> */}
+        {/* <div className="AboutPage" id="ManagementText">
           <HeadingTwo data={this.ManagmentTitle} />
           <BodyOneJustified data={this.ManagmentText1} />
-        </div>
+        </div> */}
         <Footer data={this.HomePageFooter} />
         {this.state.showMenu ? (
           <MenuOverlay closeMenuFunction={this.closeMenu} />
         ) : (
-          ""
-        )}
+            ""
+          )}
       </div>
     );
   }

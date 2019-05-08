@@ -56,7 +56,7 @@ class MeDepartment extends Component {
   };
   HeadingSectionTitle = {
     instanceID: "Headingtext",
-    title: "Department of Mechanical Engineering"
+    title: "MECHANICAL ENGINEERING"
   };
 
   HeadingSectionDescription = {
@@ -65,8 +65,8 @@ class MeDepartment extends Component {
   };
   CseImg = {
     instanceID: "CseImg",
-    image: "CseImg.jpg",
-    width: "100%"
+    image: "IMG_8065.JPG",
+    width: "90%"
   };
 
   render() {

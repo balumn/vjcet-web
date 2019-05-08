@@ -56,7 +56,7 @@ class CsDepartment extends Component {
   };
   HeadingSectionTitle = {
     instanceID: "Headingtext",
-    title: "Department of Computer Science"
+    title: "COMPUTER SCIENCE ENGINEERING"
   };
 
   HeadingSectionDescription = {
@@ -65,8 +65,8 @@ class CsDepartment extends Component {
   };
   CseImg = {
     instanceID: "CseImg",
-    image: "CseImg.jpg",
-    width: "100%"
+    image: "IMG_7490.JPG",
+    width: "90%"
   };
 
   ProfileHeading = {

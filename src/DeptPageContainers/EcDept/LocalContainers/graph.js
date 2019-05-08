@@ -108,16 +108,50 @@ class EcGraph extends Component {
               class="buttongraph"
               onClick={this.onClick15}
             />
+            {/* <input
+            type="button"
+            value="University Results May 2017"
+            class="buttongraph"
+            onClick={this.onClick14}
+          /> */}
             <input
               type="button"
               value="Roll of Honors"
               class="buttongraph"
               onClick={this.onClickHon}
             />
+            {/* <input
+            type="button"
+            value="2013-2017"
+            class="buttongraph"
+            onClick={this.onClick13}
+          />
+          <input
+            type="button"
+            value="2012-2016"
+            class="buttongraph"
+            onClick={this.onClick12}
+          />
+          <input
+            type="button"
+            value="2011-2015"
+            class="buttongraph"
+            onClick={this.onClick11}
+          />
+          <input
+            type="button"
+            value="2010-2014"
+            class="buttongraph"
+            onClick={this.onClick10}
+          />  */}
           </div>
           {this.state.show15 ? <Graph15 /> : null}
           {this.state.show14 ? <Graph14 /> : null}
           {this.state.showhon ? <EcHonors /> : null}
+          {/* {this.state.show13 ? <Graph13 /> : null}
+          {this.state.show12 ? <Graph12 /> : null}
+          {this.state.show11 ? <Graph11 /> : null}
+          {this.state.show10 ? <Graph10 /> : null} */}
         </div>
       </div>
     );

@@ -1,61 +1,61 @@
 import React, { Component } from "react";
 import "./faculty.css";
 import FacultyData from "../../Components/FacultyData";
-class Faculty extends Component {
+class CEStaff extends Component {
   state = {};
   Cestaff1 = {
     instanceID: "Cestaff1",
-    image: "dummy.png",
-    width: "30%",
+    image: "57.jpg",
+    width: "50%",
     name: "Mrs. Simi N U",
     content: "Instructor-Grade II"
   };
   Cefaculty2 = {
     instanceID: "Cefaculty2",
-    image: "dummy.png",
-    width: "30%",
+    image: "59.jpg",
+    width: "50%",
     name: "Mr. Jobish K Jose",
     content: "Trade Instructor"
   };
   Cefaculty3 = {
     instanceID: "Cefaculty3",
-    image: "dummy.png",
-    width: "30%",
+    image: "60.jpg",
+    width: "50%",
     name: "Mr. Jibi Jose",
     content: "Tradesman"
   };
   Cefaculty4 = {
     instanceID: "Cefaculty4",
-    image: "dummy.png",
-    width: "30%",
+    image: "61.jpg",
+    width: "50%",
     name: "Mr. Wilson V George",
     content: "Tradesman"
   };
   Cefaculty5 = {
     instanceID: "Cefaculty5",
-    image: "dummy.png",
-    width: "30%",
+    image: "62.jpg",
+    width: "50%",
     name: "Mr. Biju Joseph",
     content: "Tradesman"
   };
   Cefaculty6 = {
     instanceID: "Cefaculty6",
-    image: "dummy.png",
-    width: "30%",
+    image: "63.jpg",
+    width: "50%",
     name: "Mr. Shibu Augustine",
     content: "Tradesman"
   };
   Cefaculty7 = {
     instanceID: "Cefaculty7",
-    image: "dummy.png",
-    width: "30%",
+    image: "64.jpg",
+    width: "50%",
     name: "Mr. Mahesh Sankar",
     content: "Tradesman"
   };
   Cefaculty8 = {
     instanceID: "Cefaculty8",
-    image: "dummy.png",
-    width: "30%",
+    image: "393.jpg",
+    width: "50%",
     name: "Mrs. Doniya Johnson",
     content: "Tradesman"
   };
@@ -93,4 +93,4 @@ class Faculty extends Component {
   }
 }
 
-export default Faculty;
+export default CEStaff;

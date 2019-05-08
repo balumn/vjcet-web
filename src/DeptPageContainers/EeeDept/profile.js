@@ -1,29 +1,50 @@
 import React, { Component } from "react";
 import HeadingOne from "../../Components/Texts/HeadingOne";
-import Bodythree from "../../Components/Texts/BodyThree";
+import BodyOneJustified from "../../Components/Texts/BodyOneJustified"
 class Profile extends Component {
   state = {};
   ProfileHeading = {
     instanceID: "ProfileHeading",
     title: "Profile"
   };
-  ProfileDescriptionOne = {
-    instanceID: "ProfileDescriptionOne",
-    title:
-      "The Department of Electrical and Electronics Engineering of VJCET was established in the year 2004, with eminent and well qualified faculty and excellent infra structure. The department is recognized for excellence in teaching and service to the profession and it offers Undergraduate Programme with an intake of 90 students. In a very short spell the department could emerge with four University ranks. The academic strength of the faculty is reflected by the alumni, many of whom are in the top echelons of industry and academicia both in India and abroad."
+  Features1 = {
+    instanceID: "Features1",
+    title: "•	Department demonstrate consistent academic excellence in university examinations including 1st position in 2017 and has strong global Alumni presence."
   };
-  ProfileDescriptionTwo = {
-    instanceID: "ProfileDescriptionTwo",
-    title:
-      "M. Tech. students with GATE qualification are funded by AICTE scholarships. Training programs conducted for the B. Tech. students throughout the course of their study by the Placement and Training Cell (PTC) of our college prepares them for a smooth transition from academia to the industry. In the past our students have been placed in reputed companies like Infosys, Wipro, TCS, Tata Elxsi, Oracle, HCL, L&T, IBS, Cognizant, and so on. Our students have secured very good results in the University examinations including University ranks. They regularly participate in inter collegiate technical and cultural events and have won many prizes."
+
+  Features2 = {
+    instanceID: "Features2",
+    title: "•	Board of Research Nuclear Science (BRNS), under the Department of Atomic Energy, sanctioned two research projects of worth Rs.63 lakhs and are in progress."
+  };
+  Features3 = {
+    instanceID: "Features3",
+    title: "•	Students under the guidance of eminent faculty are competent to tackle National and International technical events and secured scholarships and awards."
+  };
+  Features4 = {
+    instanceID: "Features4",
+    title: "•	Senior faculty members serve as Independent Director of Nuclear Power Cooperation of India, Energy Auditor and Manager, Entrepreneur etc."
+  };
+  Features5 = {
+    instanceID: "Features5",
+    title: "•	As a part of social commitment, department is involved in R&D Project on “Shelf life extension of pineapple” and also, acts as a PMKVY Centre, Government of India initiative for Skill Development."
+  };
+  Features6 = {
+    instanceID: "Features6",
+    title: "•	Encouraging sustainable development, department runs a 50kWp on grid - solar power plant in the campus"
   };
 
   render() {
     return (
       <div className="Profile" id="profile">
         <HeadingOne data={this.ProfileHeading} />
-        <Bodythree data={this.ProfileDescriptionOne} />
-        <Bodythree data={this.ProfileDescriptionTwo} />
+        <div className="bodyContainer">
+          <p><BodyOneJustified data={this.Features1} /></p>
+          <p><BodyOneJustified data={this.Features2} /></p>
+          <p><BodyOneJustified data={this.Features3} /></p>
+          <p><BodyOneJustified data={this.Features4} /></p>
+          <p><BodyOneJustified data={this.Features5} /></p>
+          <p><BodyOneJustified data={this.Features6} /></p>
+        </div>
       </div>
     );
   }

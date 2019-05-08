@@ -56,7 +56,7 @@ class EcDepartment extends Component {
   };
   HeadingSectionTitle = {
     instanceID: "Headingtext",
-    title: "Department of Electronics and Communication Engineering"
+    title: " ELECTRONICS AND COMMUNICATION ENGINEERING"
   };
 
   HeadingSectionDescription = {
@@ -65,8 +65,8 @@ class EcDepartment extends Component {
   };
   CseImg = {
     instanceID: "CseImg",
-    image: "CseImg.jpg",
-    width: "100%"
+    image: "IMG_8178.JPG",
+    width: "90%"
   };
 
   ProfileHeading = {

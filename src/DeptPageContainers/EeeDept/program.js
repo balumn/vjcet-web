@@ -10,20 +10,13 @@ class Program extends Component {
   ProgramDescriptionOne = {
     instanceID: "ProgramDescriptionOne",
     title:
-      "Department of EEE is under graduate degree and Post graduate courses in Electrical & Electronics Engineering.  The total intake in Undergraduate course is 90  per batch  The Under Graduate program started in the year July 2004 with an intake of  60 students per batch. "
+      "The Department of Electrical and Electronics Engineering of VJCET was established in the year 2004, with eminent and well qualified faculty and excellent infra structure. The department is recognized for excellence in teaching and service to the profession and it offers Undergraduate Programme with an intake of 60 students. In a very short spell the department could emerge with five University ranks. The academic strength of the faculty is reflected by the alumni, many of whom are in the top echelons of industry and academicia both in India and abroad. The Department has been granted accreditation for 3 years(upto 30th June 2021)."
   };
-  ProgramDescriptionTwo = {
-    instanceID: "ProgramDescriptionTwo",
-    title:
-      "The Under Graduate program started in the year 2001 with an intake of  60 students per batch. Later in July 2007 the intake is amplified to 120 students per batch. In the year 2010 Postgraduate program in Computer Science and Engineering with an intake of 18 students per batch has started. The Department is accredited by National Board of Accreditation (NBA) of AICTE in June 2010. Also the Department applied for NBA accreditation in 2017 and is accredited."
-  };
-
   render() {
     return (
       <div className="Program" id="program">
         <HeadingOne data={this.ProgramHeading} />
         <Bodythree data={this.ProgramDescriptionOne} />
-        <Bodythree data={this.ProgramDescriptionTwo} />
       </div>
     );
   }

@@ -15,10 +15,15 @@
 .graph {
   /* height: 100%; */
   width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
   display: block;
   overflow: none;
   padding-top: 20px;
   text-align: center;
   font-size: 14px;
-  /* background-color: yellow; */
+}
+.graphContent {
+  padding-top: 1%;
 }

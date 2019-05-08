@@ -15,7 +15,7 @@ class Program extends Component {
   ProgramDescriptionTwo = {
     instanceID: "ProgramDescriptionTwo",
     title:
-      "The Under Graduate program started in the year 2001 with an intake of  60 students per batch. Later in July 2007 the intake is amplified to 120 students per batch. In the year 2010 Postgraduate program in Computer Science and Engineering with an intake of 18 students per batch has started. The Department is accredited by National Board of Accreditation (NBA) of AICTE in June 2010. Also the Department applied for NBA accreditation in 2017 and is accredited."
+      "The Under Graduate program started in the year 2001 with an intake of 60 students per batch. Later in July 2007 the intake is amplified to 120 students per batch. In the year 2010 Postgraduate program in Computer Science and Engineering with an intake of 18 students per batch has started. The Department is accredited by National Board of Accreditation (NBA) of AICTE in June 2010. Also the Department applied for NBA accreditation in 2017 and is accredited by NBA on July 2018 for three years."
   };
 
   render() {

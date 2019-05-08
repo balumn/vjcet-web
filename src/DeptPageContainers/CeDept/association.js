@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import HeadingOne from "../../Components/Texts/HeadingOne";
 import Bodythree from "../../Components/Texts/BodyThree";
+import BodyOneJustified from "../../Components/Texts/BodyOneJustified"
 class Library extends Component {
   state = {};
   DeptAssociationHeadingOne = {
@@ -10,37 +11,61 @@ class Library extends Component {
   DeptAssociationDescriptionOne = {
     instanceID: "DeptAssociationDescriptionOne",
     title:
-      "The Civil Engineering Student’s Association of VISWAJYOTHI COLLEGE OF ENGINEERING AND TECHNOLOGY, aims to play a pivotal role in the development of students as engineers by various out-of-curriculum and extracurricular activities. It aims to inculcate among its members an awareness and appreciation of the various disciplines of not just Civil Engineering but also other relevant fields. The Civil Engineering Association of VJCET was constituted in the year 2013 and is having 28 Faculties, 8 Technical staff and 432 students as members. Various academic activities and technical talks are being organized on behalf of Civil Engineering Association. By virtue of its activities CIVISTA aims to be a platform for all the students in general and particularly of the students of CE department and seeks to be an active  organization of the CE department which promotes their career interests."
+      "The Civil Engineering Students’ Association “CIVISTA” plays a pivotal role in the development of students as engineers by various out-of-curriculum and extra-curricular activities. "
   };
-  DeptAssociationHeadingTwo = {
-    instanceID: "DeptAssociationHeadingTwo",
-    title: "Sinu Arby Quiz Competition"
-  };
+
   DeptAssociationDescriptionTwo = {
     instanceID: "DeptAssociationDescriptionTwo",
     title:
-      "Sinu Arby Memorial Quiz Competition was conducted by the department."
+      "It aims to inculcate among its members an awareness and appreciation of the various disciplines of not just Civil Engineering but also other relevant fields. Various academic activities and technical talks are being organized on behalf of Civil Engineering Association. "
   };
   DeptAssociationDescriptionThree = {
     instanceID: "DeptAssociationDescriptionThree",
-    title: "ICSE Association Inauguration"
+    title: "CIVISTA has 26 Faculty members, 8 Technical staff and 443 students on its roll. "
   };
   DeptAssociationDescriptionFour = {
     instanceID: "DeptAssociationDescriptionFour",
     title:
-      "THE COMPUTER SCIENCE ASSOCIATION: 'VOICE' The Vision Of Imperial Computer Engineers lives with its ardent passion to be the fulcrum for change and development in the campus. Mr. Sajeev K.M, DySP, Marine Enforcement &amp; Vigilance, Trivandrum, inaugurated our association on 16 th   August 2017."
-  };
-  DeptAssociationDescriptionFive = {
-    instanceID: "DeptAssociationDescriptionFive",
-    title:
-      "Inaugural Speech by Chief Guest Mr. Sajeev K.M, DySP, Marine Enforcement &amp; Vigilance, Trivandrum"
+      "CIVISTA involves in various Curriculum Enrichment Programs and Social Outreach Programs:"
   };
 
+  List1 = {
+    instanceID: "List1",
+    title: "•	EXTERNAL CONSULTANCY SERVICES"
+  };
+  List2 = {
+    instanceID: "List2",
+    title: "•	SEC ∞"
+  };
+  List3 = {
+    instanceID: "List3",
+    title: "•	MINDSPARK "
+  };
+  List4 = {
+    instanceID: "List4",
+    title: "•	ROOPAREKHA"
+  };
+  List5 = {
+    instanceID: "List5",
+    title: "•	SOCIAL OUT REACH PROGRAMS"
+  };
   render() {
     return (
       <div className="DeptAssociation" id="dept-association">
         <HeadingOne data={this.DeptAssociationHeadingOne} />
         <Bodythree data={this.DeptAssociationDescriptionOne} />
+        <Bodythree data={this.DeptAssociationDescriptionTwo} />
+        <Bodythree data={this.DeptAssociationDescriptionThree} />
+        <div className="bodyContainer">
+          <p><BodyOneJustified data={this.DeptAssociationDescriptionFour} /></p>
+          <div className="bodyContainerInner">
+            <p><BodyOneJustified data={this.List1}></BodyOneJustified></p>
+            <p><BodyOneJustified data={this.List2}></BodyOneJustified></p>
+            <p><BodyOneJustified data={this.List3}></BodyOneJustified></p>
+            <p><BodyOneJustified data={this.List4}></BodyOneJustified></p>
+            <p><BodyOneJustified data={this.List5}></BodyOneJustified></p>
+          </div>
+        </div>
       </div>
     );
   }

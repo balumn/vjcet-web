@@ -120,95 +120,111 @@ class SideNav extends Component {
     return (
       <React.Fragment>
 
-        <div className="Deptcontent">
-          <div className="sidemenu">
+        <div class="Deptcontent">
+          <div class="sidenav">
             <input
+
               value="Profile"
-              className="button"
+              class="button"
               onClick={this.onClickP}
             />
             <input
-              value="Vision & Mission"
-              className="button"
+
+              value="Vision"
+              class="button"
               onClick={this.onClickV}
             />
             <input
+
               value="PEO & PSO"
-              className="button"
+              class="button"
               onClick={this.onClickPeo}
             />
             <input
+
               value="Program"
-              className="button"
+              class="button"
               onClick={this.onClickProg}
             />
             <input
+
               value="Faculty"
-              className="button"
+              class="button"
               onClick={this.onClickFac}
             />
             <input
-              value="Dept. Library"
-              className="button"
+
+              value="Library"
+              class="button"
               onClick={this.onClickLib}
             />
             <input
-              value="Dept. Association"
-              className="button"
+
+              value="Association"
+              class="button"
               onClick={this.onClickAss}
             />
             <input
+
               value="Result & Honors"
-              className="button"
+              class="button"
               onClick={this.onClickRes}
             />
           </div>
-          <div className="dropdownD">
-            <button className="button">Menu</button>
-            <div className="dropdownD-content">
+          <div class="dropdownD">
+            <button class="button">Menu</button>
+            <div class="dropdownD-content">
               <input
+
                 value="Profile"
-                className="button"
+                class="button"
                 onClick={this.onClickP}
               />
               <input
-                value="Vision & Mission"
-                className="button"
+
+                value="Vision"
+                class="button"
                 onClick={this.onClickV}
               />
               <input
+
                 value="PEO & PSO"
-                className="button"
+                class="button"
                 onClick={this.onClickPeo}
               />
               <input
+
                 value="Program"
-                className="button"
+                class="button"
                 onClick={this.onClickProg}
               />
               <input
+
                 value="Faculty"
-                className="button"
+                class="button"
                 onClick={this.onClickFac}
               />
               <input
-                value="Dept. Library"
-                className="button"
+
+                value="Library"
+                class="button"
                 onClick={this.onClickLib}
               />
               <input
-                value="Dept. Association"
-                className="button"
+
+                value="Association"
+                class="button"
                 onClick={this.onClickAss}
               />
               <input
-                value="Result & Honors"
-                className="button"
+
+                value="Result"
+                class="button"
                 onClick={this.onClickRes}
               />
             </div>
           </div>
-          <div className="content">
+          <div class="content">
             {this.state.showProfile ? <Profile /> : null}
             {this.state.showVision ? <Vision /> : null}
             {this.state.showPeo ? <PEO /> : null}

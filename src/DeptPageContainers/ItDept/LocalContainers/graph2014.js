@@ -5,7 +5,7 @@ class Graph14 extends Component {
   state = {};
   Graphheading = {
     instanceID: "GraphHeading",
-    title: "University Results May 2017"
+    title: "2014-2017"
   };
   render() {
     return (
@@ -20,43 +20,43 @@ class Graph14 extends Component {
             <div class="bar-graph-label">20%</div>
             <div class="bar-graph-label">0%</div>
           </li>
-          <li class="bar alert" style={{ height: "68%" }} title="S2">
+          <li class="bar alert" style={{ height: "35%" }} title="S1-S2">
             <div class="percent">
-              68<span>%</span>
+              35<span>%</span>
             </div>
-            <div class="description">S2</div>
+            <div class="description">S1-S2</div>
           </li>
-          {/* <li class="bar secondary" style={{ height: "84%" }} title="S3">
+          <li class="bar secondary" style={{ height: "41%" }} title="S3">
             <div class="percent">
-              84<span>%</span>
+              41<span>%</span>
             </div>
             <div class="description">S3</div>
-          </li> */}
-          <li class="bar primary" style={{ height: "59%" }} title="S4">
+          </li>
+          <li class="bar primary" style={{ height: "63%" }} title="S4">
             <div class="percent">
-              59<span>%</span>
+              63<span>%</span>
             </div>
             <div class="description">S4</div>
           </li>
-          {/* <li class="bar warning" style={{ height: "72%" }} title="S5">
+          <li class="bar warning" style={{ height: "65%" }} title="S5">
             <div class="percent">
-              72<span>%</span>
+              65<span>%</span>
             </div>
             <div class="description">S5</div>
-          </li> */}
-          <li class="bar success" style={{ height: "75%" }} title="S6">
+          </li>
+          <li class="bar success" style={{ height: "79%" }} title="S6">
             <div class="percent">
-              75<span>%</span>
+              79<span>%</span>
             </div>
             <div class="description">S6</div>
           </li>
-          {/* <li class="bar success" style={{ height: "95%" }} title="S7">
+          <li class="bar success" style={{ height: "87%" }} title="S7">
             <div class="percent">
-              95<span>%</span>
+              87<span>%</span>
             </div>
             <div class="description">S7</div>
-          </li> */}
-          <li class="bar success" style={{ height: "98%" }} title="S8">
+          </li>
+          <li class="bar success" style={{ height: "95%" }} title="S8">
             <div class="percent">
               93<span>%</span>
             </div>

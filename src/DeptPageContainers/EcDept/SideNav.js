@@ -121,43 +121,51 @@ class SideNav extends Component {
       <React.Fragment>
 
         <div class="Deptcontent">
-          <div class="sidemenu">
+          <div class="sidenav">
             <input
+
               value="Profile"
               class="button"
               onClick={this.onClickP}
             />
             <input
-              value="Vision & Mission"
+
+              value="Vision"
               class="button"
               onClick={this.onClickV}
             />
             <input
+
               value="PEO & PSO"
               class="button"
               onClick={this.onClickPeo}
             />
             <input
+
               value="Program"
               class="button"
               onClick={this.onClickProg}
             />
             <input
+
               value="Faculty"
               class="button"
               onClick={this.onClickFac}
             />
             <input
-              value="Dept. Library"
+
+              value="Library"
               class="button"
               onClick={this.onClickLib}
             />
             <input
-              value="Dept. Association"
+
+              value="Association"
               class="button"
               onClick={this.onClickAss}
             />
             <input
+
               value="Result & Honors"
               class="button"
               onClick={this.onClickRes}
@@ -167,42 +175,50 @@ class SideNav extends Component {
             <button class="button">Menu</button>
             <div class="dropdownD-content">
               <input
+
                 value="Profile"
                 class="button"
                 onClick={this.onClickP}
               />
               <input
-                value="Vision & Mission"
+
+                value="Vision"
                 class="button"
                 onClick={this.onClickV}
               />
               <input
+
                 value="PEO & PSO"
                 class="button"
                 onClick={this.onClickPeo}
               />
               <input
+
                 value="Program"
                 class="button"
                 onClick={this.onClickProg}
               />
               <input
+
                 value="Faculty"
                 class="button"
                 onClick={this.onClickFac}
               />
               <input
-                value="Dept. Library"
+
+                value="Library"
                 class="button"
                 onClick={this.onClickLib}
               />
               <input
-                value="Dept. Association"
+
+                value="Association"
                 class="button"
                 onClick={this.onClickAss}
               />
               <input
-                value="Result & Honors"
+
+                value="Result"
                 class="button"
                 onClick={this.onClickRes}
               />

@@ -15,27 +15,14 @@ class Library extends Component {
   };
   DeptAssociationHeadingTwo = {
     instanceID: "DeptAssociationHeadingTwo",
-    title: "Sinu Arby Quiz Competition"
+    title: "2018-19"
   };
   DeptAssociationDescriptionTwo = {
     instanceID: "DeptAssociationDescriptionTwo",
     title:
-      "Sinu Arby Memorial Quiz Competition was conducted by the department."
+      "The association activities for the year was inaugurated by Dr. Vineesh K P ,Faculty, NIT Calicut on 3rd October, 2018, and a technical talk on Machine Learning was conducted. The newsletter was also released on the same venue."
   };
-  DeptAssociationDescriptionThree = {
-    instanceID: "DeptAssociationDescriptionThree",
-    title: "ICSE Association Inauguration"
-  };
-  DeptAssociationDescriptionFour = {
-    instanceID: "DeptAssociationDescriptionFour",
-    title:
-      "THE COMPUTER SCIENCE ASSOCIATION: 'VOICE' The Vision Of Imperial Computer Engineers lives with its ardent passion to be the fulcrum for change and development in the campus. Mr. Sajeev K.M, DySP, Marine Enforcement &amp; Vigilance, Trivandrum, inaugurated our association on 16 th   August 2017."
-  };
-  DeptAssociationDescriptionFive = {
-    instanceID: "DeptAssociationDescriptionFive",
-    title:
-      "Inaugural Speech by Chief Guest Mr. Sajeev K.M, DySP, Marine Enforcement &amp; Vigilance, Trivandrum"
-  };
+
 
   render() {
     return (
@@ -44,9 +31,6 @@ class Library extends Component {
         <Bodythree data={this.DeptAssociationDescriptionOne} />
         <HeadingFour data={this.DeptAssociationHeadingTwo} />
         <Bodythree data={this.DeptAssociationDescriptionTwo} />
-        <Bodythree data={this.DeptAssociationDescriptionThree} />
-        <Bodythree data={this.DeptAssociationDescriptionFour} />
-        <Bodythree data={this.DeptAssociationDescriptionFive} />
       </div>
     );
   }

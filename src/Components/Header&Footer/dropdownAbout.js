@@ -60,6 +60,14 @@ class DropDownAb extends Component {
               KeyFunctionaries
             </Link>
           </p>
+          <p>
+            <Link
+              to="/about/vision"
+              className="patch1"
+            >
+              Vision & Mission
+            </Link>
+          </p>
         </div>
       </div>
     );

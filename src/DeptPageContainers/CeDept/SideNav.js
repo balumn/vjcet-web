@@ -7,7 +7,9 @@ import Program from "./program";
 import Library from "./library";
 import Association from "./association";
 import Result from "./result";
+import Outreach from "./outreach"
 import FacultyNav from "./facultynav";
+import ProfBodies from "./Profbodies";
 class SideNav extends Component {
   state = {
     showProfile: true,
@@ -17,7 +19,9 @@ class SideNav extends Component {
     showLib: false,
     showAss: false,
     showRes: false,
-    showfac: false
+    showfac: false,
+    showOut: false,
+    showProf: false
   };
   onClickP = () => {
     this.setState({
@@ -28,7 +32,9 @@ class SideNav extends Component {
       showLib: false,
       showAss: false,
       showRes: false,
-      showfac: false
+      showfac: false,
+      showOut: false,
+      showProf: false
     });
   };
   onClickV = () => {
@@ -40,7 +46,9 @@ class SideNav extends Component {
       showLib: false,
       showAss: false,
       showRes: false,
-      showfac: false
+      showfac: false,
+      showOut: false,
+      showProf: false
     });
   };
   onClickPeo = () => {
@@ -52,7 +60,9 @@ class SideNav extends Component {
       showLib: false,
       showAss: false,
       showRes: false,
-      showfac: false
+      showfac: false,
+      showOut: false,
+      showProf: false
     });
   };
   onClickProg = () => {
@@ -64,7 +74,9 @@ class SideNav extends Component {
       showLib: false,
       showAss: false,
       showRes: false,
-      showfac: false
+      showfac: false,
+      showOut: false,
+      showProf: false
     });
   };
   onClickLib = () => {
@@ -76,7 +88,9 @@ class SideNav extends Component {
       showLib: true,
       showAss: false,
       showRes: false,
-      showfac: false
+      showfac: false,
+      showOut: false,
+      showProf: false
     });
   };
   onClickAss = () => {
@@ -88,7 +102,9 @@ class SideNav extends Component {
       showLib: false,
       showAss: true,
       showRes: false,
-      showfac: false
+      showfac: false,
+      showOut: false,
+      showProf: false
     });
   };
   onClickRes = () => {
@@ -100,7 +116,9 @@ class SideNav extends Component {
       showLib: false,
       showAss: false,
       showRes: true,
-      showfac: false
+      showfac: false,
+      showOut: false,
+      showProf: false
     });
   };
   onClickFac = () => {
@@ -112,99 +130,162 @@ class SideNav extends Component {
       showLib: false,
       showAss: false,
       showRes: false,
-      showfac: true
+      showfac: true,
+      showOut: false,
+      showProf: false
     });
   };
-
+  onClickOut = () => {
+    this.setState({
+      showProfile: false,
+      showVision: false,
+      showPeo: false,
+      showProgram: false,
+      showLib: false,
+      showAss: false,
+      showRes: false,
+      showOut: true,
+      showProf: false
+    });
+  };
+  onClickProf = () => {
+    this.setState({
+      showProfile: false,
+      showVision: false,
+      showPeo: false,
+      showProgram: false,
+      showLib: false,
+      showAss: false,
+      showRes: false,
+      showOut: false,
+      showProf: true
+    });
+  };
   render() {
     return (
       <React.Fragment>
 
         <div class="Deptcontent">
-          <div class="sidemenu">
+          <div class="sidenav">
             <input
+
               value="Profile"
-              className="button"
+              class="button"
               onClick={this.onClickP}
             />
             <input
-              value="Vision & Mission"
-              className="button"
+
+              value="Vision"
+              class="button"
               onClick={this.onClickV}
             />
             <input
+
               value="PEO & PSO"
-              className="button"
+              class="button"
               onClick={this.onClickPeo}
             />
             <input
+
               value="Program"
-              className="button"
+              class="button"
               onClick={this.onClickProg}
             />
             <input
+
               value="Faculty"
-              className="button"
+              class="button"
               onClick={this.onClickFac}
             />
             <input
-              value="Dept. Library"
-              className="button"
+
+              value="Library"
+              class="button"
               onClick={this.onClickLib}
             />
             <input
-              value="Dept. Association"
-              className="button"
+
+              value="Association"
+              class="button"
               onClick={this.onClickAss}
             />
             <input
+
               value="Result & Honors"
-              className="button"
+              class="button"
               onClick={this.onClickRes}
+            />
+            <input
+              value="Outreach Program"
+              class="button"
+              onClick={this.onClickOut}
+            />
+            <input
+              value="Professional Bodies"
+              class="button"
+              onClick={this.onClickProf}
             />
           </div>
           <div class="dropdownD">
-            <button className="button">Menu</button>
+            <button class="button">Menu</button>
             <div class="dropdownD-content">
               <input
+
                 value="Profile"
-                className="button"
+                class="button"
                 onClick={this.onClickP}
               />
               <input
-                value="Vision & Mission"
-                className="button"
+
+                value="Vision"
+                class="button"
                 onClick={this.onClickV}
               />
               <input
+
                 value="PEO & PSO"
-                className="button"
+                class="button"
                 onClick={this.onClickPeo}
               />
               <input
+
                 value="Program"
-                className="button"
+                class="button"
                 onClick={this.onClickProg}
               />
               <input
+
                 value="Faculty"
-                className="button"
+                class="button"
                 onClick={this.onClickFac}
               />
               <input
-                value="Dept. Library"
-                className="button"
+
+                value="Library"
+                class="button"
                 onClick={this.onClickLib}
               />
               <input
-                value="Dept. Association"
-                className="button"
+
+                value="Association"
+                class="button"
                 onClick={this.onClickAss}
               />
               <input
-                value="Result & Honors"
-                className="button"
+
+                value="Result"
+                class="button"
                 onClick={this.onClickRes}
+              />
+              <input
+                value="Outreach Program"
+                class="button"
+                onClick={this.onClickOut}
+              />
+              <input
+                value="Professional Bodies"
+                class="button"
+                onClick={this.onClickProf}
               />
             </div>
           </div>
@@ -217,6 +298,8 @@ class SideNav extends Component {
             {this.state.showLib ? <Library /> : null}
             {this.state.showAss ? <Association /> : null}
             {this.state.showRes ? <Result /> : null}
+            {this.state.showOut ? <Outreach /> : null}
+            {this.state.showProf ? <ProfBodies /> : null}
           </div>
         </div>
       </React.Fragment>

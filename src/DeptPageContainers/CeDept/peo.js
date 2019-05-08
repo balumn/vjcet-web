@@ -5,7 +5,7 @@ class PEO extends Component {
   state = {};
   peoHeading = {
     instanceID: "psoHeading",
-    title: "Program Educational Outcomes(PEOs)"
+    title: "Program Educational Objectives"
   };
   peoListOne = {
     instanceID: "peoListOne",
@@ -19,7 +19,7 @@ class PEO extends Component {
   peoListThree = {
     instanceID: "peoListThree",
     title:
-      "2.	Shall be proficient in the use of relevant software packages for planning, designing, scheduling, executing and controlling of civil engineering projects, with an urge for life-long learning."
+      "2.	Shall be proficient in the use of relevant software packages for planning, designing, scheduling, executing and controlling of Civil Engineering projects, with an urge for life-long learning."
   };
   peoListFour = {
     instanceID: "peoListFour",
@@ -29,7 +29,7 @@ class PEO extends Component {
 
   psoHeading = {
     instanceID: "psoHeading",
-    title: "Program Specific Outcomes(PSOs)"
+    title: "Program Specific Outcomes"
   };
   psoListOne = {
     instanceID: "psoListOne",
@@ -38,7 +38,7 @@ class PEO extends Component {
   psoListTwo = {
     instanceID: "psoListTwo",
     title:
-      "1.	Ability to utilize civil engineering principles and software that are appropriate to solve technical problems; prepare design and construction documents ; create structural systems; produce drawings, reports and quantity estimates related to the Civil Engineering domain."
+      "1.	Ability to utilize Civil Engineering principles and software that are appropriate to solve technical problems; prepare design and construction documents ; create structural systems; produce drawings, reports and quantity estimates related to the Civil Engineering domain."
   };
   psoListThree = {
     instanceID: "psoListThree",

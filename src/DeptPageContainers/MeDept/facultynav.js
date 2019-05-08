@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import CEFaculty from "./Mefaculty";
-import CEStaff from "./Mestaff";
+import MEFaculty from "./Mefaculty";
+import MEStaff from "./Mestaff";
 class FacultyNav extends Component {
   state = {
     showfaculty: true,
@@ -29,13 +29,13 @@ class FacultyNav extends Component {
         />
         <input
           type="button"
-          value="Staff"
+          value="Technical Staff"
           class="buttongraph"
           onClick={this.OnClickStaff}
         />
         <div class="FacultyNavContent">
-          {this.state.showfaculty ? <CEFaculty /> : null}
-          {this.state.showstaff ? <CEStaff /> : null}
+          {this.state.showfaculty ? <MEFaculty /> : null}
+          {this.state.showstaff ? <MEStaff /> : null}
         </div>
       </div>
     );

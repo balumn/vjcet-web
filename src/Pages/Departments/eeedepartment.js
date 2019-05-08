@@ -6,7 +6,7 @@ import Footer from "../../Components/Header&Footer/Footer";
 import MenuOverlay from "../../Components/MenuOverlay/MenuOverlay";
 import HeadingOne from "../../Components/Texts/HeadingOne";
 import BodyOne from "../../Components/Texts/BodyOne";
-import ImageOne from "../../Components/Images/ImageOne";
+import ImageTwo from "../../Components/Images/imageTwo";
 import SideNav from "../../DeptPageContainers/EeeDept/SideNav";
 
 class EeeDepartment extends Component {
@@ -56,7 +56,7 @@ class EeeDepartment extends Component {
   };
   HeadingSectionTitle = {
     instanceID: "Headingtext",
-    title: "Department of Electrical and Electronics"
+    title: "ELECTRICAL AND ELECTRONICS ENGINEERING"
   };
 
   HeadingSectionDescription = {
@@ -65,8 +65,9 @@ class EeeDepartment extends Component {
   };
   CseImg = {
     instanceID: "CseImg",
-    image: "CseImg.jpg",
-    width: "100%"
+    image: "IMG_9701.jpg",
+    width: "90%",
+    height: "50%"
   };
 
   render() {
@@ -75,7 +76,7 @@ class EeeDepartment extends Component {
         <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
         <HeadingOne data={this.HeadingSectionTitle} />
         <BodyOne data={this.HeadingSectionDescription} />
-        <ImageOne data={this.CseImg} />
+        <ImageTwo data={this.CseImg} />
         <SideNav />
         <Footer data={this.HomePageFooter} />
         {this.state.showMenu ? (

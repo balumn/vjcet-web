@@ -5,7 +5,7 @@ class Graph13 extends Component {
   state = {};
   Graphheading = {
     instanceID: "GraphHeading",
-    title: "2013-2017"
+    title: "2016-2020"
   };
   render() {
     return (
@@ -20,35 +20,29 @@ class Graph13 extends Component {
             <div class="bar-graph-label">20%</div>
             <div class="bar-graph-label">0%</div>
           </li>
-          <li class="bar alert" style={{ height: "70%" }} title="S1-S2">
+          <li class="bar alert" style={{ height: "45%" }} title="S1">
             <div class="percent">
-              70<span>%</span>
+              45<span>%</span>
             </div>
-            <div class="description">S1-S2</div>
+            <div class="description">S1</div>
           </li>
-          <li class="bar secondary" style={{ height: "75%" }} title="S3">
+          <li class="bar secondary" style={{ height: "51%" }} title="S2">
             <div class="percent">
-              75<span>%</span>
+              51<span>%</span>
+            </div>
+            <div class="description">S2</div>
+          </li>
+          <li class="bar primary" style={{ height: "55%" }} title="S3">
+            <div class="percent">
+              55<span>%</span>
             </div>
             <div class="description">S3</div>
           </li>
-          <li class="bar primary" style={{ height: "86%" }} title="S4">
+          <li class="bar warning" style={{ height: "39%" }} title="S4">
             <div class="percent">
-              86<span>%</span>
+              39<span>%</span>
             </div>
             <div class="description">S4</div>
-          </li>
-          <li class="bar warning" style={{ height: "77%" }} title="S5">
-            <div class="percent">
-              77<span>%</span>
-            </div>
-            <div class="description">S5</div>
-          </li>
-          <li class="bar success" style={{ height: "90%" }} title="S6">
-            <div class="percent">
-              90<span>%</span>
-            </div>
-            <div class="description">S6</div>
           </li>
         </ul>
       </div>

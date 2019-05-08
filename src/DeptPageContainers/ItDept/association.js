@@ -11,21 +11,21 @@ class Library extends Component {
   DeptAssociationDescriptionOne = {
     instanceID: "DeptAssociationDescriptionOne",
     title:
-      "The Association of Information Technology Department,ORBIT.ORBIT,provides a platform for students to showcase their talents.The Department organizes activities including the association inaugration, technical talks, and publishes the department news letter every year.Talks on “Machine Learning,Big Data,Cloud Computing and various other new technologies are conducted, in order to develop a deep understanding in these fields by the students."
+      "•	Various activities are organized under ORBIT which provides a platform for the young talents to showcase their skills."
+  };
+  DeptAssociationDescriptionTwo = {
+    instanceID: "DeptAssociationDescriptionTwo",
+    title:
+      "•	Activities include association inauguration, organizing technical talks and publishing department news letter every year to promote the spirit of social harmony."
   };
   DeptAssociationHeadingTwo = {
     instanceID: "DeptAssociationHeadingTwo",
     title: "2018-19"
   };
-  DeptAssociationDescriptionTwo = {
-    instanceID: "DeptAssociationDescriptionTwo",
-    title:
-      "The association activities for the year are inaugurated by Ms.Priya Dominic(Delivery Manager,TCS Kochi), Mr.Gopee Krishnan G and Mr. Saran R S on 29th September, 2018, and a technical talk on Machine Learning was conducted. The newsletter is also released on the same venue."
-  };
   DeptAssociationDescriptionThree = {
     instanceID: "DeptAssociationDescriptionThree",
     title:
-      "Activities of Department Association ‘VIDYUTH’ for academic year 2018 -’19 was inaugurated on 1 st Octoberl 2018, by Sri. CP George , Deputy Chief Engineer at KSEB Ltd. Generation, MoolamattomICSE Association Inauguration"
+      "•	The IT association ORBIT  of current academic year was inaugurated on 05/10/2018 by Ms.PRIYA DOMINIC, Delivery Manager, TCS, Kochi, followed by a technical talk by Mr. Gopee Krishnan G and Mr. SARAN R.S., TCS, Kochi."
   };
   DeptAssociationDescriptionFour = {
     instanceID: "DeptAssociationDescriptionFour",
@@ -35,9 +35,23 @@ class Library extends Component {
   DeptAssociationDescriptionFive = {
     instanceID: "DeptAssociationDescriptionFive",
     title:
-      "Inaugural Speech by Chief Guest Mr. Sajeev K.M, DySP, Marine Enforcement &amp; Vigilance, Trivandrum"
+      "Association Officials"
   };
-
+  DeptAssociationDescriptionSix = {
+    instanceID: "DeptAssociationDescriptionSix",
+    title:
+      "President                                 -		Ms. Anju SusanGeorge, HOD, IT"
+  };
+  DeptAssociationDescriptionSeven = {
+    instanceID: "DeptAssociationDescriptionFSeven",
+    title:
+      "Secretary                                 -		Mr. Santhanu P.Mohan, Asst Professor, IT"
+  };
+  DeptAssociationDescriptionEight = {
+    instanceID: "DeptAssociationDescriptionEight",
+    title:
+      "Student Coordinator                - 		Mr. Mrunalsen P S, S8, IT"
+  };
   render() {
     return (
       <div className="DeptAssociation" id="dept-association">
@@ -45,6 +59,12 @@ class Library extends Component {
         <Bodythree data={this.DeptAssociationDescriptionOne} />
         <HeadingFour data={this.DeptAssociationHeadingTwo} />
         <Bodythree data={this.DeptAssociationDescriptionTwo} />
+        <Bodythree data={this.DeptAssociationDescriptionThree} />
+        <Bodythree data={this.DeptAssociationDescriptionFour} />
+        <Bodythree data={this.DeptAssociationDescriptionFive} />
+        <Bodythree data={this.DeptAssociationDescriptionSix} />
+        <Bodythree data={this.DeptAssociationDescriptionSeven} />
+        <Bodythree data={this.DeptAssociationDescriptionEight} />
       </div>
     );
   }

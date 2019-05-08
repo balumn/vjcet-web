@@ -37,22 +37,22 @@ class DropDownD extends Component {
         <div class="dropdown-content">
           <p>
             <Link to="/departments/ce" className="patch1" >
-              Civil Enginnering
+              Civil Engineering
             </Link>
           </p>
           <p>
             <Link to="/departments/cse" className="patch1">
-              Computer Science and Enginnering
+              Computer Science and Engineering
             </Link>
           </p>
           <p>
             <Link to="/departments/ece" className="patch1" >
-              Electronics & Communication Enginnering
+              Electronics & Communication Engineering
             </Link>
           </p>
           <p>
             <Link to="/departments/eee" className="patch1" >
-              Electrical & Electronics Enginnering
+              Electrical & Electronics Engineering
             </Link>
           </p>
 
@@ -63,7 +63,7 @@ class DropDownD extends Component {
           </p>
           <p>
             <Link to="/departments/me" className="patch1" >
-              Mechanical Enginnering
+              Mechanical Engineering
             </Link>
           </p>
           <p>
@@ -72,8 +72,8 @@ class DropDownD extends Component {
             </Link>
           </p>
           <p>
-            <a href="http://www.vjcetmba.in" className="patch1" target="_blank">
-              Management of Bussiness Administration
+            <a href="http://www.vjcetmba.in" target="_blank" className="patch1" rel="noopener noreferrer" >
+              MBA
             </a>
           </p>
         </div>

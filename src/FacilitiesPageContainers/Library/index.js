@@ -56,7 +56,7 @@ class Library extends React.Component {
     }
     LibraryImagedata = {
         instanceID: "LibraryVjcImage",
-        image: "cover2-1.jpg",
+        image: "IMG_9928.jpg",
         width: "100%"
     }
     render() {

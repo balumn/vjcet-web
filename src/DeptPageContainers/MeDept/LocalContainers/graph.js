@@ -104,8 +104,7 @@ class EcGraph extends Component {
     return (
       <div>
         <div class="graphContent">
-          <div >
-            <HeadingOne data={this.Heading} />
+          <div>    <HeadingOne data={this.Heading} />
             <input
               type="button"
               value="2015-2019"

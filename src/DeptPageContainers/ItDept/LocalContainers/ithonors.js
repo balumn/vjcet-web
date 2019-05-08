@@ -10,35 +10,35 @@ class ItHonors extends Component {
   };
   ItHonors1 = {
     instanceID: "ithonors1",
-    image: "dummy.png",
+    image: "sonam2014-2018.jpg",
     width: "30%",
     name: "Sonam Susan Mathews",
     content: "2014-2018"
   };
   ItHonors2 = {
     instanceID: "ithonors2",
-    image: "dummy.png",
+    image: "jeesmon2013- 2017.jpeg",
     width: "30%",
     name: " Jeesmon Johny",
     content: "2013-2017"
   };
   ItHonors3 = {
     instanceID: "ithonors3",
-    image: "dummy.png",
+    image: "Mariya Jolly 2012-16 batch.jpg",
     width: "30%",
     name: "Maria Jolly",
     content: "2012-2016"
   };
   ItHonors4 = {
     instanceID: "ithonors4",
-    image: "dummy.png",
+    image: "nimtha2011- 2015.jpg",
     width: "30%",
     name: "Nimitha Joy",
     content: "2011-2015"
   };
   ItHonors5 = {
     instanceID: "ithonors5",
-    image: "dummy.png",
+    image: "Akshay2010-2014.png",
     width: "30%",
     name: "Akshay Aggarwal",
     content: "2010-2014"
@@ -55,14 +55,14 @@ class ItHonors extends Component {
     image: "dummy.png",
     width: "30%",
     name: "Rhimi KX",
-    content: "2008-2012"
+    content: "Secured Second Rank in B.Tech IT May 2012"
   };
   ItHonors8 = {
     instanceID: "ithonors8",
     image: "dummy.png",
     width: "30%",
     name: "Rhimi KX",
-    content: "2008-2012"
+    content: "Secured Second Rank in B.Tech IT May 2012"
   };
   ItHonors9 = {
     instanceID: "ithonors9",
@@ -139,9 +139,6 @@ class ItHonors extends Component {
           </div>
           <div>
             <Honors data={this.ItHonors7} />
-          </div>
-          <div>
-            <Honors data={this.ItHonors8} />
           </div>
           <div>
             <Honors data={this.ItHonors9} />

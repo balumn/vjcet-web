@@ -5,7 +5,7 @@ import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
 import HeadingOne from "../Components/Texts/HeadingOne";
 // import BodyOne from "../Components/Texts/BodyOne";
 import ImageOne from "../Components/Images/ImageOne";
-// import SideNav from "../PlacementPageContainers/SideNav";
+import SideNav from "../PlacementPageContainers/SideNav";
 
 class PlacementPage extends Component {
   state = { showMenu: false };
@@ -54,7 +54,7 @@ class PlacementPage extends Component {
   };
   HeadingSectionTitle = {
     instanceID: "Headingtext",
-    title: "Placement & Trainig"
+    title: "Placement & Training"
   };
 
   HeadingSectionDescription = {
@@ -63,8 +63,8 @@ class PlacementPage extends Component {
   };
   CseImg = {
     instanceID: "CseImg",
-    image: "CseImg.jpg",
-    width: "100%"
+    image: "IMG_7573.JPG",
+    width: "90%"
   };
 
   render() {
@@ -74,7 +74,7 @@ class PlacementPage extends Component {
         <HeadingOne data={this.HeadingSectionTitle} />
         {/* <BodyOne data={this.HeadingSectionDescription} /> */}
         <ImageOne data={this.CseImg} />
-        {/* <SideNav /> */}
+        <SideNav />
         <Footer data={this.HomePageFooter} />
         {this.state.showMenu ? (
           <MenuOverlay closeMenuFunction={this.closeMenu} />

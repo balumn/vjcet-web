@@ -25,7 +25,7 @@ class EcHonors extends Component {
   };
   EcHonors3 = {
     instanceID: "echonors3",
-    image: "dummy.png",
+    image: "echonorsimg7.jpg",
     width: "30%",
     name: "Gayathri Anil",
     content:
@@ -40,7 +40,7 @@ class EcHonors extends Component {
   };
   EcHonors5 = {
     instanceID: "echonors5",
-    image: "dummy.png",
+    image: "echonorsimg8.jpg",
     width: "30%",
     name: "Seena V P",
     content: "Secured Third Rank in M.Tech VLSI in May 2013"
@@ -55,7 +55,7 @@ class EcHonors extends Component {
   };
   EcHonors7 = {
     instanceID: "echonors7",
-    image: "dummy.png",
+    image: "echonorsimg5.jpg",
     width: "30%",
     name: "Deona Noble",
     content:

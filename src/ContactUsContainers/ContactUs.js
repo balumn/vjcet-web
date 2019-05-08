@@ -160,8 +160,8 @@ class ContactUs extends React.Component {
         {this.state.showMenu ? (
           <MenuOverlay closeMenuFunction={this.closeMenu} />
         ) : (
-          ""
-        )}
+            ""
+          )}
       </React.Fragment>
     );
   }

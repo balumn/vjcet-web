@@ -10,17 +10,32 @@ class Library extends Component {
   DeptLibDescriptionOne = {
     instanceID: "DeptLibDescriptionOne",
     title:
-      "Department Library is one of the Departmental support services of Viswajyothi College of Engineering And Technology in addition to the Central Library. The Department library is equipped with resources in the form of CD-ROM, books, project reports, seminar reports etc."
+      "•	In addition to central library IT department is supported with a department library."
   };
   DeptLibDescriptionTwo = {
     instanceID: "DeptLibDescriptionTwo",
     title:
-      " The library has a collection of more than 300 books, CDs etc. The collection of books is with respect to the academic syllabus. All the students and staffs of IT Department can avail this facility. The library opens on all working days."
+      "•	Various resources in the library are CDs, books, project reports, seminar reports etc."
   };
   DeptLibDescriptionThree = {
     instanceID: "DeptLibDescriptionThree",
     title:
-      "Library In-charge: Mrs. Juliet A Murali , Asst Professor, Department of IT"
+      "•	It  has a collection of more than 300 books, CDs etc. with respect to the academic syllabus. "
+  };
+  DeptLibDescriptionFour = {
+    instanceID: "DeptLibDescriptionFour",
+    title:
+      "•	All the students and staff members of IT Department can avail this facility"
+  };
+  DeptLibDescriptionFive = {
+    instanceID: "DeptLibDescriptionFive",
+    title:
+      "•	The library opens on all working days."
+  };
+  DeptLibDescriptionSix = {
+    instanceID: "DeptLibDescriptionSix",
+    title:
+      "•	Library In-charge: Mrs. Juliet A Murali , Asst Professor, Department of IT"
   };
   render() {
     return (
@@ -29,6 +44,9 @@ class Library extends Component {
         <Bodythree data={this.DeptLibDescriptionOne} />
         <Bodythree data={this.DeptLibDescriptionTwo} />
         <Bodythree data={this.DeptLibDescriptionThree} />
+        <Bodythree data={this.DeptLibDescriptionFour} />
+        <Bodythree data={this.DeptLibDescriptionFive} />
+        <Bodythree data={this.DeptLibDescriptionSix} />
       </div>
     );
   }

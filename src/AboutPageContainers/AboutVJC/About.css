@@ -2,17 +2,9 @@
   text-align: left;
 }
 .about-para {
-  margin: 7%;
+  margin: 10px 20px;
   text-align: initial justify;
 }
 .inner-para {
   margin-left: 4%;
-}
-
-#AboutVjcTitle {
-  padding: 2%;
-}
-
-#AcademicsPara1 {
-  padding: 5%;
 }

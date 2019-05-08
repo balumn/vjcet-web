@@ -37,10 +37,10 @@ class DropDownA extends Component {
         <div class="dropdown-content">
           <p>
             <Link
-              to="/academics"
+              to="/academics/courses-offered"
               className="patch1"
             >
-              Academics
+              Courses Offered
             </Link>
           </p>
           {/* <p>
@@ -51,16 +51,15 @@ class DropDownA extends Component {
               {" "}
               Calendar
             </Link>
-          </p>
+          </p>*/}
           <p>
             <Link
-              to="/academics/curriculum"
+              to="/academics/syllabus"
               className="patch1"
             >
-              
-              Curriculum
+              Syllabus and Plan
             </Link>
-          </p> */}
+          </p>
           <p>
 
             <Link

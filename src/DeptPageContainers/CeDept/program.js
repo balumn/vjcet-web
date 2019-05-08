@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import HeadingOne from "../../Components/Texts/HeadingOne";
 import Bodythree from "../../Components/Texts/BodyThree";
+import BodyOneJustified from "../../Components/Texts/BodyOneJustified"
 class Program extends Component {
   state = {};
   ProgramHeading = {
@@ -10,20 +11,58 @@ class Program extends Component {
   ProgramDescriptionOne = {
     instanceID: "ProgramDescriptionOne",
     title:
-      "The Civil Engineers are in a privileged and hugely influential position to innovate, design and build a sustainable future. Hence the mission of the Department is to mould engineers par excellence. In keeping with our mission to develop the institution into a Center of Excellence of International Standards, the department strives to offer best- rated undergraduate education, research contributions, high-end professional consultancy, outreach and manpower training and academic leadership."
+      "The Department offers undergraduate program in Civil Engineering with an annual intake of 120 students."
   };
   ProgramDescriptionTwo = {
     instanceID: "ProgramDescriptionTwo",
     title:
-      "It is our determination to create an excellent work culture and campus atmosphere which inculcates academic integrity and accountability among our faculty as well as students. Comprehensive training is imparted to students for the attainment of intellectual and professional competence. We strive to cultivate a sense of civic and social responsibility among our students by way of our various Forums and Clubs and Annual Renewal & Refresher programmes. We also encourage growth and develop human potential to its fullest, such that intellectually capable and creatively talented Civil Engineers who have concern for the environment and   the society can emerge. The Civil Engineering Department continues the process of building strong links with the building and construction industry."
+      "The program was accredited by NBA in 2018."
   };
-
+  ProgramDescriptionThree = {
+    instanceID: "ProgramDescriptionThree",
+    title: "Civil Engineers are in a privileged and hugely influential position to innovate, design and build a sustainable future."
+  };
+  ProgramDescriptionFour = {
+    instanceID: "ProgramDescriptionFour",
+    title: "Civil Engineering Department strives to:"
+  };
+  List1 = {
+    instanceID: "List1",
+    title: "•	put forth best- rated undergraduate education."
+  };
+  List2 = {
+    instanceID: "List2",
+    title: "•	offerhigh-end professional consultancy,excellent work culture and campus atmosphere."
+  };
+  List3 = {
+    instanceID: "List3",
+    title: "•	inculcate academic integrity and accountability among our faculty as well as students. "
+  };
+  List4 = {
+    instanceID: "List4",
+    title: "•	cultivate a sense of civic and social responsibility among our students by way of various Forums and Clubs."
+  };
+  List5 = {
+    instanceID: "List5",
+    title: "•	continue the process of building strong links with the building and construction industry."
+  };
   render() {
     return (
       <div className="Program" id="program">
         <HeadingOne data={this.ProgramHeading} />
         <Bodythree data={this.ProgramDescriptionOne} />
         <Bodythree data={this.ProgramDescriptionTwo} />
+        <Bodythree data={this.ProgramDescriptionTwo} />
+        <div className="bodyContainer">
+          <p><BodyOneJustified data={this.ProgramDescriptionFour} /></p>
+          <div className="bodyContainerInner">
+            <p><BodyOneJustified data={this.List1}></BodyOneJustified></p>
+            <p><BodyOneJustified data={this.List2}></BodyOneJustified></p>
+            <p><BodyOneJustified data={this.List3}></BodyOneJustified></p>
+            <p><BodyOneJustified data={this.List4}></BodyOneJustified></p>
+            <p><BodyOneJustified data={this.List5}></BodyOneJustified></p>
+          </div>
+        </div>
       </div>
     );
   }

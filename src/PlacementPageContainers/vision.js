@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./vision.css";
 import HeadingOne from "../Components/Texts/HeadingOne";
 import Bodythree from "../Components/Texts/BodyThree";
 import BodyOne from "../Components/Texts/BodyOne";
@@ -11,7 +12,7 @@ class Vision extends Component {
   VisionDescription = {
     instanceID: "VisionDescription",
     title:
-      "To disseminate human values and enable professional development giving new meaning to Science and Engineering education."
+      "Training and preparing engineers globally competent and employable."
   };
   MissionHeading = {
     instanceID: "MissionHeading",
@@ -20,22 +21,46 @@ class Vision extends Component {
   MissionListOne = {
     instanceID: "MissionListOne",
     title:
-      "1	To inspire, attract and help students love natural science, mathematics and humanities."
+      "1. To provide the best training opportunity as to enhance technical skills, soft skills and thereby employability"
   };
   MissionListTwo = {
     instanceID: "MissionListTwo",
     title:
-      "2	To advance Science, Engineering and innovation for the benefit of all, adeptly facing the challenges of our society."
+      "2. To create awareness among students about the industrial/corporate scenario through invited talks/workshops by experts and alumni."
   };
   MissionListThree = {
     instanceID: "MissionListThree",
     title:
-      "3	To promote soft skills, specially to enhance communication skills among Engineering Undergraduates at our college."
+      "3. Arrange and organize placement opportunities, participate /conduct campus drives and pool drives."
+  };
+  ContactHeading = {
+    instanceID: "ContactHeading",
+    title: "Contact"
+  };
+  ContactListOne = {
+    instanceID: "ContactListOne",
+    title: "Mr.C.Mavin "
+  };
+  ContactListTwo = {
+    instanceID: "ContactListTwo",
+    title: "Asst. Professor & Placement Officer "
+  };
+  ContactListThree = {
+    instanceID: "ContactListThree",
+    title: "Cell:+919446437330 "
+  };
+  ContactListFour = {
+    instanceID: "ContactListFour",
+    title: "Phone:0485 2262551 "
+  };
+  ContactListFive = {
+    instanceID: "ContactListFive",
+    title: "Email:placement@vjcet.org"
   };
   render() {
     return (
-      <div>
-        <div className="Vision&Mission" id="vision&mission">
+      <div className="Front">
+        <div className="Vision" id="vision">
           <HeadingOne data={this.VisionHeading} />
           <BodyOne data={this.VisionDescription} />
         </div>
@@ -44,6 +69,14 @@ class Vision extends Component {
           <Bodythree data={this.MissionListOne} />
           <Bodythree data={this.MissionListTwo} />
           <Bodythree data={this.MissionListThree} />
+        </div>
+        <div className="Contact" id="contact">
+          <HeadingOne data={this.ContactHeading} />
+          <BodyOne data={this.ContactListOne} />
+          <BodyOne data={this.ContactListTwo} />
+          <BodyOne data={this.ContactListThree} />
+          <BodyOne data={this.ContactListFour} />
+          <BodyOne data={this.ContactListFive} />
         </div>
       </div>
     );

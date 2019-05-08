@@ -76,11 +76,11 @@ class KeyFunc extends Component {
         <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
         <div id="KeyFunctionariesList">
           <HeadingOne data={this.KeyTitle} />
-          {/* Pricipal */}
-          <HeadingTwo data={this.PrincipalTitle} />
-          <HeadingFour data={this.PrincipalName} />
+          {/* Manager */}
+          <HeadingTwo data={this.ManagerTitle} />
+          <HeadingFour data={this.ManagerName} />
           <div className="inner-para">
-            <BodyOneJustified data={this.PrincipalText} />
+            <BodyOneJustified data={this.ManagerText} />
           </div>
           {/* Director */}
           <HeadingTwo data={this.DirectorTitle} />
@@ -88,19 +88,19 @@ class KeyFunc extends Component {
           <div className="inner-para">
             <BodyOneJustified data={this.DirectorText} />
           </div>
-          {/* Manager */}
-          <HeadingTwo data={this.ManagerTitle} />
-          <HeadingFour data={this.ManagerName} />
+          {/* Pricipal */}
+          <HeadingTwo data={this.PrincipalTitle} />
+          <HeadingFour data={this.PrincipalName} />
           <div className="inner-para">
-            <BodyOneJustified data={this.ManagerText} />
+            <BodyOneJustified data={this.PrincipalText} />
           </div>
         </div>
         <Footer data={this.HomePageFooter} />
         {this.state.showMenu ? (
           <MenuOverlay closeMenuFunction={this.closeMenu} />
         ) : (
-          ""
-        )}
+            ""
+          )}
       </div>
     );
   }

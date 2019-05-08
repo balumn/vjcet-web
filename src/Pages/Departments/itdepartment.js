@@ -55,7 +55,7 @@ class ItDepartment extends Component {
   };
   HeadingSectionTitle = {
     instanceID: "Headingtext",
-    title: "Department of Information Technology"
+    title: "INFORMATION TECHNOLOGY"
   };
 
   HeadingSectionDescription = {
@@ -64,8 +64,8 @@ class ItDepartment extends Component {
   };
   CseImg = {
     instanceID: "CseImg",
-    image: "CseImg.jpg",
-    width: "100%"
+    image: "IMG_7800.JPG",
+    width: "90%"
   };
 
   render() {

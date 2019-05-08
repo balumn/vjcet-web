@@ -20,7 +20,7 @@ class Vision extends Component {
   MissionListOne = {
     instanceID: "MissionListOne",
     title:
-      "1.	To promote a better teaching learning process through academically proficient faculties, full fledged laboratories and excellent infrastructure facilities. "
+      "1.	To promote a better teaching learning process through academically proficient faculty, full fledged laboratories and excellent infrastructure facilities. "
   };
   MissionListTwo = {
     instanceID: "MissionListTwo",

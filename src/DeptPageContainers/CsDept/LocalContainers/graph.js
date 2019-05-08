@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import "./Nav.css";
 import Graph15 from "./graph2015";
 import Graph14 from "./graph2014";
+import Graph13 from "./graph2013";
+import Graph12 from "./graph2012";
 import CsHonors from "./cshonors";
 import HeadingOne from "../../../Components/Texts/HeadingOne";
 class CeGraph extends Component {
@@ -104,15 +106,27 @@ class CeGraph extends Component {
             <HeadingOne data={this.Heading} />
             <input
               type="button"
-              value="University Results March 2018"
+              value="2015-2019 Batch"
               class="buttongraph"
               onClick={this.onClick15}
             />
             <input
               type="button"
-              value="University Results May 2017"
+              value="2014-2018 Batch"
               class="buttongraph"
               onClick={this.onClick14}
+            />
+            <input
+              type="button"
+              value="2016-2020 Batch"
+              class="buttongraph"
+              onClick={this.onClick13}
+            />
+            <input
+              type="button"
+              value="2017-2021 Batch"
+              class="buttongraph"
+              onClick={this.onClick12}
             />
             <input
               type="button"
@@ -123,6 +137,8 @@ class CeGraph extends Component {
           </div>
           {this.state.show15 ? <Graph15 /> : null}
           {this.state.show14 ? <Graph14 /> : null}
+          {this.state.show13 ? <Graph13 /> : null}
+          {this.state.show12 ? <Graph12 /> : null}
           {this.state.showhon ? <CsHonors /> : null}
         </div>
       </div>

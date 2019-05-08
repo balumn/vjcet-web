@@ -8,15 +8,15 @@ class ImageTwo extends Component {
       <div
         className={`ImageOne ${
           this.props.className ? this.props.className : ""
-        }`}
+          }`}
         id={instanceID}
         style={{ ...this.props.containerStyle }}
         onClick={
           this.props.onClickAction
             ? () => {
-                this.props.onClickAction();
-              }
-            : () => {}
+              this.props.onClickAction();
+            }
+            : () => { }
         }
       >
         <img

@@ -121,45 +121,45 @@ class SideNav extends Component {
       <React.Fragment>
 
         <div class="Deptcontent">
-          <div class="sidemenu">
+          <div class="sidenav">
             <input
               value="Profile"
-              className="button"
+              class="button"
               onClick={this.onClickP}
             />
             <input
-              value="Vision & Mission"
-              className="button"
+              value="Vision"
+              class="button"
               onClick={this.onClickV}
             />
             <input
               value="PEO & PSO"
-              className="button"
+              class="button"
               onClick={this.onClickPeo}
             />
             <input
               value="Program"
-              className="button"
+              class="button"
               onClick={this.onClickProg}
             />
             <input
               value="Faculty"
-              className="button"
+              class="button"
               onClick={this.onClickFac}
             />
             <input
-              value="Dept. Library"
-              className="button"
+              value="Library"
+              class="button"
               onClick={this.onClickLib}
             />
             <input
-              value="Dept. Association"
-              className="button"
+              value="Association"
+              class="button"
               onClick={this.onClickAss}
             />
             <input
               value="Result & Honors"
-              className="button"
+              class="button"
               onClick={this.onClickRes}
             />
           </div>
@@ -168,42 +168,42 @@ class SideNav extends Component {
             <div class="dropdownD-content">
               <input
                 value="Profile"
-                className="button"
+                class="button"
                 onClick={this.onClickP}
               />
               <input
-                value="Vision & Mission"
-                className="button"
+                value="Vision"
+                class="button"
                 onClick={this.onClickV}
               />
               <input
                 value="PEO & PSO"
-                className="button"
+                class="button"
                 onClick={this.onClickPeo}
               />
               <input
                 value="Program"
-                className="button"
+                class="button"
                 onClick={this.onClickProg}
               />
               <input
                 value="Faculty"
-                className="button"
+                class="button"
                 onClick={this.onClickFac}
               />
               <input
-                value="Dept. Library"
-                className="button"
+                value="Library"
+                class="button"
                 onClick={this.onClickLib}
               />
               <input
-                value="Dept. Association"
-                className="button"
+                value="Association"
+                class="button"
                 onClick={this.onClickAss}
               />
               <input
-                value="Result & Honors"
-                className="button"
+                value="Result"
+                class="button"
                 onClick={this.onClickRes}
               />
             </div>

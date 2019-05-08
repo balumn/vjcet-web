@@ -1,13 +1,12 @@
 import React, { Component } from "react";
-import "./SideNav.css";
 import Profile from "./profile";
 import Vision from "./vision";
-import FacultyNav from "./facultynav";
+import CEFaculty from "./PlacementTeam";
 
 class SideNav extends Component {
   state = {
-    showProfile: true,
-    showVision: false,
+    showProfile: false,
+    showVision: true,
     showfac: false
   };
   onClickP = () => {
@@ -33,33 +32,33 @@ class SideNav extends Component {
   };
   render() {
     return (
-      <div>
-        <div class="nav">
-          <input
-            type="button"
-            value="Profile"
-            class="button"
-            onClick={this.onClickP}
-          />
-          <input
-            type="button"
-            value="Vision & Mission"
-            class="button"
-            onClick={this.onClickV}
-          />
-          <input
-            type="button"
-            value="Faculty"
-            class="button"
-            onClick={this.onClickFac}
-          />
+      <React.Fragment>
+
+        <div className="Placecontent">
+          <div class="Psidenav">
+            <input
+              value="Vision & Mission"
+              class="button"
+              onClick={this.onClickV}
+            />
+            <input
+              value="About"
+              class="button"
+              onClick={this.onClickP}
+            />
+            <input
+              value="Our Team"
+              class="button"
+              onClick={this.onClickFac}
+            />
+          </div>
+          <div className="Placecontent">
+            {this.state.showProfile ? <Profile /> : null}
+            {this.state.showVision ? <Vision /> : null}
+            {this.state.showfac ? <CEFaculty /> : null}
+          </div>
         </div>
-        <div>
-          {this.state.showProfile ? <Profile /> : null}
-          {this.state.showVision ? <Vision /> : null}
-          {this.state.showfac ? <FacultyNav /> : null}
-        </div>
-      </div>
+      </React.Fragment>
     );
   }
 }

@@ -1,0 +1,32 @@
+  .Front {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    align-content: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  @media (min-width:400px){
+    .Front{
+      grid-template-columns: auto;
+    }
+  }
+  @media (min-width:600px){
+    .Front{
+      grid-template-columns: 33% 33% 33%;
+    }
+  }
+  @media(min-width:1024px){
+    .Front{
+      grid-template-columns:  33% 33% 33%;
+     }
+  }
+  @media(max-width:400px){
+    .Front{
+      grid-template-columns: auto;
+     }
+  }

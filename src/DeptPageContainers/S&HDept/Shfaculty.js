@@ -1,145 +1,144 @@
 import React, { Component } from "react";
-import "./faculty.css";
 import FacultyData from "../../Components/FacultyData";
 class Faculty extends Component {
   state = {};
   Cefaculty1 = {
     instanceID: "Cefaculty1",
     image: "242.jpg",
-    width: "30%",
+    width: "50%",
     name: "Mrs. Ann Neetha Sabu",
     content: "Head of Department"
   };
   Cefaculty2 = {
     instanceID: "Cefaculty2",
     image: "243.jpg",
-    width: "30%",
+    width: "50%",
     name: "Mr. Avirachan K.P",
     content: "Assistant Professor"
   };
   Cefaculty3 = {
     instanceID: "Cefaculty3",
     image: "SHFAC105.jpg",
-    width: "30%",
+    width: "50%",
     name: "Mrs. Viji George",
     content: "Assistant Professor"
   };
   Cefaculty4 = {
     instanceID: "Cefaculty4",
     image: "246.jpg",
-    width: "30%",
+    width: "50%",
     name: "Mrs. Anila Elizabeth John",
     content: "Assistant Professor"
   };
   Cefaculty5 = {
     instanceID: "Cefaculty5",
     image: "SHFAC107.jpg",
-    width: "30%",
+    width: "50%",
     name: "Mrs. Rose Mary Baby",
     content: "Assistant Professor"
   };
   Cefaculty6 = {
     instanceID: "Cefaculty6",
     image: "SHFAC108.jpg",
-    width: "30%",
+    width: "50%",
     name: "Mrs. Ancy Jose",
     content: "Assistant Professor"
   };
   Cefaculty7 = {
     instanceID: "Cefaculty7",
     image: "249.jpg",
-    width: "30%",
+    width: "50%",
     name: "Mrs. Jinta Jose",
     content: "Assistant Professor"
   };
   Cefaculty8 = {
     instanceID: "Cefaculty8",
     image: "SHFAC110.jpg",
-    width: "30%",
+    width: "50%",
     name: "Mrs. Ansu Ann Abraham",
     content: "Assistant Professor"
   };
   Cefaculty9 = {
     instanceID: "Cefaculty",
     image: "251.jpg",
-    width: "30%",
+    width: "50%",
     name: "Mrs. Manu Sebastiann",
     content: "Assistant Professor"
   };
   Cefaculty10 = {
     instanceID: "Cefaculty10",
     image: "252.jpg",
-    width: "30%",
+    width: "50%",
     name: "Mr. Tony Augustine",
     content: "Assistant Professor"
   };
   Cefaculty11 = {
     instanceID: "Cefaculty11",
     image: "SHFAC113.jpg",
-    width: "30%",
+    width: "50%",
     name: "Mr. Jojo P Kuriakose",
     content: "Assistant Professor"
   };
   Cefaculty12 = {
     instanceID: "Cefaculty12",
     image: "SHFAC114.jpg",
-    width: "30%",
+    width: "50%",
     name: "Mr. Biju George",
     content: "Assistant Professor"
   };
   Cefaculty13 = {
     instanceID: "Cefaculty13",
     image: "281.jpg",
-    width: "30%",
+    width: "50%",
     name: "Mr. John Odackal",
     content: "Assistant Professor"
   };
   Cefaculty14 = {
     instanceID: "Cefaculty14",
     image: "255.jpg",
-    width: "30%",
+    width: "50%",
     name: "Mrs. Deenu Baby",
     content: "Assistant Professor"
   };
   Cefaculty15 = {
     instanceID: "Cefaculty15",
     image: "299.JPG",
-    width: "30%",
+    width: "50%",
     name: "Mr. George Kuriakose",
     content: "Assistant Professor"
   };
   Cefaculty16 = {
     instanceID: "Cefaculty16",
     image: "329.jpg",
-    width: "30%",
+    width: "50%",
     name: "Mrs. Dany Sebatian",
     content: "Assistant Professor"
   };
   Cefaculty17 = {
     instanceID: "Cefaculty17",
     image: "328.png",
-    width: "30%",
+    width: "50%",
     name: "Mrs. Ashly Jacob",
     content: "Assistant Professor"
   };
   Cefaculty18 = {
     instanceID: "Cefaculty18",
     image: "331.jpg",
-    width: "30%",
+    width: "50%",
     name: "Mr. Robin K. Augustine",
     content: "Assistant Professor"
   };
   Cefaculty19 = {
     instanceID: "Cefaculty19",
     image: "342.jpg",
-    width: "30%",
+    width: "50%",
     name: "Mrs. Anitha Rajan",
     content: "Assistant Professor"
   };
   render() {
     return (
       <div className="faculty">
-        <div className="facultyContentSH">
+        <div className="facultyContent">
           <div>
             <FacultyData data={this.Cefaculty1} />
           </div>

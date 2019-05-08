@@ -20,8 +20,10 @@ import Hostel from "./FacilitiesPageContainers/Hostel/index";
 import Sports from "./FacilitiesPageContainers/Sports/index";
 import NBA from "./Pages/NBA";
 import KeyFunc from "./Pages/KeyFunc";
-import ContactUs from "./ContactUsContainers/ContactUs"
-import Academics from "./Pages/Academics"
+import ContactUs from "./ContactUsContainers/ContactUs";
+import Academics from "./Pages/Academics";
+import VisionPage from "./Pages/VisionPage"
+import SyllabusPage from "./Pages/SyllabusPage";
 class App extends Component {
   render() {
     return (
@@ -31,7 +33,12 @@ class App extends Component {
             <Switch>
               <Route exact path="/" component={HomePage} />
               <Route exact path="/about" component={AboutPage} />
-              <Route exact path="/academics" component={Academics} />
+              <Route exact path="/about/accreditation" component={NBA} />
+              <Route exact path="/about/keyfunctionaries" component={KeyFunc} />
+              <Route exact path="/about/vision" component={VisionPage} />
+              <Route exact path="/academics/courses-offered" component={Academics} />
+              <Route exact path="/academics/syllabus" component={SyllabusPage} />
+              <Route exact path="/academics/honors" component={HonorsPage} />
               <Route exact path="/departments" component={DepartmentPage} />
               <Route exact path="/facilities" component={FacilitiesPage} />
               <Route exact path="/campus-life" component={CampusLifePage} />
@@ -42,15 +49,12 @@ class App extends Component {
               <Route exact path="/departments/it" component={ItDepartment} />
               <Route exact path="/departments/me" component={MeDepartment} />
               <Route exact path="/departments/s&h" component={SHDepartment} />
-              <Route exact path="/academics/honors" component={HonorsPage} />
               <Route exact path="/placement" component={PlacementPage} />
               <Route exact path="/facilities/core-facilities" component={FacilitiesPage} />
               <Route exact path="/facilities/ccc" component={CCC} />
               <Route exact path="/facilities/library" component={Library} />
               <Route exact path="/facilities/hostel" component={Hostel} />
               <Route exact path="/facilities/sports" component={Sports} />
-              <Route exact path="/about/accreditation" component={NBA} />
-              <Route exact path="/about/keyfunctionaries" component={KeyFunc} />
               <Route exact path="/contact" component={ContactUs} />
             </Switch>
           </React.Fragment>

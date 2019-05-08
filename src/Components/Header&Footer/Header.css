@@ -29,6 +29,10 @@
   grid-area: tab2;
   display: none;
   padding-top: 2%;
+  background-color: #790514;
+  padding-bottom: 2%;
+  vertical-align:center;
+  align-items: center;
 }
 
 #HeaderVJCLogo {
@@ -48,6 +52,7 @@
 #HeaderNBALogo {
   grid-area: nba;
   padding-top: 5px;
+  margin: 0% auto;
 }
 
 #HeaderVJCCode {
@@ -128,7 +133,7 @@
   }
 
   #HeaderLineTwo {
-    padding: 10px 0px 0px 0px;
+    padding: 10px 10px 0px 0px;
   }
 
   #HeaderLineOne {
@@ -202,6 +207,9 @@
   #HeaderLineOne {
     padding: 0px;
   }
+  .HeaderLinkTabTwo {
+    padding: auto 0;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -220,5 +228,10 @@
 
   #HeaderNBALogo {
     justify-self: start;
+  }
+  .HeaderLinkTabTwo {
+    grid-area: tab2;
+    align-items: center;
+    padding-bottom: 1%;
   }
 }

@@ -4,7 +4,7 @@ import "./Header.css";
 import "../Images/ImageOne";
 import ImageOne from "../Images/ImageOne";
 import Line from "../Lines/Line";
-import HeadingFive from "../Texts/HeadingFive";
+import ExternalLink from "../Texts/ExternalLink"
 import AnchorLink from "../Texts/AnchorLink";
 import DropDownD from "./dropdownDepartment";
 import DropDownC from "./dropdownCampus";
@@ -17,8 +17,8 @@ import DropDownF from "./dropdownfacilities";
 class Header extends Component {
   VJCLogo = {
     instanceID: "HeaderVJCLogo",
-    image: "VJCLogo.png",
-    width: "200px"
+    image: "Logo.jpg",
+    width: "280px"
   };
 
   Hamburger = {
@@ -29,8 +29,8 @@ class Header extends Component {
 
   NBALogo = {
     instanceID: "HeaderNBALogo",
-    image: "nba.png",
-    width: "55px"
+    image: "nbaac.png",
+    width: "50px"
   };
 
   HeaderLineOne = {
@@ -131,29 +131,35 @@ class Header extends Component {
           data={this.Hamburger}
           onClickAction={this.props.openMenuFunction}
         />
-        <ImageOne data={this.NBALogo} />
+        {/* <ImageOne data={this.NBALogo} /> */}
         <Line data={this.HeaderLineOne} />
         <Line data={this.HeaderLineTwo} />
-        <HeadingFive data={this.HeaderVJCCode} />
+        {/* <HeadingFour data={this.HeaderVJCCode} /> */}
 
         <div className="HeaderLinkTabOne" id="HeaderLinkTabOne">
           <div className="HeaderLinkTabOne" id="HeaderLinkOne">
             <DropDownL />
-            <AnchorLink data={this.Link2} />
+            <Link to={this.Link2.link} style={{
+              color: 'black', textDecoration: "none", fontWeight: "600",
+              size: '14px'
+            }}>{this.Link2.title}</Link>
           </div>
         </div>
 
         <div className="HeaderLinkTabTwo" id="HeaderLinkTabTwo">
           <div className="HeaderLinkTabAdmissionsOpen">
             <ImageOne data={this.AdmissionsOpen} />
-            <AnchorLink data={this.Link4} />
+            <ExternalLink data={this.Link4} />
           </div>
           <div className="HeaderLinkTabTwoGrouped">
             <DropDownAb />
             <DropDownD />
-            <DropDownC />
             <DropDownA />
+            <DropDownC />
+            <AnchorLink data={this.Link9} />
             <DropDownF />
+            {/* <AnchorLink data={this.Link7} /> */}
+            <AnchorLink data={this.Link10} />
           </div>
         </div>
       </div>

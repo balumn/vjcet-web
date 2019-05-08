@@ -29,7 +29,7 @@ class FacultyNav extends Component {
         />
         <input
           type="button"
-          value="Staff"
+          value="Technical Staff"
           class="buttongraph"
           onClick={this.OnClickStaff}
         />

@@ -6,18 +6,19 @@ import Line from "../Lines/Line";
 import HeadingFive from "../Texts/HeadingFive";
 import AnchorLink from "../Texts/AnchorLink";
 import CustomOne from "../Texts/CustomOne";
+import HeadingFour from "../Texts/HeadingFour";
 
 class Footer extends Component {
   VJCLogo = {
     instanceID: "FooterVJCLogo",
-    image: "VJCLogo.png",
-    width: "230px"
+    image: "Logo.jpg",
+    width: "300px"
   };
 
   NBALogo = {
     instanceID: "FooterNBALogo",
-    image: "nba.png",
-    width: "70px"
+    image: "nbaac.png",
+    width: "50px"
   };
 
   fb = {
@@ -190,7 +191,7 @@ class Footer extends Component {
     return (
       <div className="Footer" id={instanceID}>
         <div className="FooterLinksOne" id="FooterLinksOne">
-          <HeadingFive data={this.FooterLinksTitleOne} />
+          <HeadingFour data={this.FooterLinksTitleOne} />
           <AnchorLink data={this.Link1} />
           <AnchorLink data={this.Link2} />
           <AnchorLink data={this.Link3} />
@@ -219,10 +220,10 @@ class Footer extends Component {
 
         <div className="FooterLinksFour" id="FooterLinksFour">
           <HeadingFive data={this.FooterLinksTitleFour} />
-          <ImageOne data={this.fb} />
-          {/* <ImageOne data={this.insta} /> */}
-          {/* <ImageOne data={this.twitter} /> */}
-          <ImageOne data={this.youtube} />
+          <a href="https://www.facebook.com/principal.vjcet" target="_blank" rel="noopener noreferrer"><ImageOne data={this.fb} /></a>
+          {/* <ImageOne data={this.insta} />
+          <ImageOne data={this.twitter} /> */}
+          <a href="https://www.youtube.com/channel/UCYlW0xiYPFl3R_wiownjQRw" target="_blank" rel="noopener noreferrer"><ImageOne data={this.youtube} /></a>
         </div>
 
         <Line data={this.FooterLineOne} />

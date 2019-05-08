@@ -1,167 +1,138 @@
 import React, { Component } from "react";
-import "./faculty.css";
 import FacultyData from "../../Components/FacultyData";
-class Faculty extends Component {
+class EEFaculty extends Component {
   state = {};
   Cefaculty1 = {
     instanceID: "Cefaculty1",
     image: "353.jpg",
-    width: "30%",
+    width: "50%",
     name: "Dr. B.Aruna",
     content: "Head of Department"
   };
   Cefaculty2 = {
     instanceID: "Cefaculty2",
     image: "352.jpg",
-    width: "30%",
-    name: "Dr. KK Rajan",
+    width: "50%",
+    name: "Dr. K.K. Rajan",
     content: "Professor"
   };
   Cefaculty3 = {
     instanceID: "Cefaculty3",
     image: "108.jpg",
-    width: "30%",
+    width: "50%",
     name: "Dr. Sony Kurian",
     content: "Associate Professor"
   };
   Cefaculty4 = {
     instanceID: "Cefaculty4",
     image: "109.jpg",
-    width: "30%",
-    name: "Mrs. Cini K",
+    width: "50%",
+    name: "Ms. Cini K",
     content: "Associate Professor"
   };
   Cefaculty5 = {
     instanceID: "Cefaculty5",
     image: "110.jpg",
-    width: "30%",
-    name: "Mrs. Seethamma George",
+    width: "50%",
+    name: "Ms. Seethamma George",
     content: "Assistant Professor"
   };
   Cefaculty6 = {
     instanceID: "Cefaculty6",
     image: "EEFAC107.jpg",
-    width: "30%",
-    name: "Mrs. Smitha Jacob",
+    width: "50%",
+    name: "Ms. Smitha Jacob",
     content: "Assistant Professor"
   };
   Cefaculty7 = {
     instanceID: "Cefaculty7",
     image: "EEFAC108.jpg",
-    width: "30%",
-    name: "Mrs. Mereya Baby",
+    width: "50%",
+    name: "Ms. Mereya Baby",
     content: "Assistant Professor"
   };
   Cefaculty8 = {
     instanceID: "Cefaculty8",
     image: "115.jpg",
-    width: "30%",
+    width: "50%",
     name: "Mr. Dileepkumar P",
-    content: "Associate Professor"
+    content: "Assistant Professor"
   };
   Cefaculty9 = {
     instanceID: "Cefaculty",
     image: "117.jpg",
-    width: "30%",
+    width: "50%",
     name: "Mr. Babu T Chacko",
     content: "Assistant Professor"
   };
   Cefaculty10 = {
     instanceID: "Cefaculty10",
     image: "EEFAC112.jpg",
-    width: "30%",
+    width: "50%",
     name: "Mr. Sharone Varghese",
     content: "Assistant Professor"
   };
   Cefaculty11 = {
     instanceID: "Cefaculty11",
     image: "120.jpg",
-    width: "30%",
-    name: "Mrs. Jis Jose",
+    width: "50%",
+    name: "Ms. Jis Jose",
     content: "Assistant Professor"
   };
   Cefaculty12 = {
     instanceID: "Cefaculty12",
     image: "EEFAC115.jpg",
-    width: "30%",
-    name: "Miss. Neena Skaria",
+    width: "50%",
+    name: "Ms. Neena Skaria",
     content: "Assistant Professor"
   };
   Cefaculty13 = {
     instanceID: "Cefaculty13",
     image: "122.jpg",
-    width: "30%",
-    name: "Mrs. Breeza Paulose",
+    width: "50%",
+    name: "Ms. Breeza Paulose",
     content: "Assistant Professor"
   };
   Cefaculty14 = {
     instanceID: "Cefaculty14",
     image: "123.jpg",
-    width: "30%",
-    name: "Mrs. Jane Maria S",
+    width: "50%",
+    name: "Ms. Jane Maria S",
     content: "Assistant Professor"
   };
   Cefaculty15 = {
     instanceID: "Cefaculty15",
     image: "124.jpg",
-    width: "30%",
+    width: "50%",
     name: "Mr. Jomu M George",
     content: "Assistant Professor"
   };
   Cefaculty16 = {
     instanceID: "Cefaculty16",
     image: "294.jpg",
-    width: "30%",
-    name: "Mrs. Neena Alex",
+    width: "50%",
+    name: "Ms. Neena Alex",
     content: "Assistant Professor"
   };
   Cefaculty17 = {
     instanceID: "Cefaculty17",
     image: "293.jpg",
-    width: "30%",
-    name: "Mrs. Seena Paul",
+    width: "50%",
+    name: "Ms. Seena Paul",
     content: "Assistant Professor"
   };
   Cefaculty18 = {
     instanceID: "Cefaculty18",
     image: "360.jpg",
-    width: "30%",
-    name: "Miss. Steffy Tresa Loui",
+    width: "50%",
+    name: "Ms. Steffy Tresa Loui",
     content: "Assistant Professor"
   };
   Cefaculty19 = {
     instanceID: "Cefaculty19",
-    image: "ECFAC120.jpg",
-    width: "30%",
-    name: "Mrs. Manju Thomas T",
-    content: "Assistant Professor"
-  };
-  Cefaculty20 = {
-    instanceID: "Cefaculty20",
-    image: "157.jpg",
-    width: "30%",
-    name: "Mr. Krishnendu K",
-    content: "Assistant Professor"
-  };
-  Cefaculty21 = {
-    instanceID: "Cefaculty21",
-    image: "158.jpg",
-    width: "30%",
-    name: "Mrs. Rose Mary Kuruvithadam",
-    content: "Assistant Professor"
-  };
-  Cefaculty22 = {
-    instanceID: "Cefaculty22",
-    image: "ECFAC123.jpg",
-    width: "30%",
-    name: "Mrs. Priya G L",
-    content: "Assistant Professor"
-  };
-  Cefaculty22 = {
-    instanceID: "Cefaculty22",
-    image: "ECFAC126.jpg",
-    width: "30%",
-    name: "Mrs. Femy John",
+    image: "112.jpg",
+    width: "50%",
+    name: "Mr. Aneesh Kurian(On Leave)",
     content: "Assistant Professor"
   };
 
@@ -223,10 +194,13 @@ class Faculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty18} />
           </div>
+          <div>
+            <FacultyData data={this.Cefaculty19} />
+          </div>
         </div>
       </div>
     );
   }
 }
 
-export default Faculty;
+export default EEFaculty;

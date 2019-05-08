@@ -13,7 +13,8 @@ class ResourcesGroup extends Component {
     instanceID: "ResourceListOne",
     listID: "One",
     title: "Rules & Regulations",
-    icon: "icon1.svg"
+    icon: "icon1.svg",
+    filePath: "./Rules.pdf"
   };
 
   ResourceListTwo = {

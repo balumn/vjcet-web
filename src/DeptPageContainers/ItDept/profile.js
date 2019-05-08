@@ -1,35 +1,59 @@
-import React, { Component } from "react";
+import React, { Component } from 'react'
 import HeadingOne from "../../Components/Texts/HeadingOne";
-import Bodythree from "../../Components/Texts/BodyThree";
+import BodyOneJustified from "../../Components/Texts/BodyOneJustified"
 class Profile extends Component {
   state = {};
   ProfileHeading = {
     instanceID: "ProfileHeading",
     title: "Profile"
   };
-  ProfileDescriptionOne = {
-    instanceID: "ProfileDescriptionOne",
-    title:
-      "Global excellence, research and teaching are the one of the main focus of this department, established in 2001 with strength of 60 students. We have a team of well qualified faculties who are up to date with latest technologies including Cloud Computing, Data Analytics, Blockchain, Big Data, Artificial Intelligence etc. The scope of this discipline includes the development of systems based on computer and information technology and the application of those systems to enhance enterprise operations."
-  };
-  ProfileDescriptionTwo = {
-    instanceID: "ProfileDescriptionTwo",
-    title:
-      "Our students have won many accolades in the recent past and are placed in reputed companies like Cognizant, Infosys, TCS, WIPRO, Flipkart ,Microsoft and so on. We have a high speed internet connection and all the students can access to the IEEE Journals. Conferences on National Level and State level are conducted for the students to develop their technical skills."
-  };
-  ProfileDescriptionThree = {
-    instanceID: "ProfileDescriptionThree",
-    title:
-      "Our department is ISO certified and NBA accredited. Throughout the course students are prepared for the study by the Placement and Training Cell (PTC) and the Industry Institute Interaction Cell (IIIC) of our college thereby moulding them for a smooth transition from academia to the industry level."
+  Features1 = {
+    instanceID: "Features1",
+    title: "•	The department of Information Technology was commenced in the year 2001."
   };
 
+  Features2 = {
+    instanceID: "Features2",
+    title: "•	It offers undergraduate program with an annual intake of 60 students."
+  };
+  Features3 = {
+    instanceID: "Features3",
+    title: "•	The IT department in VJCET stands stupendous for being one among the only two NBA accredited IT programs in Kerala. "
+  };
+  Features4 = {
+    instanceID: "Features4",
+    title: "•	This branch deals with study, devise, development, execution, support and running of computer-based information systems."
+  };
+  Features5 = {
+    instanceID: "Features5",
+    title: "•	The department of IT is enriched with well qualified faculty members with adequate number of PhD pursuing faculty and PhD holders; and faculty honored with excellence awards."
+  };
+  Features6 = {
+    instanceID: "Features6",
+    title: "•	The department has well-equipped laboratories with modern software tools and smart classrooms."
+  };
+  Features7 = {
+    instanceID: "Features7",
+    title: "•	The scholars of IT department are updated with trainings and workshops in the emerging fields of technologies for a smooth transition from academia to the industry."
+  };
+  Features8 = {
+    instanceID: "Features8",
+    title: "•	Students of IT department are promoted to participate in paper presentations and idea fest competitions so as to encourage them to carry out research work and to set off start ups."
+  };
   render() {
     return (
       <div className="Profile" id="profile">
         <HeadingOne data={this.ProfileHeading} />
-        <Bodythree data={this.ProfileDescriptionOne} />
-        <Bodythree data={this.ProfileDescriptionTwo} />
-        <Bodythree data={this.ProfileDescriptionThree} />
+        <div className="bodyContainer">
+          <p><BodyOneJustified data={this.Features1} /></p>
+          <p><BodyOneJustified data={this.Features2} /></p>
+          <p><BodyOneJustified data={this.Features3} /></p>
+          <p><BodyOneJustified data={this.Features4} /></p>
+          <p><BodyOneJustified data={this.Features5} /></p>
+          <p><BodyOneJustified data={this.Features6} /></p>
+          <p><BodyOneJustified data={this.Features7} /></p>
+          <p><BodyOneJustified data={this.Features8} /></p>
+        </div>
       </div>
     );
   }

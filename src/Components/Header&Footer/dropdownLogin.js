@@ -32,20 +32,32 @@ class DropDownL extends Component {
   render() {
     return (
       <div class="dropdown">
-        <span>Login</span>
+        <span style={{ color: 'black' }}>Login</span>
         <div class="dropdown-content">
           <p>
-            <a href="https://portal.vjcet.ac.in" className="patch1">
-              {" "}
-              Staff & Parents login{" "}
-            </a>{" "}
+            <a href="https://portal.vjcet.ac.in" target="_blank" className="patch1" rel="noopener noreferrer">
+              Student's login
+            </a>
           </p>
-
+          <p>
+            <a href="https://portal.vjcet.ac.in" target="_blank" className="patch1" rel="noopener noreferrer">
+              Parent's login
+            </a>
+          </p>
+          <p>
+            <a href="https://alumni.vjcet.ac.in/" target="_blank" className="patch1" rel="noopener noreferrer">
+              Alumini's login
+            </a>
+          </p>
+          <p>
+            <a href="https://portal.vjcet.ac.in" target="_blank" className="patch1" rel="noopener noreferrer">
+              Staff login
+            </a>
+          </p>
           <p>
             <a href="https://moodle.vjcet.ac.in" className="patch1">
-              {" "}
               Moodle
-            </a>{" "}
+            </a>
           </p>
         </div>
       </div>

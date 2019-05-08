@@ -19,7 +19,7 @@ class AboutVJC extends React.Component {
   AboutVjcText1 = {
     instanceID: "AboutVjcText1",
     title:
-      "Viswajyothi is the lamp of God which brings light to the whole world. “Service of GOD through service of Humanity” is motto of the Kothamangalam Diocese. Behind each of its 96 famed educational institutions, is the unflagging efforts of the people of the Diocese.Viswajyothi was established in the year 2001, and its affiliated to A.P.J.Abdul Kalam Technological University. A highly committed Management Team with the vision of transforming the institute into an International Center of Excellence in Engineering Education; competent and dedicated Faculty; scientifically planned infrastructural facilities with state-of-the-art Laboratories, Fab-Lab, R & D centre, workshops and full-fledged learning arrangements."
+      "Viswajyothi was established in the year 2001, and it is affiliated to A.P.J.AbdulKalam Technological University. A highly committed Management Team with competent and dedicated Faculty and staff makes this place an International Center of Excellence in Engineering Education."
   };
   AboutVjcText2 = {
     instanceID: "AboutVjcText2",
@@ -34,52 +34,52 @@ class AboutVJC extends React.Component {
   PGCourse = {
     instanceID: "PGCourse",
     title: "PG Programmes offered:"
-  };
+  }
   PGCourse1 = {
     instanceID: "PGCourse1",
     title: "Computer Science & Engineering"
-  };
+  }
   PGCourse2 = {
     instanceID: "PGCourse2",
-    title:
-      "Electronics and Communication Engineering with specialization VLSI & Embedded Systems."
-  };
+    title: "Electronics and Communication Engineering with specialization VLSI & Embedded Systems."
+  }
   PGCourse3 = {
     instanceID: "PGCourse3",
     title: "Industrial Engineering and Management"
-  };
+  }
   PGCourse4 = {
     instanceID: "PGCourse4",
     title: "MBA"
-  };
+  }
   UGCourse = {
     instanceID: "UGCourse",
-    title: "B-Tech Programmes offered:"
-  };
+    title: "B-Tech Programmes offered:(All programs Accredited by NBA)"
+  }
   UGCourse1 = {
     instanceID: "UGCourse1",
     title: "Civil Engineering"
-  };
+  }
   UGCourse2 = {
     instanceID: "UGCourse2",
     title: "Computer Science and Engineering"
-  };
+  }
   UGCourse3 = {
     instanceID: "UGCourse3",
     title: "Electronics and Communication engineering"
-  };
+  }
   UGCourse4 = {
     instanceID: "UGCourse4",
     title: "Electrical and Electronics Engineering"
-  };
+  }
   UGCourse5 = {
     instanceID: "UGCourse5",
     title: "Information Technology"
-  };
+  }
   UGCourse6 = {
     instanceID: "UGCourse6",
     title: "Mechanical Engineering"
-  };
+  }
+
 
   render() {
     return (
@@ -88,67 +88,30 @@ class AboutVJC extends React.Component {
         <ImageOne data={this.AboutVjcImage} />
         <div className="about-para">
           <BodyOneJustified data={this.AboutVjcText1} />
-          <p>
-            <BodyOneJustified data={this.AboutVjcText2} />
-          </p>
+          {/* <p><BodyOneJustified data={this.AboutVjcText2} /></p> */}
           <div className="inner-para">
-            <p>
-              <BodyOneJustified data={this.PGCourse} />
-            </p>
+            <p><BodyOneJustified data={this.PGCourse} /></p>
             <ul>
-              <li>
-                <p>
-                  <BodyOneJustified data={this.PGCourse1} />
-                </p>
-              </li>
-              <li>
-                <p>
-                  <BodyOneJustified data={this.PGCourse2} />
-                </p>
-              </li>
-              <li>
-                <p>
-                  <BodyOneJustified data={this.PGCourse3} />
-                </p>
-              </li>
-              <li>
-                <p>
-                  <BodyOneJustified data={this.PGCourse4} />
-                </p>
-              </li>
+              <li><p><BodyOneJustified data={this.PGCourse1} /></p></li>
+              <li><p><BodyOneJustified data={this.PGCourse2} /></p></li>
+              <li><p><BodyOneJustified data={this.PGCourse3} /></p></li>
+              <li><p><BodyOneJustified data={this.PGCourse4} /></p></li>
             </ul>
-            <p>
-              <BodyOneJustified data={this.UGCourse} />
-            </p>
+            <p><BodyOneJustified data={this.UGCourse} /></p>
             <ul>
-              <li>
-                <p>
-                  <BodyOneJustified data={this.UGCourse1} />
-                </p>
-              </li>
-              <li>
-                <p>
-                  <BodyOneJustified data={this.UGCourse2} />
-                </p>
-              </li>
-              <li>
-                <p>
-                  <BodyOneJustified data={this.UGCourse3} />
-                </p>
-              </li>
-              <li>
-                <p>
-                  <BodyOneJustified data={this.UGCourse4} />
-                </p>
-              </li>
+              <li><p><BodyOneJustified data={this.UGCourse1} /></p></li>
+              <li><p><BodyOneJustified data={this.UGCourse2} /></p></li>
+              <li><p><BodyOneJustified data={this.UGCourse3} /></p></li>
+              <li><p><BodyOneJustified data={this.UGCourse4} /></p></li>
+              <li><p><BodyOneJustified data={this.UGCourse5} /></p></li>
+              <li><p><BodyOneJustified data={this.UGCourse6} /></p></li>
             </ul>
-          </div>
-          <p>
-            <BodyOneJustified data={this.AboutVjcText3} />
-          </p>
-        </div>
 
+          </div>
+          {/* <p><BodyOneJustified data={this.AboutVjcText3} /></p> */}
+        </div>
         <ResourcesGroup />
+
       </React.Fragment>
     );
   }

@@ -51,7 +51,7 @@ input {
 .content {
   /* background-color: green; */
   grid-area: data;
-  padding: 5% 0%;
+  padding: 5% 0%;   
 }
 
 @media screen and (min-width: 768px) {

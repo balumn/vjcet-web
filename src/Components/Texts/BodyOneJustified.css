@@ -1,6 +1,6 @@
 .BodyOneJustified p {
   font-weight: 400;
-  font-size: 19px;
+  font-size: 14px;
   color: #1d2129;
   letter-spacing: 0;
   text-align: justify;
@@ -10,15 +10,15 @@
 
 @media (min-width: 400px) {
   .BodyOneJustified p {
-    font-size: 21px;
+    font-size: 14px;
     font-weight: 300;
   }
 }
 
 @media (min-width: 768px) {
   .BodyOneJustified p {
-    font-size: 23px;
-    line-height: 33px;
+    font-size: 14pt;
+    line-height: 19pt;
     font-weight: 400;
   }
 }

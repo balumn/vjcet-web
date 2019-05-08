@@ -5,7 +5,7 @@ class PEO extends Component {
   state = {};
   peoHeading = {
     instanceID: "psoHeading",
-    title: "Program Educational Outcomes(PEOs)"
+    title: "Programme Educational Objectives"
   };
   peoListOne = {
     instanceID: "peoListOne",
@@ -29,7 +29,7 @@ class PEO extends Component {
 
   psoHeading = {
     instanceID: "psoHeading",
-    title: "Program Specific Outcomes(PSOs)"
+    title: "Programme Specific Outcomes"
   };
   psoListOne = {
     instanceID: "psoListOne",

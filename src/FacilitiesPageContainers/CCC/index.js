@@ -48,7 +48,7 @@ class CCC extends React.Component {
     }
     CCCImagedata = {
         instanceID: "CCCVjcImage",
-        image: "cover2-1.jpg",
+        image: "IMG_7657.JPG",
         width: "100%"
     }
     Server1 = {

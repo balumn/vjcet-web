@@ -1,10 +1,11 @@
 .AnchorLink a {
   font-weight: 600;
   font-size: 14px;
-  color: #181818;
   letter-spacing: 0;
   text-align: center;
   text-decoration: none;
+  color:white;
+  margin: auto 0;
 }
 
 @media (min-width: 1024px) {

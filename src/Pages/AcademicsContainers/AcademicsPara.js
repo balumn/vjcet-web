@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "../HomePage.css";
 import "../AboutPage.css";
-import HeadingTwo from "../../Components/Texts/HeadingTwo";
 import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
 
 class AcademicsPara extends Component {

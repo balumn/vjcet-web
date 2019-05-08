@@ -56,7 +56,7 @@ class CeDepartment extends Component {
   };
   HeadingSectionTitle = {
     instanceID: "Headingtext",
-    title: "Department of Civil Engineering"
+    title: "CIVIL ENGINEERING"
   };
 
   HeadingSectionDescription = {
@@ -65,8 +65,8 @@ class CeDepartment extends Component {
   };
   CseImg = {
     instanceID: "CseImg",
-    image: "CseImg.jpg",
-    width: "100%"
+    image: "IMG_9673.jpg",
+    width: "90%"
   };
 
   ProfileHeading = {

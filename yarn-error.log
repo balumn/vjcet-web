@@ -1,0 +1,64 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js install
+
+PATH: 
+  /home/balumn/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  8.10.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/home/balumn/dev/evolve/vjcet-web-/node_modules/@babel/generator/node_modules'
+
+npm manifest: 
+  {
+    "name": "vjcet",
+    "version": "0.1.0",
+    "private": true,
+    "homepage": "http://balumn.github.io/vjcet-web",
+    "dependencies": {
+      "bootstrap": "^4.3.1",
+      "node-sass": "^4.11.0",
+      "react": "^16.8.4",
+      "react-bootstrap": "^1.0.0-beta.5",
+      "react-dom": "^16.8.3",
+      "react-responsive-table": "^2.0.15",
+      "react-router-dom": "^4.3.1",
+      "react-router-hash-link": "^1.2.1",
+      "react-scripts": "2.1.5",
+      "react-style-proptype": "^3.2.2",
+      "reactstrap": "^8.0.0"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ],
+    "devDependencies": {
+      "gh-pages": "^2.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

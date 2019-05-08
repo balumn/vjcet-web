@@ -85,8 +85,8 @@ class CeGraph extends Component {
     return (
       <React.Fragment>
         <div>
-          <div className="graphContent">
-            <div >
+          <div class="graphContent">
+            <div>
               <HeadingOne data={this.Heading} />
               <input
                 type="button"
