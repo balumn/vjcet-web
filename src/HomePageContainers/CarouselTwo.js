@@ -7,7 +7,11 @@ class CarouselTwo extends Component {
   data = [
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: "Bodhi 2k19 on March 20 & 21"
+      title: "Semester 8 Exams starts on May 28"
+    },
+    {
+      instanceID: this.props.data.instanceID + "CustomOne",
+      title: "Drishya 2k19 on March 22 & 23"
     },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
