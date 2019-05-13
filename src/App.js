@@ -24,6 +24,7 @@ import ContactUs from "./ContactUsContainers/ContactUs";
 import Academics from "./Pages/Academics";
 import VisionPage from "./Pages/VisionPage"
 import SyllabusPage from "./Pages/SyllabusPage";
+import Reserch from "./Pages/Research";
 class App extends Component {
   render() {
     return (
@@ -56,6 +57,7 @@ class App extends Component {
               <Route exact path="/facilities/hostel" component={Hostel} />
               <Route exact path="/facilities/sports" component={Sports} />
               <Route exact path="/contact" component={ContactUs} />
+              <Route exact path="/r&d" component={Reserch} />
             </Switch>
           </React.Fragment>
         </Router>
