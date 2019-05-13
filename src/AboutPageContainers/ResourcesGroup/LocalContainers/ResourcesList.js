@@ -3,7 +3,6 @@ import "./ResourcesList.css";
 import HeadingFour from "../../../Components/Texts/HeadingFour";
 import ImageOne from "../../../Components/Images/ImageOne";
 import ButtonTwo from "../../../Components/Buttons/ButtonTwo";
-import { fileURLToPath } from "url";
 
 class ResourcesList extends Component {
   ListTitle = {
@@ -17,7 +16,7 @@ class ResourcesList extends Component {
     width: "20%"
   };
   fileLoc = {
-    file: this.props.data.fileURLToPath,
+    file: this.props.data.filePath,
   }
 
   render() {
@@ -25,7 +24,7 @@ class ResourcesList extends Component {
       <div className="ResourcesList" id={this.props.data.instanceID}>
         <ImageOne data={this.ListIcon} />
         <HeadingFour id="ResourcesListHeading" data={this.ListTitle} />
-        <a href={this.fileLoc.file} download="Rules.pdf"><ButtonTwo /></a>
+        <a href={'/downloads/'+this.fileLoc.file} target="_blank" rel="noopener noreferrer" ><ButtonTwo /></a>
       </div>
     );
   }

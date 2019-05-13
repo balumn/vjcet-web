@@ -14,42 +14,50 @@ class ResourcesGroup extends Component {
     listID: "One",
     title: "Rules & Regulations",
     icon: "icon1.svg",
-    filePath: "./Rules.pdf"
+    filePath: "Rules.pdf"
   };
 
   ResourceListTwo = {
     instanceID: "ResourceListTwo",
     listID: "Two",
     title: "Staff Manual",
-    icon: "icon2.svg"
+    icon: "icon2.svg",
+    filePath: "staffmanual2017.pdf"
+
   };
 
   ResourceListThree = {
     instanceID: "ResourceListThree",
     listID: "Three",
     title: "AICTE Documents",
-    icon: "icon3.svg"
+    icon: "icon3.svg",
+    filePath: "AICTE.pdf"
+
   };
 
   ResourceListFour = {
     instanceID: "ResourceListFour",
     listID: "Four",
     title: "Audited Financial Statements",
-    icon: "icon4.svg"
+    icon: "icon4.svg",
+    filePath: "FinancialStatements.zip"
   };
 
   ResourceListFive = {
     instanceID: "ResourceListFive",
     listID: "Five",
     title: "IQAC",
-    icon: "icon5.svg"
+    icon: "icon5.svg",
+    filePath: "IQAC.pdf"
   };
 
   ResourceListSix = {
     instanceID: "ResourceListSix",
     listID: "Five",
     title: "Academic Schema",
-    icon: "icon6.svg"
+    icon: "icon6.svg",
+    filePath: "AcedemicSchema.pdf"
+
   };
 
   render() {

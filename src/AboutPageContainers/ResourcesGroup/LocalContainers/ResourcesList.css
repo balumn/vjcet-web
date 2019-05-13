@@ -2,6 +2,7 @@
   display: grid;
   justify-items: center;
   margin: 5% 0%;
+  /* border: 1px solid #880d1e; */
 }
 
 .ResourcesList h4 {
@@ -12,4 +13,8 @@
   .ResourcesList {
     margin: 10% 0%;
   }
+}
+
+a {
+  text-decoration: none;
 }
