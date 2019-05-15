@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import HomePage from "./Pages/HomePage";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import AboutPage from "./Pages/AboutPage";
 import DepartmentPage from "./Pages/Departmentpage";
 import CampusLifePage from "./Pages/CampusLifePage";
