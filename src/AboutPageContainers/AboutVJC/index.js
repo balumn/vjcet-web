@@ -3,7 +3,6 @@ import HeadingTwo from "../../Components/Texts/HeadingTwo";
 import ImageOne from "../../Components/Images/ImageOne";
 import "./About.css";
 import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
-import ResourcesGroup from "../ResourcesGroup/ResourcesGroup"
 
 class AboutVJC extends React.Component {
   AboutVjcTitle = {

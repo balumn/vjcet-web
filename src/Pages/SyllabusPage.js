@@ -4,9 +4,7 @@ import "./AboutPage.css";
 import Header from "../Components/Header&Footer/Header";
 import Footer from "../Components/Header&Footer/Footer";
 import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
-import ImageOne from "../Components/Images/ImageOne";
 import ResourcesGroup from "../AboutPageContainers/ResourcesGroup/ResourcesGroup";
-import HeadingOne from "../Components/Texts/HeadingOne";
 
 class SyllabusPage extends Component {
     state = { showMenu: false };

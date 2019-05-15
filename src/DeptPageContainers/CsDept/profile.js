@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import HeadingOne from "../../Components/Texts/HeadingOne";
-import Bodythree from "../../Components/Texts/BodyThree";
-import HeadingTwo from "../../Components/Texts/HeadingTwo";
 import BodyOneJustified from "../../Components/Texts/BodyOneJustified"
 class Profile extends Component {
   state = {};

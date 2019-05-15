@@ -9,7 +9,7 @@ class ExternalLink extends Component {
 
         return (
             <div className="AnchorLink" id={instanceID}>
-                <a href={link} target="_blank">{title}</a>
+                <a href={link} target="_blank" rel="noopener noreferrer">{title}</a>
                 {/* <Link to={link}>{title}</Link> */}
             </div>
         );

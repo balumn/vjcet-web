@@ -5,7 +5,6 @@ import VisionSection from "../HomePageContainers/VisionSection";
 import Header from "../Components/Header&Footer/Header";
 import Footer from "../Components/Header&Footer/Footer";
 import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
-import ImageOne from "../Components/Images/ImageOne";
 
 class VisionPage extends Component {
     state = { showMenu: false };
