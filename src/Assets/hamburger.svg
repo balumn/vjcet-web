@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="20px" height="16px" viewBox="0 0 20 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
-    <title>align-justify - FontAwesome</title>
-    <desc>Created with Sketch.</desc>
-    <g id="HomePage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="FontAwesome" font-size="20" font-weight="normal">
-        <g id="Mobile" transform="translate(-285.000000, -24.000000)" fill="#000000">
-            <g id="Header">
-                <g id="Tab-1">
-                    <text id="align-justify---FontAwesome">
-                        <tspan x="285" y="40"></tspan>
-                    </text>
-                </g>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg height="16" viewBox="0 0 20 16" width="20" xmlns="http://www.w3.org/2000/svg"><text fill-rule="evenodd" transform="translate(-285 -24)"><tspan x="285" y="40"/></text></svg>
