@@ -5,14 +5,14 @@
   "homepage": "http://balumn.github.io/vjcet-web",
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.12.0",
     "react": "^16.8.4",
     "react-bootstrap": "^1.0.0-beta.5",
     "react-dom": "^16.8.3",
     "react-responsive-table": "^2.0.15",
     "react-router-dom": "^4.3.1",
     "react-router-hash-link": "^1.2.1",
-    "react-scripts": "2.1.5",
+    "react-scripts": "^3.0.1",
     "react-style-proptype": "^3.2.2",
     "reactstrap": "^8.0.0"
   },
