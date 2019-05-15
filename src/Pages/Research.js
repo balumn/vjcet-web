@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Header from "../Components/Header&Footer/Header";
 import Footer from "../Components/Header&Footer/Footer";
 import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
-import ImageOne from "../Components/Images/ImageOne";
+// import ImageOne from "../Components/Images/ImageOne";
 import HeadingOne from "../Components/Texts/HeadingOne";
 import BodyThree from "../Components/Texts/BodyThree";
 import BodyOneJustified from "../Components/Texts/BodyOneJustified";
@@ -31,11 +31,11 @@ class Reserch extends Component {
     HomePageFacilitiesSection = {
         instanceID: "HomePageFacilitiesSection"
     };
-    ResearchImg = {
-        instanceID: "ResearchImg",
-        image: "cover2-1.jpg",
-        width: "93%"
-    }
+    // ResearchImg = {
+    //     instanceID: "ResearchImg",
+    //     image: "cover2-1.jpg",
+    //     width: "93%"
+    // }
     ResearchHeading = {
         instanceID: "ResearchHeading",
         title: "Research and Development"
@@ -77,7 +77,7 @@ class Reserch extends Component {
             <div className="HomePage">
                 <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
                 <HeadingOne data={this.ResearchHeading}></HeadingOne>
-                <ImageOne data={this.ResearchImg}></ImageOne>
+                {/* <ImageOne data={this.ResearchImg}></ImageOne> */}
                 <BodyThree data={this.ReserchBody1} /><br/>
                 <p>
                 <BodyThree data={this.ReserchBody2} />

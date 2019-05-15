@@ -64,7 +64,7 @@ class Hostal extends React.Component {
     }
     HostalImagedata = {
         instanceID: "HostalImagedata",
-        image: "cover2-1.jpg",
+        image: "hostel.jpg",
         width: "100%"
     }
     render() {

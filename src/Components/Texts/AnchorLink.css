@@ -1,4 +1,4 @@
-.AnchorLink a {
+.AnchorLink a  {
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 0;
@@ -10,6 +10,6 @@
 
 @media (min-width: 1024px) {
   .AnchorLink a {
-    font-size: 16px;
+    font-size: 16px; 
   }
 }

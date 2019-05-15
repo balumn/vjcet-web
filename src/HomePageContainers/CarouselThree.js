@@ -162,7 +162,8 @@ class CarouselThree extends Component {
         image: "minerva.jpg",
         width: "210px"
       }
-    }
+    },
+
   ];
   render() {
     window.addEventListener("resize", () => {
@@ -202,7 +203,7 @@ class CarouselThree extends Component {
                   >
                     <HeadingFive data={item.Category} />
                     <HeadingFour data={item.Title} />
-                    <HeadingFive data={this.Read} />
+                    {/* <HeadingFive data={this.Read} /> */}
                     <ImageTwo data={item.Image} />
                   </div>
                 );

@@ -29,16 +29,12 @@ class VisionPage extends Component {
     HomePageFacilitiesSection = {
         instanceID: "HomePageFacilitiesSection"
     };
-    VisionImg = {
-        instanceID: "VisionImage",
-        image: "cover2-1.jpg",
-        width: "93%"
-    }
+
     render() {
         return (
             <div className="HomePage">
                 <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
-                <ImageOne data={this.VisionImg}></ImageOne>
+                {/* <ImageOne data={this.VisionImg}></ImageOne> */}
                 <VisionSection data={this.HomePageFacilitiesSection} />
                 <Footer data={this.HomePageFooter} />
                 {this.state.showMenu ? (

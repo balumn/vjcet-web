@@ -103,7 +103,7 @@ class Sports extends React.Component{
     };
     SportsImagedata = {
         instanceID: "SportsImagedata",
-        image: "cover2-1.jpg",
+        image: "basket.jpg",
         width: "100%"
     }
     render() {
@@ -117,6 +117,8 @@ class Sports extends React.Component{
             <BodyOneJustified data={this.SportsContent1} />
             </div>
             <Gym />
+            <HeadingTwo data={this.BasketballTitle} className="Heading" />
+            <BodyOneJustified data={this.BasketballContent} />
             <HeadingTwo data={this.StatdiumTitle} className="Heading" />
             <BodyOneJustified data={this.StatdiumContent} />
             <HeadingTwo data={this.CourtsTitle} className="Heading" />
@@ -125,8 +127,6 @@ class Sports extends React.Component{
             <BodyOneJustified data={this.FootballContent} />
             <HeadingTwo data={this.CricketTitle} className="Heading" />
             <BodyOneJustified data={this.CricketContent} />
-            <HeadingTwo data={this.BasketballTitle} className="Heading" />
-            <BodyOneJustified data={this.BasketballContent} />
             <HeadingTwo data={this.TableTennisTitle} className="Heading" />
             <BodyOneJustified data={this.TableTennisContent} />
             <HeadingTwo data={this.BadmintonTitle} className="Heading" />

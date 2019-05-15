@@ -3,7 +3,7 @@ import HeadingTwo from "../../Components/Texts/HeadingTwo";
 import ImageOne from "../../Components/Images/ImageOne";
 import "./About.css";
 import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
-import ResourcesGroup from "../ResourcesGroup/ResourcesGroup";
+import ResourcesGroup from "../ResourcesGroup/ResourcesGroup"
 
 class AboutVJC extends React.Component {
   AboutVjcTitle = {
@@ -110,7 +110,7 @@ class AboutVJC extends React.Component {
           </div>
           {/* <p><BodyOneJustified data={this.AboutVjcText3} /></p> */}
         </div>
-        <ResourcesGroup />
+        {/* <ResourcesGroup /> */}
 
       </React.Fragment>
     );

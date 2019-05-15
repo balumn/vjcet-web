@@ -63,7 +63,7 @@ class PlacementPage extends Component {
   };
   CseImg = {
     instanceID: "CseImg",
-    image: "IMG_7573.JPG",
+    image: "DJI_0052.jpg",
     width: "90%"
   };
 

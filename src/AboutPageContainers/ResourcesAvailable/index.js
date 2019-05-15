@@ -10,7 +10,7 @@ class ResourcesAvailable extends React.Component {
 
   RulesAndRegulations = {
     instanceID: "RulesAndRegulations",
-    image: "icon1.svg"
+    image: "rules.svg"
   }
 
   render() {

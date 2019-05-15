@@ -7,6 +7,7 @@ import HeadingFive from "../Texts/HeadingFive";
 import AnchorLink from "../Texts/AnchorLink";
 import CustomOne from "../Texts/CustomOne";
 import HeadingFour from "../Texts/HeadingFour";
+import ExternalLink from "../Texts/ExternalLink"
 
 class Footer extends Component {
   VJCLogo = {
@@ -84,74 +85,74 @@ class Footer extends Component {
   Link3 = {
     instanceID: "Link3",
     title: "Departments",
-    link: "Departments"
+    link: "/departments"
   };
 
   Link4 = {
     instanceID: "Link4",
     title: "Campus Life",
-    link: "Campus-Life"
+    link: "/campus-Life"
   };
 
   Link5 = {
     instanceID: "Link5",
     title: "Facilities",
-    link: "Facilities"
+    link: "/facilities"
   };
 
   Link6 = {
     instanceID: "Link6",
     title: "Academics",
-    link: ""
+    link: "/academics/courses-offered"
   };
 
   Link7 = {
     instanceID: "Link7",
     title: "Placements",
-    link: ""
+    link: "/placement"
   };
 
   Link8 = {
     instanceID: "Link8",
     title: "R&D",
-    link: ""
+    link: "/r&d"
   };
 
   Link9 = {
     instanceID: "Link9",
     title: "Alumni",
-    link: ""
+    link: "https://alumni.vjcet.ac.in/"
   };
 
   Link10 = {
     instanceID: "Link10",
     title: "Administration",
-    link: ""
+    link: "/about/keyfunctionaries"
   };
 
   Link11 = {
     instanceID: "Link11",
     title: "About Us",
-    link: "About"
+    link: "about"
   };
 
   Link12 = {
     instanceID: "Link12",
     title: "Contact Us",
-    link: ""
+    link: "/contact"
   };
 
-  Link13 = {
-    instanceID: "Link13",
-    title: "News",
-    link: ""
-  };
+  // Link13 = {
+  //   instanceID: "Link13",
+  //   title: "News",
+  //   link: ""
+  // };
 
-  Link14 = {
-    instanceID: "Link14",
-    title: "Events",
-    link: ""
-  };
+  // Link14 = {
+  //   instanceID: "Link14",
+  //   title: "Events",
+  //   link: ""
+  // };
 
   Link15 = {
     instanceID: "Link15",
@@ -165,6 +166,21 @@ class Footer extends Component {
     link: "https://portal.vjcet.ac.in/"
   };
 
+  Link18 = {
+    instanceID: "Link18",
+    title: "Parent's Login",
+    link: "https://portal.vjcet.ac.in/"
+  };
+  Link19 = {
+    instanceID: "Link19",
+    title: "Alumni's Login",
+    link: "https://alumni.vjcet.ac.in/"
+  };
+  Link20 = {
+    instanceID: "Link20",
+    title: "Moodle",
+    link: "https://moodle.vjcet.ac.in/"
+  };
   FooterLinksTitleOne = {
     instanceID: "FooterLinksTitleOne",
     title: "Quick Links"
@@ -193,7 +209,7 @@ class Footer extends Component {
         <div className="FooterLinksOne" id="FooterLinksOne">
           <HeadingFour data={this.FooterLinksTitleOne} />
           <AnchorLink data={this.Link1} />
-          <AnchorLink data={this.Link2} />
+          <ExternalLink data={this.Link2} />
           <AnchorLink data={this.Link3} />
           <AnchorLink data={this.Link4} />
           <AnchorLink data={this.Link5} />
@@ -204,25 +220,26 @@ class Footer extends Component {
 
         <div className="FooterLinksTwo" id="FooterLinksTwo">
           <HeadingFive data={this.FooterLinksTitleTwo} />
-          <AnchorLink data={this.Link9} />
+          <ExternalLink data={this.Link9} />
           <AnchorLink data={this.Link10} />
           <AnchorLink data={this.Link11} />
           <AnchorLink data={this.Link12} />
-          <AnchorLink data={this.Link13} />
-          <AnchorLink data={this.Link14} />
+          {/* <AnchorLink data={this.Link13} />
+          <AnchorLink data={this.Link14} /> */}
         </div>
 
         <div className="FooterLinksThree" id="FooterLinksThree">
           <HeadingFive data={this.FooterLinksTitleThree} />
-          <AnchorLink data={this.Link15} />
-          <AnchorLink data={this.Link16} />
+          <ExternalLink data={this.Link15} />
+          <ExternalLink data={this.Link16} />
+          <ExternalLink data={this.Link18} />
+          <ExternalLink data={this.Link19} />
+          <ExternalLink data={this.Link20} />
         </div>
 
         <div className="FooterLinksFour" id="FooterLinksFour">
           <HeadingFive data={this.FooterLinksTitleFour} />
           <a href="https://www.facebook.com/principal.vjcet" target="_blank" rel="noopener noreferrer"><ImageOne data={this.fb} /></a>
-          {/* <ImageOne data={this.insta} />
-          <ImageOne data={this.twitter} /> */}
           <a href="https://www.youtube.com/channel/UCYlW0xiYPFl3R_wiownjQRw" target="_blank" rel="noopener noreferrer"><ImageOne data={this.youtube} /></a>
         </div>
 

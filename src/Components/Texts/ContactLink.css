@@ -1,0 +1,15 @@
+.ContactLink a  {
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    margin: auto 0;
+  }
+  
+  @media (min-width: 1024px) {
+    .ContactLink a {
+      font-size: 16px; 
+    }
+  }

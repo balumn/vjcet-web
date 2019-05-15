@@ -65,8 +65,8 @@ class CsDepartment extends Component {
   };
   CseImg = {
     instanceID: "CseImg",
-    image: "IMG_7490.JPG",
-    width: "90%"
+    image: "cs.png",
+    width: "100%"
   };
 
   ProfileHeading = {
@@ -87,9 +87,12 @@ class CsDepartment extends Component {
     return (
       <div className="HomePage">
         <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
-        <HeadingOne data={this.HeadingSectionTitle} />
-        <BodyOne data={this.HeadingSectionDescription} />
-        <ImageOne data={this.CseImg} />
+        <div className="CsHeadingSection">
+          <HeadingOne data={this.HeadingSectionTitle} />
+          <BodyOne data={this.HeadingSectionDescription} />
+          <ImageOne data={this.CseImg} />
+
+        </div>
         <SideNav />
         <Footer data={this.HomePageFooter} />
         {this.state.showMenu ? (

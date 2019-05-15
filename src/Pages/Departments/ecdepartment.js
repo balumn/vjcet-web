@@ -65,8 +65,8 @@ class EcDepartment extends Component {
   };
   CseImg = {
     instanceID: "CseImg",
-    image: "IMG_8178.JPG",
-    width: "90%"
+    image: "ec.png",
+    width: "100%"
   };
 
   ProfileHeading = {

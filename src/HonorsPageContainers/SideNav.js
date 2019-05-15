@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Nav.css";
+import CeHonors from "../DeptPageContainers/CeDept/LocalContainers/cehonors";
 import CsHonors from "../DeptPageContainers/CsDept/LocalContainers/cshonors";
 import EcHonors from "../DeptPageContainers/EcDept/LocalContainers/echonors";
 import EeHonors from "../DeptPageContainers/EeeDept/LocalContainers/eehonors";
@@ -66,24 +67,27 @@ class SideNav extends Component {
   };
   render() {
     return (
+      <div >
+        <HeadingOne data={this.Heading} />
         <div >
-          <HeadingOne data={this.Heading} />
-          <div >
-            <CsHonors />
-          </div>
-          <div id="ec">
-            <EcHonors />
-          </div>
-          <div id="ee">
-            <EeHonors />
-          </div>
-          <div id="it">
-            <ItHonors />
-          </div>
-          <div id="me">
-            <MeHonors />
-          </div>
+          <CeHonors />
         </div>
+        <div >
+          <CsHonors />
+        </div>
+        <div id="ec">
+          <EcHonors />
+        </div>
+        <div id="ee">
+          <EeHonors />
+        </div>
+        <div id="it">
+          <ItHonors />
+        </div>
+        <div id="me">
+          <MeHonors />
+        </div>
+      </div>
     );
   }
 }

@@ -43,8 +43,8 @@ class SyllabusPage extends Component {
         return (
             <div className="HomePage">
                 <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
-                <HeadingOne data={this.Syllabusheading}></HeadingOne>
-                <ImageOne data={this.SyllabusImg}></ImageOne>
+                {/* <HeadingOne data={this.Syllabusheading}></HeadingOne> */}
+                {/* <ImageOne data={this.SyllabusImg}></ImageOne> */}
                 <ResourcesGroup></ResourcesGroup>
                 <Footer data={this.HomePageFooter} />
                 {this.state.showMenu ? (

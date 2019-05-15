@@ -5,7 +5,12 @@
   padding: 0px;
   margin: 0px;
 }
-
+/* .CsHeadingSection{
+  background-image: url("../../Assets/IMG_7490.JPG");
+  background-color: #ffffff83;
+  background-size: cover;
+   padding: 50px; 
+} */
 #HomePageHeader {
   grid-area: header;
 }

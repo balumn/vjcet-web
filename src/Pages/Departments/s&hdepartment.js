@@ -64,8 +64,8 @@ class SHDepartment extends Component {
   };
   CseImg = {
     instanceID: "CseImg",
-    image: "IMG_9724.JPG",
-    width: "90%"
+    image: "sh.png",
+    width: "100%"
   };
 
   render() {

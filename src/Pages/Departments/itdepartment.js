@@ -64,8 +64,8 @@ class ItDepartment extends Component {
   };
   CseImg = {
     instanceID: "CseImg",
-    image: "IMG_7800.JPG",
-    width: "90%"
+    image: "it.png",
+    width: "100%"
   };
 
   render() {

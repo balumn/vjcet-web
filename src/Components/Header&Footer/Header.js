@@ -12,6 +12,7 @@ import DropDownA from "./dropdownAcademics";
 import DropDownAb from "./dropdownAbout";
 import DropDownL from "./dropdownLogin";
 import DropDownF from "./dropdownfacilities";
+import ContactLink from "../Texts/Contactlink"
 
 class Header extends Component {
   VJCLogo = {
@@ -112,7 +113,7 @@ class Header extends Component {
   Link10 = {
     instanceID: "HeaderLink10",
     title: "R&D",
-    link: ""
+    link: "/r&d"
   };
   LineHeading = {
     instanceID: "LineHeading"
@@ -138,10 +139,7 @@ class Header extends Component {
         <div className="HeaderLinkTabOne" id="HeaderLinkTabOne">
           <div className="HeaderLinkTabOne" id="HeaderLinkOne">
             <DropDownL />
-            <Link to={this.Link2.link} style={{
-              color: 'black', textDecoration: "none", fontWeight: "600",
-              size: '14px'
-            }}>{this.Link2.title}</Link>
+            <ContactLink data={this.Link2} />
           </div>
         </div>
 

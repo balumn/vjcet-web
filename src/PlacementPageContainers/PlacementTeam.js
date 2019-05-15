@@ -32,9 +32,9 @@ class Faculty extends Component {
   };
   Cefaculty5 = {
     instanceID: "Cefaculty5",
-    image: "dummy.png",
+    image: "IMG_7641.jpg",
     width: "50%",
-    name: "Mr. Sanoj ",
+    name: "Mr. Sanoj Saju",
     content: "Assistant Placement Officer"
   };
   Cefaculty6 = {

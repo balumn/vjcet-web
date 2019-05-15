@@ -44,12 +44,13 @@ class DropDownC extends Component {
             </Link>
           </p>
           <p>
-            <Link
-              to="/campus-life/campus-map"
+            <a
+              href="/downloads/campusMap.pdf"
+              target="_blank" rel="noopener noreferrer"
               className="patch1"
             >
               Campus-Map
-            </Link>
+            </a>
           </p>
         </div>
       </div>

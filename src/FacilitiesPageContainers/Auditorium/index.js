@@ -1,6 +1,6 @@
 import React from "react";
 import HeadingTwo from "../../Components/Texts/HeadingTwo";
-import ImageOne from "../../Components/Images/ImageOne";
+// import ImageOne from "../../Components/Images/ImageOne";
 import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
 import "../styles.css"
 
@@ -17,11 +17,11 @@ class Auditorium extends React.Component{
         instanceID: "AuditoriumContent2",
         title:"College has a main auditorium which has 1500 seating capacity and a mini auditorium with 250 seating capacity. All college level events are being conducted in the main auditorium and mini auditorium. All the department has Seminar hall facility with 100 seating capacity along with mounted projector setup."
     }
-    AuditoriumImagedata = {
-        instanceID: "AuditoriumImagedata",
-        image: "cover2-1.jpg",
-        width: "100%"
-    }
+    // AuditoriumImagedata = {
+    //     instanceID: "AuditoriumImagedata",
+    //     image: "cover2-1.jpg",
+    //     width: "100%"
+    // }
     AuditoriumFeature1 = {
         instanceID: "AuditoriumFeature1",
         title:"Perfect facility for conducting seminars, conferences at a big scale."
@@ -40,7 +40,7 @@ class Auditorium extends React.Component{
           <React.Fragment>
               <div className="contain">
               <HeadingTwo data={this.AuditoriumTitle} className="Heading" />
-              <ImageOne data={this.AuditoriumImagedata} />
+              {/* <ImageOne data={this.AuditoriumImagedata} /> */}
               <div className="bodyContainer">
                 <p>
                 <BodyOneJustified data={this.AuditoriumContent1} />

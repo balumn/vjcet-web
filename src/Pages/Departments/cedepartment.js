@@ -61,12 +61,12 @@ class CeDepartment extends Component {
 
   HeadingSectionDescription = {
     instanceID: "HeadingSectionDescription",
-    title: "Modernizing the world through a solid foundation."
+    title: "Building future on foundations of excellence"
   };
   CseImg = {
     instanceID: "CseImg",
-    image: "IMG_9673.jpg",
-    width: "90%"
+    image: "Ce.png",
+    width: "100%"
   };
 
   ProfileHeading = {

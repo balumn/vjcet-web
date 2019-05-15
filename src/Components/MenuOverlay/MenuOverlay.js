@@ -228,15 +228,15 @@ class MenuOverlay extends Component {
               <Link className="MenuOverlaySubLinks" to="/facilities/core-facilities">
                 Core Facilities
               </Link>
-              <Link className="MenuOverlaySubLinks" to="/about">
+              <Link className="MenuOverlaySubLinks" to="/facilities/hostel">
                 Hostel
               </Link>
-              <Link className="MenuOverlaySubLinks" to="/about">
+              <Link className="MenuOverlaySubLinks" to="/facilities/sports">
                 Sports
               </Link>
-              <Link className="MenuOverlaySubLinks" to="/about">
+              {/* <Link className="MenuOverlaySubLinks" to="/about">
                 Transportation
-              </Link>
+              </Link> */}
             </div>
           </div>
 
@@ -249,22 +249,22 @@ class MenuOverlay extends Component {
             </button>
 
             <div className="MenuOverlaySubLinkGroup" style={menuItem6Style}>
-              <Link className="MenuOverlaySubLinks" to="/about">
-                Calendar
+              <Link className="MenuOverlaySubLinks" to="/academics/courses-offered">
+                Courses-offered
               </Link>
-              <Link className="MenuOverlaySubLinks" to="/about">
-                Curriculum
+              <Link className="MenuOverlaySubLinks" to="/academics/syllabus">
+                Syllabus and Plan
               </Link>
-              <Link className="MenuOverlaySubLinks" to="/about">
+              <Link className="MenuOverlaySubLinks" to="/academics/honors">
                 Honors
+
               </Link>
-              <Link className="MenuOverlaySubLinks" to="/about">
+              <Link className="MenuOverlaySubLinks" to="/placement">
                 Placements
               </Link>
             </div>
           </div>
-
-          <Link id="menuItem7" className="MenuOverlayItem" to="/about">
+          <Link id="menuItem7" className="MenuOverlayItem" to="/R&D">
             RD
           </Link>
         </div>

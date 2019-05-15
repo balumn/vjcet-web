@@ -1,20 +1,30 @@
 import React, { Component } from "react";
 import HeadingOne from "../../../Components/Texts/HeadingOne";
+import Honors from "../../../Components/honors";
 class CeHonors extends Component {
   state = {};
   CeHonorsHeading = {
     instanceID: "CeHonorsHeading",
-    title: "HONORS"
+    title: "Honors of Civil Engineering"
   };
-  CeHonorsImg1 = {
-    instanceID: "CeHonorsImg",
-    image: "cehonorsimg1.jpg"
+  CeHonors1 = {
+    instanceID: "cshonors1",
+    image: "cehonors.jpg",
+    width: "30%",
+    name: "Mariamol Mathew",
+    content:
+      "Secured Tenth Rank in B.Tech Civil Engineering May 2018"
   };
   render() {
     return (
-      <div class="cehonors">
+
+      <div className="Honors">
         <HeadingOne data={this.CeHonorsHeading} />
-        <div class="photos">{/* content not provided */}</div>
+        <div className="photos">
+          <div>
+            <Honors data={this.CeHonors1} />
+          </div>
+        </div>
       </div>
     );
   }

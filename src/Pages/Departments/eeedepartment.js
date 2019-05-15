@@ -1,13 +1,12 @@
 import React, { Component } from "react";
 import "./csdepartment.css";
-
 import Header from "../../Components/Header&Footer/Header";
 import Footer from "../../Components/Header&Footer/Footer";
 import MenuOverlay from "../../Components/MenuOverlay/MenuOverlay";
 import HeadingOne from "../../Components/Texts/HeadingOne";
 import BodyOne from "../../Components/Texts/BodyOne";
-import ImageTwo from "../../Components/Images/imageTwo";
 import SideNav from "../../DeptPageContainers/EeeDept/SideNav";
+import ImageOne from "../../Components/Images/ImageOne";
 
 class EeeDepartment extends Component {
   state = { showMenu: false };
@@ -65,9 +64,8 @@ class EeeDepartment extends Component {
   };
   CseImg = {
     instanceID: "CseImg",
-    image: "IMG_9701.jpg",
-    width: "90%",
-    height: "50%"
+    image: "ee.png",
+    width: "100%"
   };
 
   render() {
@@ -76,7 +74,7 @@ class EeeDepartment extends Component {
         <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
         <HeadingOne data={this.HeadingSectionTitle} />
         <BodyOne data={this.HeadingSectionDescription} />
-        <ImageTwo data={this.CseImg} />
+        <ImageOne data={this.CseImg} />
         <SideNav />
         <Footer data={this.HomePageFooter} />
         {this.state.showMenu ? (

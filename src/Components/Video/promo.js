@@ -2,8 +2,8 @@ import React, { Component } from "react";
 // import "../../node_modules/video-react/dist/video-react.css";
 import "./promo.css";
 import promovid from "./vjcet.mp4";
+import ImageOne from "../Images/ImageOne";
 class Promo extends Component {
-  state = {};
   render() {
     return (
       <div className="background-video">

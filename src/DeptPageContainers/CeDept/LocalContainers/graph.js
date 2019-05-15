@@ -6,6 +6,7 @@ import Graph13 from "./graph2013";
 import Graph12 from "./graph2012";
 import Graph11 from "./graph2011";
 import Graph10 from "./graph2010";
+import CeHonors from "./cehonors";
 import HeadingOne from "../../../Components/Texts/HeadingOne";
 class CeGraph extends Component {
   state = {
@@ -14,7 +15,8 @@ class CeGraph extends Component {
     show13: false,
     show12: false,
     show11: false,
-    show10: false
+    show10: false,
+    showhon: false
   };
   onClick15 = () => {
     this.setState({
@@ -23,7 +25,8 @@ class CeGraph extends Component {
       show13: false,
       show12: false,
       show11: false,
-      show10: false
+      show10: false,
+      showhon: false
     });
   };
   onClick14 = () => {
@@ -33,7 +36,8 @@ class CeGraph extends Component {
       show13: false,
       show12: false,
       show11: false,
-      show10: false
+      show10: false,
+      showhon: false
     });
   };
 
@@ -44,7 +48,8 @@ class CeGraph extends Component {
       show13: true,
       show12: false,
       show11: false,
-      show10: false
+      show10: false,
+      showhon: false
     });
   };
   onClick12 = () => {
@@ -54,7 +59,8 @@ class CeGraph extends Component {
       show13: false,
       show12: true,
       show11: false,
-      show10: false
+      show10: false,
+      showhon: false
     });
   };
   onClick11 = () => {
@@ -64,7 +70,8 @@ class CeGraph extends Component {
       show13: false,
       show12: false,
       show11: true,
-      show10: false
+      show10: false,
+      showhon: false
     });
   };
   onClick10 = () => {
@@ -74,12 +81,24 @@ class CeGraph extends Component {
       show13: false,
       show12: false,
       show11: false,
-      show10: true
+      show10: true,
+      showhon: false
+    });
+  };
+  onClickHon = () => {
+    this.setState({
+      show15: false,
+      show14: false,
+      show13: false,
+      show12: false,
+      show11: false,
+      show10: false,
+      showhon: true
     });
   };
   Heading = {
     instanceID: "Heading",
-    title: "RESULT"
+    title: "RESULT & HONORS"
   };
   render() {
     return (
@@ -124,6 +143,12 @@ class CeGraph extends Component {
                 class="buttongraph"
                 onClick={this.onClick10}
               />
+              <input
+                type="button"
+                value="Roll of Honors"
+                class="buttongraph"
+                onClick={this.onClickHon}
+              />
             </div>
             {this.state.show15 ? <Graph15 /> : null}
             {this.state.show14 ? <Graph14 /> : null}
@@ -131,6 +156,7 @@ class CeGraph extends Component {
             {this.state.show12 ? <Graph12 /> : null}
             {this.state.show11 ? <Graph11 /> : null}
             {this.state.show10 ? <Graph10 /> : null}
+            {this.state.showhon ? <CeHonors /> : null}
           </div>
         </div>
       </React.Fragment>
