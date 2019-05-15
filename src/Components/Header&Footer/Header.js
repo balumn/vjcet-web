@@ -12,7 +12,6 @@ import DropDownA from "./dropdownAcademics";
 import DropDownAb from "./dropdownAbout";
 import DropDownL from "./dropdownLogin";
 import DropDownF from "./dropdownfacilities";
-// import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class Header extends Component {
   VJCLogo = {
