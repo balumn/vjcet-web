@@ -23,7 +23,7 @@
   text-decoration: none;
   color: #000000;
   display: block;
-  padding: 10px 16px;
+  padding: 10px 16px !important;
   border-radius: 0px;
   text-align: left;
   margin-bottom: -6px;

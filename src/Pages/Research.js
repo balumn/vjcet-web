@@ -112,7 +112,7 @@ class Reserch extends Component {
                     </ul>
                 </div>
                 <div>
-                    <a href={'/downloads/research.pdf'} target="_blank" rel="noopener noreferrer" ><BodyThree data={this.MoreInfo}/><ButtonTwo /></a>
+                    <a href="https://balumn.github.io/vjcet-web/downloads/research.pdf" target="_blank" rel="noopener noreferrer" ><BodyThree data={this.MoreInfo}/><ButtonTwo /></a>
                 </div>
                 <Footer data={this.HomePageFooter} />
                 {this.state.showMenu ? (

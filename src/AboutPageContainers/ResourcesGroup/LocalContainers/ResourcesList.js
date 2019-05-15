@@ -24,7 +24,7 @@ class ResourcesList extends Component {
       <div className="ResourcesList" id={this.props.data.instanceID}>
         <ImageOne data={this.ListIcon} />
         <HeadingFour id="ResourcesListHeading" data={this.ListTitle} />
-        <a href={'/downloads/' + this.fileLoc.file} target="_blank" rel="noopener noreferrer" ><ButtonTwo /></a>
+        <a href={this.fileLoc.file} target="_blank" rel="noopener noreferrer" ><ButtonTwo /></a>
       </div>
     );
   }

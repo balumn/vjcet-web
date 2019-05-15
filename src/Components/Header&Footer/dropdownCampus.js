@@ -30,6 +30,13 @@ class DropDownC extends Component {
     }
   }
 
+  Link4 = {
+    instanceID: "HeaderLink4",
+    title: "Admissions",
+    link: "https://balumn.github.io/vjcet-web/downloads/research.pdf"
+  };
+
+
   render() {
     return (
       <div class="dropdown">
@@ -45,7 +52,7 @@ class DropDownC extends Component {
           </p>
           <p>
             <a
-              href="/downloads/campusMap.pdf"
+              href="https://balumn.github.io/vjcet-web/downloads/campusMap.pdf"
               target="_blank" rel="noopener noreferrer"
               className="patch1"
             >
