@@ -4,6 +4,8 @@ import HeadingOne from "../Components/Texts/HeadingOne";
 import Header from "../Components/Header&Footer/Header";
 import Footer from "../Components/Header&Footer/Footer";
 import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
+import BodyThree from "../Components/Texts/BodyThree"
+import ButtonTwo from "../Components/Buttons/ButtonTwo"
 
 class ContactUs extends React.Component {
   state = { showMenu: false };
@@ -28,8 +30,13 @@ class ContactUs extends React.Component {
   };
   EnquiryHeading = {
     instanceID: "EnquiryHeading",
-    title: "Enquiry"
+    title: "Admissions Enquiry"
   };
+  MoreInfo = {
+    instanceID: "MoreInfo",
+    title: "For more information: Click Here!"
+}
+
 
   render() {
     return (
@@ -68,13 +75,13 @@ class ContactUs extends React.Component {
                 <h3 className="Reach1">
                   0485-2262211
                   <br />
-                  0485-2262211
+                  0485-2262311
                   <br />
-                  0485-2262211
+                  0485-2262244
                   <br />
-                  0485-2262211
+                  0485-2262255
                   <br />
-                  0485-2262211
+                  0485-2262977
                   <br />
                 </h3>
               </div>
@@ -89,70 +96,42 @@ class ContactUs extends React.Component {
               </div>
             </div>
             <div className="child">
-              {/* <h1 className="Heading">Enquiry</h1> */}
               <HeadingOne data={this.EnquiryHeading} />
-              <h3 className="Reach1">
-                Send us and enquiry or call us directly to learn more
-              </h3>
-              <form>
-                <label className="Enquiry">
+              <div className="child">
+                <h3 className="add">B.Tech Admissions</h3>
+                <div className="Reach1">
+                  Mr. Manu Jose<br />
+                  Phone : 9605760293 <br /><br />
+                </div>
+                <div className="Reach1">
+                  Mr. Sivadas T Nair<br />
+                  Phone : 9447349948<br /><br />
+                </div>
+                <div className="Reach1">
+                  Mr. Frenosh K Francis<br />
+                  Phone : 9447837325  <br /><br />
+                </div>
+                <div className="Reach1">
+                  Mr. Jomu M George<br />
+                  Phone : 9495654321
+                </div>
+                <div className="Reach1">
+                <a href="http://admission.vjcet.ac.in/" target="_blank" rel="noopener noreferrer" ><BodyThree data={this.MoreInfo}/></a>
+                </div>
+                <div>
+                </div>
+              </div>
+              <div className="child">
+                <h3 className="add">
                   {" "}
-                  <b>Name </b>
-                </label>
-                <br />
-                <input
-                  className="clr1"
-                  type="text"
-                  name="Name"
-                  placeholder="Enter your name"
-                />
-                <br />
-                <br />
-                <label className="Enquiry">
-                  {" "}
-                  <b> Phone Number</b>{" "}
-                </label>
-                <br />
-                <input
-                  className="clr1"
-                  type="integer"
-                  name="Phonenum"
-                  placeholder="Enter your phone number"
-                />
-                <br />
-                <br />
-                <label className="Enquiry">
-                  {" "}
-                  <b>Email </b>
-                </label>
-                <br />
-                <input
-                  className="clr1"
-                  type="email"
-                  name="E-mail"
-                  placeholder="Enter your Email"
-                />
-                <br />
-                <br />
-                <label className="Enquiry">
-                  {" "}
-                  <b>Comments </b>{" "}
-                </label>
-                <br />
-                <textarea
-                  className="clr"
-                  name="message"
-                  placeholder="Your Enquiry"
-                />
-                <br />
-                <input
-                  id="contactUsSubmitButton"
-                  className="button"
-                  type="Submit"
-                  name="Submit"
-                  value="Submit"
-                />
-              </form>
+                  M.Tech Admissions
+                  <br />
+                </h3>
+                <div>
+                    <a href="http://admission.vjcet.ac.in/" target="_blank" rel="noopener noreferrer" ><BodyThree data={this.MoreInfo}/></a>
+                </div>
+              </div>
+              
             </div>
           </div>
         </div>
