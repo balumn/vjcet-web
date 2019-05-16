@@ -14,7 +14,7 @@ class ResourcesGroup extends Component {
     listID: "One",
     title: "Rules & Regulations",
     icon: "icon1.svg",
-    filePath: "https://balumn.github.io/vjcet-web/downloads/Rules.pdf"
+    filePath: "https://vjcetwebadmin.github.io/downloads/Rules.pdf"
   };
 
   ResourceListTwo = {
@@ -22,7 +22,7 @@ class ResourcesGroup extends Component {
     listID: "Two",
     title: "Staff Manual",
     icon: "icon2.svg",
-    filePath: "https://balumn.github.io/vjcet-web/downloads/staffmanual2017.pdf"
+    filePath: "https://vjcetwebadmin.github.io/downloads/staffmanual2017.pdf"
 
   };
 
@@ -31,7 +31,7 @@ class ResourcesGroup extends Component {
     listID: "Three",
     title: "AICTE Documents",
     icon: "icon3.svg",
-    filePath: "https://balumn.github.io/vjcet-web/downloads/AICTE.pdf"
+    filePath: "https://vjcetwebadmin.github.io/downloads/AICTE.pdf"
 
   };
 
@@ -40,7 +40,7 @@ class ResourcesGroup extends Component {
     listID: "Four",
     title: "Audited Financial Statements",
     icon: "icon4.svg",
-    filePath: "https://balumn.github.io/vjcet-web/downloads/FinancialStatements.zip"
+    filePath: "https://vjcetwebadmin.github.io/downloads/FinancialStatements.zip"
   };
 
   ResourceListFive = {
@@ -48,7 +48,7 @@ class ResourcesGroup extends Component {
     listID: "Five",
     title: "IQAC",
     icon: "icon5.svg",
-    filePath: "https://balumn.github.io/vjcet-web/downloads/IQAC.pdf"
+    filePath: "https://vjcetwebadmin.github.io/downloads/IQAC.pdf"
   };
 
   ResourceListSix = {
@@ -56,7 +56,7 @@ class ResourcesGroup extends Component {
     listID: "Five",
     title: "Academic Schema",
     icon: "icon6.svg",
-    filePath: "https://balumn.github.io/vjcet-web/downloads/AcedemicSchema.pdf"
+    filePath: "https://vjcetwebadmin.github.io/downloads/AcedemicSchema.pdf"
 
   };
 

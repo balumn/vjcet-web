@@ -21,22 +21,7 @@ class CarouselTwo extends Component {
       instanceID: this.props.data.instanceID + "CustomOne",
       title: "Semester 2 Regular and Supplementry Exams starts on June 13"
     },
-    {
-      instanceID: this.props.data.instanceID + "CustomOne",
-      title: "Semester 7 Supplymentry Exams starts on June 14"
-    },
-    {
-      instanceID: this.props.data.instanceID + "CustomOne",
-      title: "Semester 1 Supplementry Exams starts on June 15"
-    },
-    {
-      instanceID: this.props.data.instanceID + "CustomOne",
-      title: "Semester 5 Supplementry Exams starts on July 2"
-    },
-    {
-      instanceID: this.props.data.instanceID + "CustomOne",
-      title: "Semester 3 Supplementry Exams starts on July 8"
-    }
+    
   ];
   rotateRight = () => {
     this.setState({

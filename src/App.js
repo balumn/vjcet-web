@@ -25,6 +25,7 @@ import Academics from "./Pages/Academics";
 import VisionPage from "./Pages/VisionPage";
 import SyllabusPage from "./Pages/SyllabusPage";
 import Research from "./Pages/Research"
+import Mtech from "./Pages/Mtech"
 class App extends Component {
   render() {
     return (
@@ -58,6 +59,7 @@ class App extends Component {
               <Route exact path="/facilities/sports" component={Sports} />
               <Route exact path="/contact" component={ContactUs} />
               <Route exact path="/r&d" component={Research} />
+              <Route exact path="/admission/mtech" component={Mtech} />
             </Switch>
           </React.Fragment>
         </Router>

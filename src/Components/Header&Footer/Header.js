@@ -4,7 +4,7 @@ import "./Header.css";
 import "../Images/ImageOne";
 import ImageOne from "../Images/ImageOne";
 import Line from "../Lines/Line";
-import ExternalLink from "../Texts/ExternalLink"
+// import ExternalLink from "../Texts/ExternalLink"
 import AnchorLink from "../Texts/AnchorLink";
 import DropDownD from "./dropdownDepartment";
 import DropDownC from "./dropdownCampus";
@@ -13,6 +13,7 @@ import DropDownAb from "./dropdownAbout";
 import DropDownL from "./dropdownLogin";
 import DropDownF from "./dropdownfacilities";
 import ContactLink from "../Texts/Contactlink"
+import DropDownAdm from "./dropdownAdmission";
 
 class Header extends Component {
   VJCLogo = {
@@ -146,7 +147,8 @@ class Header extends Component {
         <div className="HeaderLinkTabTwo" id="HeaderLinkTabTwo">
           <div className="HeaderLinkTabAdmissionsOpen">
             <ImageOne data={this.AdmissionsOpen} />
-            <ExternalLink data={this.Link4} />
+            {/* <ExternalLink data={this.Link4} /> */}
+            <DropDownAdm />
           </div>
           <div className="HeaderLinkTabTwoGrouped">
             <DropDownAb />

@@ -5,6 +5,7 @@ import HeadingFour from "../Components/Texts/HeadingFour";
 import HeadingFive from "../Components/Texts/HeadingFive";
 import ImageOne from "../Components/Images/ImageOne";
 import ImageTwo from "../Components/Images/imageTwo";
+// import ContactLink from "../Components/Texts/Contactlink";
 class CarouselThree extends Component {
   state = { sliderSize: 3, currentPage: 0 };
   componentDidMount() {
@@ -63,7 +64,7 @@ class CarouselThree extends Component {
 
   SlideOneCategory = {
     instanceID: "SlideOneCategory",
-    title: "Exams"
+    title: "Admissions"
   };
 
   SlideOneTitle = {
@@ -113,13 +114,13 @@ class CarouselThree extends Component {
     {
       Category: {
         instanceID: "SlideOneCategory",
-        title: "Exams"
+        title: "Admissions"
       },
 
       Title: {
         instanceID: "SlideOneTitle",
         title:
-          "B.Tech (Hons) S5 (2015 & 2016 Admissions) Examination - Rescheduled - reg"
+          "B.Tech Admission 2019 Started"
       },
 
       Image: {
@@ -127,6 +128,11 @@ class CarouselThree extends Component {
         image: "ktu.jpg",
         width: "100px",
         height: "150px"
+      },
+      Link: {
+        instanceID: "CarouselThreeSlideOneLink",
+        title: "Read More",
+        link: "http://admission.vjcet.ac.in/"
       }
     },
     {
@@ -137,30 +143,41 @@ class CarouselThree extends Component {
 
       Title: {
         instanceID: "SlideOneTitle",
-        title: "325 students placed"
+        title: "403 students placed"
       },
 
       Image: {
         instanceID: "CarouselThreeSlideOneImage",
         image: "infy.png",
         width: "210px"
+      },
+      Link: {
+        instanceID: "CarouselThreeSlideOneLink",
+        title: "Read More",
+        link: "/news/news1"
       }
     },
     {
       Category: {
         instanceID: "SlideOneCategory",
-        title: "Activities"
+        title: "Admisions"
       },
 
       Title: {
         instanceID: "SlideOneTitle",
-        title: "IEEE :MINERVA 4.0"
+        title: "M.Tech Admissions Started"
       },
 
       Image: {
         instanceID: "CarouselThreeSlideOneImage",
-        image: "minerva.jpg",
-        width: "210px"
+        image: "ktu.jpg",
+        width: "100px",
+        height: "150px"
+      },
+      Link: {
+        instanceID: "CarouselThreeSlideOneLink",
+        title: "Read More",
+        link: "/news/news1"
       }
     },
 
@@ -203,6 +220,7 @@ class CarouselThree extends Component {
                   >
                     <HeadingFive data={item.Category} />
                     <HeadingFour data={item.Title} />
+                    {/* <ContactLink data={item.Link} /> */}
                     {/* <HeadingFive data={this.Read} /> */}
                     <ImageTwo data={item.Image} />
                   </div>

@@ -78,41 +78,41 @@ class Reserch extends Component {
                 <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
                 <HeadingOne data={this.ResearchHeading}></HeadingOne>
                 {/* <ImageOne data={this.ResearchImg}></ImageOne> */}
-                <BodyThree data={this.ReserchBody1} /><br/>
+                <BodyThree data={this.ReserchBody1} /><br />
                 <p>
-                <BodyThree data={this.ReserchBody2} />
+                    <BodyThree data={this.ReserchBody2} />
                 </p>
                 <div className="inner-para">
                     <ul>
                         <li>
                             <p>
-                            <BodyOneJustified data={this.ReserchWork1} />
+                                <BodyOneJustified data={this.ReserchWork1} />
                             </p>
                         </li>
                         <li>
                             <p>
-                            <BodyOneJustified data={this.ReserchWork2} />
+                                <BodyOneJustified data={this.ReserchWork2} />
                             </p>
                         </li>
                         <li>
                             <p>
-                            <BodyOneJustified data={this.ReserchWork3} />
+                                <BodyOneJustified data={this.ReserchWork3} />
                             </p>
                         </li>
                         <li>
                             <p>
-                            <BodyOneJustified data={this.ReserchWork4} />
+                                <BodyOneJustified data={this.ReserchWork4} />
                             </p>
                         </li>
                         <li>
                             <p>
-                            <BodyOneJustified data={this.ReserchWork5} />
+                                <BodyOneJustified data={this.ReserchWork5} />
                             </p>
                         </li>
                     </ul>
                 </div>
                 <div>
-                    <a href="https://balumn.github.io/vjcet-web/downloads/research.pdf" target="_blank" rel="noopener noreferrer" ><BodyThree data={this.MoreInfo}/><ButtonTwo /></a>
+                    <a href="https://vjcetwebadmin.github.io/downloads/research.pdf" target="_blank" rel="noopener noreferrer" ><BodyThree data={this.MoreInfo} /><ButtonTwo /></a>
                 </div>
                 <Footer data={this.HomePageFooter} />
                 {this.state.showMenu ? (
