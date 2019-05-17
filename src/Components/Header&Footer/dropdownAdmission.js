@@ -39,14 +39,19 @@ class DropDownAdm extends Component {
                         <a
                             href="http://admission.vjcet.ac.in/"
                             className="patch1"
+                            target="_blank"
+                            rel="noopener noreferrer"
                         >
                             B.Tech Admissions
-            </a>
+                        </a>
                     </p>
                     <p>
                         <Link
                             to="/admission/mtech"
                             className="patch1"
+                            target="_blank"
+                            rel="noopener noreferrer"
+
                         >
                             M.Tech Admissions
             </Link>
@@ -55,6 +60,9 @@ class DropDownAdm extends Component {
                         <a
                             href="http://www.vjcetmba.in/"
                             className="patch1"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            MBA Admissions
                         >
                             MBA Admissions
             </a>
